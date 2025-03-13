@@ -1,0 +1,48 @@
+DYNAMIC MARKOV BLANKET ANALYSIS REPORT
+=====================================
+
+The DMBD model update failed, so no blanket analysis could be performed.
+
+Error message: Unknown error
+
+Diagnostic Information:
+-----------------------
+Input data tensor shape: torch.Size([1001, 1, 5])
+Data tensor dtype: torch.float32
+Data tensor device: cpu
+Data tensor min/max: -0.0902, 1.0000
+
+Model attributes:
+  obs_shape: (1, 5)
+  role_dims: (2, 2, 2)
+  hidden_dims: (2, 2, 2)
+  number_of_objects: 1
+  regression_dim: 1
+
+Model tensors:
+  ATQA_u_u: Shape torch.Size([1, 1, 1]), Type torch.float32, Device cpu
+  ATQA_x_u: Shape torch.Size([1, 6, 1]), Type torch.float32, Device cpu
+  ATQA_x_x: Shape torch.Size([1, 6, 6]), Type torch.float32, Device cpu
+  ELBO_last: Shape torch.Size([]), Type torch.float32, Device cpu
+  ELBO_save: Shape torch.Size([1]), Type torch.float32, Device cpu
+  QA_xp_u: Shape torch.Size([1, 6, 0]), Type torch.float32, Device cpu
+  QA_xp_x: Shape torch.Size([1, 6, 6]), Type torch.float32, Device cpu
+  invATQA_x_x: Shape torch.Size([1, 6, 6]), Type torch.float32, Device cpu
+  invQ: Shape torch.Size([1, 6, 6]), Type torch.float32, Device cpu
+  logZ: Shape torch.Size([]), Type torch.float32, Device cpu
+  log_like: Shape torch.Size([]), Type torch.float32, Device cpu
+  logdetATQA_x_x: Shape torch.Size([1]), Type torch.float32, Device cpu
+  role_mask: Shape torch.Size([6, 6]), Type torch.float32, Device cpu
+
+Observation Model:
+  Type: <class 'dmbd.ARHMM.ARHMM_prXRY'>
+  SEz0: Shape torch.Size([5])
+  SEzz: Shape torch.Size([5, 5])
+  transition_mask: Shape torch.Size([6, 6])
+
+Tensor Dimension Analysis:
+-----------------------
+
+Update Parameters Used:
+-----------------------
+  Update parameters not recorded

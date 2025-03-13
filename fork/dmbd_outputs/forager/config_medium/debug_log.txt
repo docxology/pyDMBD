@@ -1,0 +1,7 @@
+DMBD DEBUG LOG
+=============
+
+Forager Simulation Parameters:
+  Forager parameters not recorded
+
+Data tensor shape: torch.Size([1001, 1, 5])

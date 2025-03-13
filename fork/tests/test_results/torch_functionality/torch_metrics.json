@@ -1,0 +1,28 @@
+{
+  "tensor_operations": {
+    "timing": {
+      "creation": 0.1,
+      "broadcasting": 0.2,
+      "concatenation": 0.1,
+      "reduction": 0.1
+    },
+    "memory": {
+      "original": 0.001373291015625,
+      "broadcasted": 0.001373291015625,
+      "concatenated": 0.00091552734375
+    },
+    "statistics": {
+      "mean": 0.005143396912931279,
+      "std": 0.996272399536655,
+      "grad_norm": 0.14810438763424974
+    }
+  },
+  "matrix_operations": {},
+  "batch_operations": {},
+  "numerical_stability": {},
+  "device_operations": {},
+  "memory_management": {},
+  "inference_processes": {},
+  "role_assignment": {},
+  "markov_blanket_dynamics": {}
+}

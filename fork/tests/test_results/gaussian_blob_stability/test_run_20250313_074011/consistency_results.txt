@@ -1,0 +1,5 @@
+DMBD Role Assignment Consistency Results
+======================================
+
+Number of successful runs: 0/3
+Not enough successful runs to calculate consistency metrics.

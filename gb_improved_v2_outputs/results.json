@@ -1,0 +1,21 @@
+{
+  "parameters": {
+    "grid_size": 16.0,
+    "time_steps": 30.0,
+    "smoothing_steps": 5.0,
+    "use_dmbd": 1.0,
+    "feature_type": "combined"
+  },
+  "accuracy": 0.532421875,
+  "per_role_accuracy": {
+    "0": 1.0,
+    "2": 0.5060024009603842,
+    "1": 1.0
+  },
+  "run_time": null,
+  "mapping": {
+    "0": 0.0,
+    "1": 2.0,
+    "2": 1.0
+  }
+}

@@ -1,0 +1,50 @@
+DATA TENSOR STATISTICS
+=====================
+
+Shape: (301, 1, 5)
+Min value: -1.530124
+Max value: 1.401810
+Mean value: 0.367009
+Std deviation: 0.740352
+
+Statistics by dimension:
+Object 1, Dimension 1:
+  Min: 0.000000
+  Max: 1.000000
+  Mean: 0.425010
+  Std: 0.180841
+  Skewness: 0.182869
+  Kurtosis: -0.103911
+
+Object 1, Dimension 2:
+  Min: 0.000000
+  Max: 1.000000
+  Mean: 0.436612
+  Std: 0.230882
+  Skewness: 0.613624
+  Kurtosis: -0.486407
+
+Object 1, Dimension 3:
+  Min: -1.438418
+  Max: 1.401810
+  Mean: -0.000000
+  Std: 0.998337
+  Skewness: -0.050062
+  Kurtosis: -1.484590
+
+Object 1, Dimension 4:
+  Min: -1.530124
+  Max: 1.304950
+  Mean: -0.000000
+  Std: 0.998338
+  Skewness: -0.166455
+  Kurtosis: -1.466292
+
+Object 1, Dimension 5:
+  Min: 0.000000
+  Max: 1.000000
+  Mean: 0.973422
+  Std: 0.126115
+  Skewness: -5.155427
+  Kurtosis: 28.501980
+

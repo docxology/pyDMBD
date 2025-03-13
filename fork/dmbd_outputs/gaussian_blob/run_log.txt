@@ -1,0 +1,36 @@
+[2025-03-12 10:09:44] [INFO] Starting Gaussian Blob DMBD run
+[2025-03-12 10:09:44] [INFO] Arguments: Namespace(output_dir='dmbd_outputs/gaussian_blob', grid_size=12, time_steps=200, seed=42, sigma=2.0, noise_level=0.02, convergence_attempts=10, save_interval=10, verbose=False)
+[2025-03-12 10:09:44] [INFO] Initializing Gaussian Blob Simulation...
+[2025-03-12 10:09:44] [INFO] Running the simulation...
+[2025-03-12 10:09:44] [INFO] Generated data tensor with shape torch.Size([200, 1, 144])
+[2025-03-12 10:09:44] [INFO] Generated labels tensor with shape torch.Size([200, 144])
+[2025-03-12 10:09:44] [INFO] Creating visualizations of the raw data...
+[2025-03-12 10:10:09] [INFO] Raw data animation saved to dmbd_outputs/gaussian_blob/raw_data/blob_animation.gif
+[2025-03-12 10:10:09] [INFO] Saving sample frames from raw data...
+[2025-03-12 10:10:13] [INFO] Initializing DMBD model...
+[2025-03-12 10:10:13] [INFO] DMBD parameters:
+[2025-03-12 10:10:13] [INFO]   Observation shape: (1, 144)
+[2025-03-12 10:10:13] [INFO]   Role dimensions: [12, 12, 12]
+[2025-03-12 10:10:13] [INFO]   Hidden dimensions: [12, 12, 12]
+[2025-03-12 10:10:13] [INFO]   Number of objects: 1
+[2025-03-12 10:10:13] [INFO] Starting DMBD update with different configurations...
+[2025-03-12 10:10:13] [INFO] Attempt 1/9: lr=0.001, iterations=50
+[2025-03-12 10:10:13] [INFO]   Data shape before update: torch.Size([200, 1, 144])
+[2025-03-12 10:10:23] [INFO]   Update success: True
+[2025-03-12 10:10:23] [INFO]   DMBD update succeeded!
+[2025-03-12 10:10:23] [INFO]   Assignments tensor shape: torch.Size([200, 1])
+[2025-03-12 10:10:23] [INFO]   Assignments dtype: torch.int64
+[2025-03-12 10:10:23] [INFO]   Assignments min: 0, max: 0
+[2025-03-12 10:10:23] [INFO] Analyzing DMBD results...
+[2025-03-12 10:10:23] [INFO] DMBD results summary:
+[2025-03-12 10:10:23] [INFO]   assignments: Tensor of shape torch.Size([200, 1]), dtype torch.int64
+[2025-03-12 10:10:23] [INFO]     Range: [0.0000, 0.0000]
+[2025-03-12 10:10:23] [INFO]   roles: None
+[2025-03-12 10:10:23] [INFO]   u: None
+[2025-03-12 10:10:23] [INFO] Creating raw assignment visualizations...
+[2025-03-12 10:11:03] [INFO] DMBD accuracy: 0.7986
+[2025-03-12 10:11:03] [INFO] Creating additional comparison visualizations...
+[2025-03-12 10:11:12] [INFO] Saving DMBD results...
+[2025-03-12 10:11:12] [INFO] 
+DMBD analysis completed successfully!
+[2025-03-12 10:11:12] [INFO] Output directory: dmbd_outputs/gaussian_blob

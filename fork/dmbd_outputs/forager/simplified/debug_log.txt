@@ -1,0 +1,21 @@
+SIMPLIFIED DMBD TEST LOG
+======================
+
+Forager parameters: {'num_food': 3, 'food_range': 5.0, 'forager_speed': 0.5, 'num_steps': 300, 'noise': 0.05, 'seed': 42}
+Running simulation...
+Positions shape: torch.Size([301, 2]), dtype: torch.float32
+Food positions shape: torch.Size([301, 3, 2]), dtype: torch.float32
+Food memory shape: torch.Size([301, 3]), dtype: torch.float32
+Prepared data tensor with shape torch.Size([301, 1, 5]), dtype: torch.float32
+Creating minimal DMBD model...
+Attempting update with lr=0.01, iters=20
+Update result: False
+Attempting update with lr=0.03, iters=30
+Update result: False
+Attempting update with lr=0.1, iters=50
+Update result: False
+Attempting update with lr=0.3, iters=100
+Update result: False
+All standard updates failed. Trying final approach with very high iterations...
+Final update result: False
+All DMBD update attempts failed to converge.

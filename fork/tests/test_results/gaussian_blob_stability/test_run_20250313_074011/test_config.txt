@@ -1,0 +1,14 @@
+DMBD Gaussian Blob Stability Test Configuration
+=============================================
+
+Test run: 20250313_074011
+Grid size: 16
+Time steps: 30
+Random seed: 42
+
+Data shapes:
+  raw_data: torch.Size([30, 1, 256])
+  labels: torch.Size([30, 256])
+  features_basic: torch.Size([30, 1, 3])
+  features_spatial: torch.Size([30, 1, 6])
+  features_roles: torch.Size([30, 1, 9])

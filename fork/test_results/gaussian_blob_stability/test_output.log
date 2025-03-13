@@ -1,0 +1,22 @@
+test_consistency_across_runs (test_dmbd_gaussian_blob_stability.TestDMBDGaussianBlobStability)
+Test consistency of role assignments across multiple runs. ... ok
+test_feature_extraction_methods (test_dmbd_gaussian_blob_stability.TestDMBDGaussianBlobStability)
+Test different feature extraction methods and their impact on role assignment. ... FAIL
+test_matrix_inversion_stability (test_dmbd_gaussian_blob_stability.TestDMBDGaussianBlobStability)
+Test matrix inversion stability with different regularization strengths. ... ok
+test_model_regularization (test_dmbd_gaussian_blob_stability.TestDMBDGaussianBlobStability)
+Test DMBD model regularization with different strengths. ... ok
+
+======================================================================
+FAIL: test_feature_extraction_methods (test_dmbd_gaussian_blob_stability.TestDMBDGaussianBlobStability)
+Test different feature extraction methods and their impact on role assignment.
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/trim/Documents/GitHub/pyDMBD/fork/tests/test_dmbd_gaussian_blob_stability.py", line 554, in test_feature_extraction_methods
+    self.assertGreaterEqual(
+AssertionError: 0.0 not greater than or equal to 0.4 : No feature extraction method achieved reasonable accuracy. Best: basic with 0.0000
+
+----------------------------------------------------------------------
+Ran 4 tests in 8.656s
+
+FAILED (failures=1)

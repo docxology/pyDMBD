@@ -1,0 +1,1238 @@
+2025-03-13 07:37:20,250 - dmbd_test_runner - INFO - Test outputs will be saved to: fork/test_results
+2025-03-13 07:37:20,250 - dmbd_test_runner - INFO - Test reports will be saved to: fork/test_results/reports
+2025-03-13 07:37:20,250 - dmbd_test_runner - INFO - Test logs will be saved to: fork/test_results/logs
+2025-03-13 07:37:20,256 - dmbd_test_runner - INFO - Successfully imported DMBD module from alternative path
+2025-03-13 07:37:20,303 - dmbd_dimensions_test - INFO - Successfully imported DMBD from root
+2025-03-13 07:37:20,303 - dmbd_gaussian_stability_test - INFO - Successfully imported stability utilities
+2025-03-13 07:37:20,303 - dmbd_gaussian_stability_test - INFO - Imported DMBD from dmbd.dmbd
+2025-03-13 07:37:20,308 - dmbd_gaussian_stability_test - INFO - Imported GaussianBlobSimulation
+2025-03-13 07:37:20,309 - dmbd_gaussian_stability_test - ERROR - Failed to import from dmbd_gaussian_blob_stabilized: No module named 'dmbd_gaussian_blob_stabilized'
+2025-03-13 07:37:20,309 - dmbd_gaussian_stability_test - ERROR - Make sure dmbd_gaussian_blob_stabilized.py is in /home/trim/Documents/GitHub/pyDMBD/fork/examples
+2025-03-13 07:38:45,396 - dmbd_test_runner - INFO - Test outputs will be saved to: fork/test_results
+2025-03-13 07:38:45,396 - dmbd_test_runner - INFO - Test reports will be saved to: fork/test_results/reports
+2025-03-13 07:38:45,396 - dmbd_test_runner - INFO - Test logs will be saved to: fork/test_results/logs
+2025-03-13 07:38:45,403 - dmbd_test_runner - INFO - Successfully imported DMBD module from alternative path
+2025-03-13 07:38:45,450 - dmbd_dimensions_test - INFO - Successfully imported DMBD from root
+2025-03-13 07:38:45,451 - dmbd_gaussian_stability_test - INFO - Successfully imported stability utilities
+2025-03-13 07:38:45,451 - dmbd_gaussian_stability_test - INFO - Imported DMBD from dmbd.dmbd
+2025-03-13 07:38:45,456 - dmbd_gaussian_stability_test - INFO - Imported GaussianBlobSimulation
+2025-03-13 07:38:45,457 - dmbd_gaussian_stability_test - ERROR - Failed to import from dmbd_gaussian_blob_stabilized: No module named 'dmbd_gaussian_blob_stabilized'
+2025-03-13 07:38:45,457 - dmbd_gaussian_stability_test - ERROR - Make sure dmbd_gaussian_blob_stabilized.py is in /home/trim/Documents/GitHub/pyDMBD/fork/examples
+2025-03-13 07:40:05,775 - dmbd_test_runner - INFO - Test outputs will be saved to: fork/test_results
+2025-03-13 07:40:05,775 - dmbd_test_runner - INFO - Test reports will be saved to: fork/test_results/reports
+2025-03-13 07:40:05,775 - dmbd_test_runner - INFO - Test logs will be saved to: fork/test_results/logs
+2025-03-13 07:40:05,781 - dmbd_test_runner - INFO - Successfully imported DMBD module from alternative path
+2025-03-13 07:40:05,826 - dmbd_dimensions_test - INFO - Successfully imported DMBD from root
+2025-03-13 07:40:05,827 - dmbd_gaussian_stability_test - INFO - Successfully imported stability utilities
+2025-03-13 07:40:05,827 - dmbd_gaussian_stability_test - INFO - Imported DMBD from dmbd.dmbd
+2025-03-13 07:40:05,832 - dmbd_gaussian_stability_test - INFO - Imported GaussianBlobSimulation
+2025-03-13 07:40:05,834 - dmbd_gaussian_stability_test - INFO - Imported utilities from dmbd_gaussian_blob_stabilized
+2025-03-13 07:40:05,835 - dmbd_gaussian_blob_integration - INFO - Successfully imported GaussianBlobSimulation from examples
+2025-03-13 07:40:05,835 - dmbd_numerical_stability_tests - INFO - Imported DMBD from dmbd.dmbd
+2025-03-13 07:40:05,836 - dmbd_numerical_stability_tests - INFO - Imported GaussianBlobSimulation
+2025-03-13 07:40:06,048 - dmbd_test_runner - INFO - Successfully imported all test modules
+2025-03-13 07:40:06,049 - dmbd_test_runner - INFO - Successfully imported 7 test modules
+2025-03-13 07:40:06,049 - dmbd_test_runner - INFO - Running all DMBD tests...
+2025-03-13 07:40:06,049 - dmbd_test_runner - INFO - Running basic tests...
+2025-03-13 07:40:09,281 - dmbd_test_runner - INFO - Running numerical_stability tests...
+2025-03-13 07:40:09,293 - dmbd_numerical_stability_tests - INFO - Created test data: raw data shape=torch.Size([20, 1, 64]), features shape=torch.Size([20, 1, 9])
+2025-03-13 07:40:09,293 - dmbd_numerical_stability_tests - INFO - Testing comprehensive numerical stability solution...
+2025-03-13 07:40:09,314 - dmbd_numerical_stability_tests - INFO - Created test data: raw data shape=torch.Size([20, 1, 64]), features shape=torch.Size([20, 1, 9])
+2025-03-13 07:40:09,315 - dmbd_numerical_stability_tests - INFO - Testing matrix conditioning problems...
+2025-03-13 07:40:09,543 - dmbd_numerical_stability_tests - INFO - Matrix inversion failures before stabilization: 0
+2025-03-13 07:40:09,555 - dmbd_numerical_stability_tests - INFO - Created test data: raw data shape=torch.Size([20, 1, 64]), features shape=torch.Size([20, 1, 9])
+2025-03-13 07:40:09,555 - dmbd_numerical_stability_tests - INFO - Testing tensor dimension consistency issues...
+2025-03-13 07:40:09,679 - dmbd_numerical_stability_tests - INFO - Found 0 dimension inconsistencies before fixes
+2025-03-13 07:40:09,700 - dmbd_numerical_stability_tests - WARNING - DMBD update_obs_parms: latent not initialized
+2025-03-13 07:40:09,700 - dmbd_numerical_stability_tests - WARNING - DMBD update_latent_parms: observations not available
+2025-03-13 07:40:09,702 - dmbd_numerical_stability_tests - WARNING - DMBD update_obs_parms: latent not initialized
+2025-03-13 07:40:09,702 - dmbd_numerical_stability_tests - WARNING - DMBD update_latent_parms: observations not available
+2025-03-13 07:40:09,722 - dmbd_numerical_stability_tests - WARNING - DMBD update_obs_parms: latent not initialized
+2025-03-13 07:40:09,722 - dmbd_numerical_stability_tests - WARNING - DMBD update_latent_parms: observations not available
+2025-03-13 07:40:09,724 - dmbd_numerical_stability_tests - WARNING - DMBD update_obs_parms: latent not initialized
+2025-03-13 07:40:09,724 - dmbd_numerical_stability_tests - WARNING - DMBD update_latent_parms: observations not available
+2025-03-13 07:40:09,748 - dmbd_numerical_stability_tests - WARNING - DMBD update_obs_parms: latent not initialized
+2025-03-13 07:40:09,749 - dmbd_numerical_stability_tests - WARNING - DMBD update_latent_parms: observations not available
+2025-03-13 07:40:09,749 - dmbd_numerical_stability_tests - INFO - Found 0 dimension inconsistencies after fixes
+2025-03-13 07:40:09,750 - dmbd_test_runner - INFO - Running dimensions tests...
+2025-03-13 07:40:10,516 - dmbd_dimensions_test - INFO - Matrix shapes test completed successfully
+2025-03-13 07:40:10,517 - dmbd_dimensions_test - INFO - Testing dimensions: features=6, roles=2
+2025-03-13 07:40:10,581 - dmbd_dimensions_test - WARNING - Dimension issue: Missing critical tensor: A
+2025-03-13 07:40:10,582 - dmbd_dimensions_test - WARNING - Dimension issue: Missing critical tensor: C
+2025-03-13 07:40:10,694 - dmbd_dimensions_test - INFO - Testing: Feature dimension mismatch
+2025-03-13 07:40:10,707 - dmbd_dimensions_test - WARNING - Expected error for Feature dimension mismatch but none occurred
+2025-03-13 07:40:10,707 - dmbd_dimensions_test - INFO - Error for Feature dimension mismatch as expected: Expected error for Feature dimension mismatch but none occurred
+2025-03-13 07:40:10,707 - dmbd_dimensions_test - INFO - Testing: Batch dimension mismatch
+2025-03-13 07:40:10,722 - dmbd_dimensions_test - WARNING - Expected error for Batch dimension mismatch but none occurred
+2025-03-13 07:40:10,722 - dmbd_dimensions_test - INFO - Error for Batch dimension mismatch as expected: Expected error for Batch dimension mismatch but none occurred
+2025-03-13 07:40:10,722 - dmbd_dimensions_test - INFO - Testing: Time dimension zero
+2025-03-13 07:40:10,739 - dmbd_dimensions_test - WARNING - Expected error for Time dimension zero but none occurred
+2025-03-13 07:40:10,739 - dmbd_dimensions_test - INFO - Error for Time dimension zero as expected: Expected error for Time dimension zero but none occurred
+2025-03-13 07:40:10,739 - dmbd_dimensions_test - INFO - Testing: Correct dimensions
+2025-03-13 07:40:10,754 - dmbd_dimensions_test - INFO - No error for Correct dimensions as expected
+2025-03-13 07:40:10,754 - dmbd_dimensions_test - INFO - Dimension mismatch test completed
+2025-03-13 07:40:10,756 - dmbd_dimensions_test - INFO - Testing regularization strength: 0
+2025-03-13 07:40:10,765 - dmbd_dimensions_test - WARNING - Matrix Zero on diagonal: Inversion failed with error: linalg.inv: The diagonal element 4 is zero, the inversion could not be completed because the input matrix is singular.
+2025-03-13 07:40:10,766 - dmbd_dimensions_test - INFO - Matrix Identical rows: Inversion successful, Error: 9.976821
+2025-03-13 07:40:10,766 - dmbd_dimensions_test - INFO - Matrix High condition number: Inversion successful, Error: 5.130544
+2025-03-13 07:40:10,766 - dmbd_dimensions_test - INFO - Regularization 0: Success rate 0.67
+2025-03-13 07:40:10,860 - dmbd_dimensions_test - INFO - DMBD update with regularization 0: Success
+2025-03-13 07:40:10,860 - dmbd_dimensions_test - INFO - Testing regularization strength: 1e-08
+2025-03-13 07:40:10,865 - dmbd_dimensions_test - INFO - Applied regularization: False
+2025-03-13 07:40:10,865 - dmbd_dimensions_test - INFO - Matrix Zero on diagonal: Inversion successful, Error: 0.000000
+2025-03-13 07:40:10,866 - dmbd_dimensions_test - INFO - Matrix Identical rows: Inversion successful, Error: 50.226734
+2025-03-13 07:40:10,866 - dmbd_dimensions_test - INFO - Matrix High condition number: Inversion successful, Error: 4.812463
+2025-03-13 07:40:10,866 - dmbd_dimensions_test - INFO - Regularization 1e-08: Success rate 1.00
+2025-03-13 07:40:10,959 - dmbd_dimensions_test - INFO - DMBD update with regularization 1e-08: Success
+2025-03-13 07:40:10,959 - dmbd_dimensions_test - INFO - Testing regularization strength: 0.0001
+2025-03-13 07:40:10,963 - dmbd_dimensions_test - INFO - Applied regularization: False
+2025-03-13 07:40:10,964 - dmbd_dimensions_test - INFO - Matrix Zero on diagonal: Inversion successful, Error: 0.000000
+2025-03-13 07:40:10,964 - dmbd_dimensions_test - INFO - Matrix Identical rows: Inversion successful, Error: 0.014586
+2025-03-13 07:40:10,964 - dmbd_dimensions_test - INFO - Matrix High condition number: Inversion successful, Error: 0.114162
+2025-03-13 07:40:10,964 - dmbd_dimensions_test - INFO - Regularization 0.0001: Success rate 1.00
+2025-03-13 07:40:11,056 - dmbd_dimensions_test - INFO - DMBD update with regularization 0.0001: Success
+2025-03-13 07:40:11,056 - dmbd_dimensions_test - INFO - Testing regularization strength: 0.01
+2025-03-13 07:40:11,064 - dmbd_dimensions_test - INFO - Applied regularization: False
+2025-03-13 07:40:11,064 - dmbd_dimensions_test - INFO - Matrix Zero on diagonal: Inversion successful, Error: 0.000000
+2025-03-13 07:40:11,064 - dmbd_dimensions_test - INFO - Matrix Identical rows: Inversion successful, Error: 0.000245
+2025-03-13 07:40:11,065 - dmbd_dimensions_test - INFO - Matrix High condition number: Inversion successful, Error: 0.001767
+2025-03-13 07:40:11,065 - dmbd_dimensions_test - INFO - Regularization 0.01: Success rate 1.00
+2025-03-13 07:40:11,151 - dmbd_dimensions_test - INFO - DMBD update with regularization 0.01: Success
+2025-03-13 07:40:11,151 - dmbd_dimensions_test - INFO - Testing regularization strength: 0.1
+2025-03-13 07:40:11,155 - dmbd_dimensions_test - INFO - Applied regularization: False
+2025-03-13 07:40:11,156 - dmbd_dimensions_test - INFO - Matrix Zero on diagonal: Inversion successful, Error: 0.000000
+2025-03-13 07:40:11,156 - dmbd_dimensions_test - INFO - Matrix Identical rows: Inversion successful, Error: 0.000025
+2025-03-13 07:40:11,156 - dmbd_dimensions_test - INFO - Matrix High condition number: Inversion successful, Error: 0.000142
+2025-03-13 07:40:11,156 - dmbd_dimensions_test - INFO - Regularization 0.1: Success rate 1.00
+2025-03-13 07:40:11,242 - dmbd_dimensions_test - INFO - DMBD update with regularization 0.1: Success
+2025-03-13 07:40:11,400 - dmbd_test_runner - INFO - Running gaussian_blob_stability tests...
+2025-03-13 07:40:11,401 - dmbd_gaussian_stability_test - INFO - Generating Gaussian blob test data (grid_size=16, time_steps=30)...
+2025-03-13 07:40:11,420 - dmbd_gaussian_stability_test - INFO - Test data preparation complete
+2025-03-13 07:40:11,420 - dmbd_gaussian_stability_test - INFO - Data shapes: {'raw_data': torch.Size([30, 1, 256]), 'labels': torch.Size([30, 256]), 'features_basic': torch.Size([30, 1, 3]), 'features_spatial': torch.Size([30, 1, 6]), 'features_roles': torch.Size([30, 1, 9])}
+2025-03-13 07:40:11,420 - dmbd_gaussian_stability_test - INFO - Testing consistency across multiple runs...
+2025-03-13 07:40:11,421 - dmbd_gaussian_stability_test - INFO - Run 1/3
+2025-03-13 07:40:12,537 - dmbd_gaussian_stability_test - WARNING - Error in evaluation on run 1: The shape of the mask [30, 1] at index 1 does not match the shape of the indexed tensor [30, 256] at index 1
+2025-03-13 07:40:12,537 - dmbd_gaussian_stability_test - INFO - Run 2/3
+2025-03-13 07:40:13,654 - dmbd_gaussian_stability_test - WARNING - Error in evaluation on run 2: The shape of the mask [30, 1] at index 1 does not match the shape of the indexed tensor [30, 256] at index 1
+2025-03-13 07:40:13,654 - dmbd_gaussian_stability_test - INFO - Run 3/3
+2025-03-13 07:40:14,514 - dmbd_gaussian_stability_test - WARNING - Error in evaluation on run 3: The shape of the mask [30, 1] at index 1 does not match the shape of the indexed tensor [30, 256] at index 1
+2025-03-13 07:40:14,515 - dmbd_gaussian_stability_test - WARNING - Not enough successful runs to calculate consistency: 0/3
+2025-03-13 07:40:14,515 - dmbd_gaussian_stability_test - INFO - Testing feature extraction methods...
+2025-03-13 07:40:14,515 - dmbd_gaussian_stability_test - INFO - Testing feature method: basic
+2025-03-13 07:40:15,527 - dmbd_gaussian_stability_test - INFO - Testing feature method: spatial
+2025-03-13 07:40:16,503 - dmbd_gaussian_stability_test - INFO - Testing feature method: roles
+2025-03-13 07:40:17,596 - dmbd_gaussian_stability_test - INFO - Testing matrix inversion stability...
+2025-03-13 07:40:17,775 - dmbd_gaussian_stability_test - INFO - Testing model regularization...
+2025-03-13 07:40:17,775 - dmbd_gaussian_stability_test - INFO - Testing regularization strength: 0.0
+2025-03-13 07:40:18,310 - dmbd_gaussian_stability_test - INFO - Testing regularization strength: 1e-06
+2025-03-13 07:40:18,860 - dmbd_gaussian_stability_test - INFO - Testing regularization strength: 0.0001
+2025-03-13 07:40:19,399 - dmbd_gaussian_stability_test - INFO - Testing regularization strength: 0.01
+2025-03-13 07:40:20,056 - dmbd_gaussian_stability_test - INFO - Test suite completed: 4/4 tests successful
+2025-03-13 07:40:20,056 - dmbd_gaussian_stability_test - INFO - Results saved to: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/gaussian_blob_stability/test_run_20250313_074011
+2025-03-13 07:40:20,056 - dmbd_test_runner - INFO - Running gaussian_blob_integration tests...
+2025-03-13 07:40:20,059 - dmbd_gaussian_blob_integration - INFO - Simulation small - Data: torch.Size([10, 1, 36]), Labels: torch.Size([10, 36])
+2025-03-13 07:40:20,061 - dmbd_gaussian_blob_integration - INFO - Simulation medium - Data: torch.Size([15, 1, 144]), Labels: torch.Size([15, 144])
+2025-03-13 07:40:20,063 - dmbd_gaussian_blob_integration - INFO - Simulation large - Data: torch.Size([20, 1, 256]), Labels: torch.Size([20, 256])
+2025-03-13 07:40:20,350 - dmbd_gaussian_blob_integration - INFO - Feature extraction methods test completed successfully
+2025-03-13 07:40:20,352 - dmbd_gaussian_blob_integration - INFO - Simulation small - Data: torch.Size([10, 1, 36]), Labels: torch.Size([10, 36])
+2025-03-13 07:40:20,354 - dmbd_gaussian_blob_integration - INFO - Simulation medium - Data: torch.Size([15, 1, 144]), Labels: torch.Size([15, 144])
+2025-03-13 07:40:20,356 - dmbd_gaussian_blob_integration - INFO - Simulation large - Data: torch.Size([20, 1, 256]), Labels: torch.Size([20, 256])
+2025-03-13 07:40:20,370 - dmbd_gaussian_blob_integration - INFO - Applied regularization to basic model: False
+2025-03-13 07:40:20,370 - dmbd_gaussian_blob_integration - INFO - Applied regularization to spatial model: False
+2025-03-13 07:40:20,370 - dmbd_gaussian_blob_integration - INFO - Applied regularization to roles model: False
+2025-03-13 07:40:20,412 - dmbd_gaussian_blob_integration - INFO - DMBD update with basic features: True
+2025-03-13 07:40:20,412 - dmbd_gaussian_blob_integration - INFO - DMBD update with spatial features: True
+2025-03-13 07:40:20,412 - dmbd_gaussian_blob_integration - INFO - DMBD update with roles features: True
+2025-03-13 07:40:20,412 - dmbd_gaussian_blob_integration - INFO - DMBD initialization with features test completed
+2025-03-13 07:40:20,414 - dmbd_gaussian_blob_integration - INFO - Simulation small - Data: torch.Size([10, 1, 36]), Labels: torch.Size([10, 36])
+2025-03-13 07:40:20,417 - dmbd_gaussian_blob_integration - INFO - Simulation medium - Data: torch.Size([15, 1, 144]), Labels: torch.Size([15, 144])
+2025-03-13 07:40:20,420 - dmbd_gaussian_blob_integration - INFO - Simulation large - Data: torch.Size([20, 1, 256]), Labels: torch.Size([20, 256])
+2025-03-13 07:40:20,434 - dmbd_gaussian_blob_integration - INFO - Applied regularization to basic model: False
+2025-03-13 07:40:20,435 - dmbd_gaussian_blob_integration - INFO - Applied regularization to spatial model: False
+2025-03-13 07:40:20,435 - dmbd_gaussian_blob_integration - INFO - Applied regularization to roles model: False
+2025-03-13 07:40:20,480 - dmbd_gaussian_blob_integration - INFO - DMBD update with basic features: True
+2025-03-13 07:40:20,480 - dmbd_gaussian_blob_integration - INFO - DMBD update with spatial features: True
+2025-03-13 07:40:20,480 - dmbd_gaussian_blob_integration - INFO - DMBD update with roles features: True
+2025-03-13 07:40:20,480 - dmbd_gaussian_blob_integration - INFO - DMBD initialization with features test completed
+2025-03-13 07:40:20,510 - dmbd_gaussian_blob_integration - INFO - PyTorch operations performed during update: 0
+2025-03-13 07:40:20,510 - dmbd_gaussian_blob_integration - INFO - Update success: True
+2025-03-13 07:40:20,510 - dmbd_gaussian_blob_integration - ERROR - Error during torch operations test: 0 not greater than 0 : DMBD should perform torch operations during update
+2025-03-13 07:40:20,510 - dmbd_gaussian_blob_integration - INFO - Found 92 torch tensors in DMBD model
+2025-03-13 07:40:20,511 - dmbd_gaussian_blob_integration - INFO - Assignment tensor shape: torch.Size([10, 1])
+2025-03-13 07:40:20,511 - dmbd_gaussian_blob_integration - INFO - Torch operations check completed
+2025-03-13 07:40:20,513 - dmbd_gaussian_blob_integration - INFO - Simulation small - Data: torch.Size([10, 1, 36]), Labels: torch.Size([10, 36])
+2025-03-13 07:40:20,514 - dmbd_gaussian_blob_integration - INFO - Simulation medium - Data: torch.Size([15, 1, 144]), Labels: torch.Size([15, 144])
+2025-03-13 07:40:20,517 - dmbd_gaussian_blob_integration - INFO - Simulation large - Data: torch.Size([20, 1, 256]), Labels: torch.Size([20, 256])
+2025-03-13 07:40:20,612 - dmbd_gaussian_blob_integration - INFO - Applied regularization with strength 0.001
+2025-03-13 07:40:20,699 - dmbd_gaussian_blob_integration - INFO - Applied regularization with strength 0.01
+2025-03-13 07:40:20,790 - dmbd_gaussian_blob_integration - INFO - Applied regularization with strength 0.1
+2025-03-13 07:40:20,873 - dmbd_gaussian_blob_integration - INFO - Matrix stability evaluation results:
+2025-03-13 07:40:20,874 - dmbd_gaussian_blob_integration - INFO -   Regularization 0.0:
+2025-03-13 07:40:20,874 - dmbd_gaussian_blob_integration - INFO -     Success: True
+2025-03-13 07:40:20,874 - dmbd_gaussian_blob_integration - INFO -     Assignments shape: [15, 1]
+2025-03-13 07:40:20,874 - dmbd_gaussian_blob_integration - INFO -     Unique roles: [0]
+2025-03-13 07:40:20,874 - dmbd_gaussian_blob_integration - INFO -   Regularization 0.001:
+2025-03-13 07:40:20,874 - dmbd_gaussian_blob_integration - INFO -     Success: True
+2025-03-13 07:40:20,874 - dmbd_gaussian_blob_integration - INFO -     Assignments shape: [15, 1]
+2025-03-13 07:40:20,874 - dmbd_gaussian_blob_integration - INFO -     Unique roles: [0]
+2025-03-13 07:40:20,874 - dmbd_gaussian_blob_integration - INFO -   Regularization 0.01:
+2025-03-13 07:40:20,874 - dmbd_gaussian_blob_integration - INFO -     Success: True
+2025-03-13 07:40:20,874 - dmbd_gaussian_blob_integration - INFO -     Assignments shape: [15, 1]
+2025-03-13 07:40:20,874 - dmbd_gaussian_blob_integration - INFO -     Unique roles: [0]
+2025-03-13 07:40:20,874 - dmbd_gaussian_blob_integration - INFO -   Regularization 0.1:
+2025-03-13 07:40:20,874 - dmbd_gaussian_blob_integration - INFO -     Success: True
+2025-03-13 07:40:20,874 - dmbd_gaussian_blob_integration - INFO -     Assignments shape: [15, 1]
+2025-03-13 07:40:20,874 - dmbd_gaussian_blob_integration - INFO -     Unique roles: [0]
+2025-03-13 07:40:20,874 - dmbd_gaussian_blob_integration - INFO - Matrix stability evaluation completed
+2025-03-13 07:40:20,876 - dmbd_gaussian_blob_integration - INFO - Simulation small - Data: torch.Size([10, 1, 36]), Labels: torch.Size([10, 36])
+2025-03-13 07:40:20,878 - dmbd_gaussian_blob_integration - INFO - Simulation medium - Data: torch.Size([15, 1, 144]), Labels: torch.Size([15, 144])
+2025-03-13 07:40:20,881 - dmbd_gaussian_blob_integration - INFO - Simulation large - Data: torch.Size([20, 1, 256]), Labels: torch.Size([20, 256])
+2025-03-13 07:40:20,888 - dmbd_gaussian_blob_integration - INFO - Running DMBD update for role assignment test...
+2025-03-13 07:40:21,796 - dmbd_gaussian_blob_integration - INFO - Update success: True
+2025-03-13 07:40:21,802 - dmbd_gaussian_blob_integration - ERROR - Error during role assignment test: The shape of the mask [15, 1] at index 1 does not match the shape of the indexed tensor [15, 144] at index 1
+2025-03-13 07:40:21,803 - dmbd_gaussian_blob_integration - INFO - Role assignment accuracy test completed
+2025-03-13 07:40:21,805 - dmbd_gaussian_blob_integration - INFO - Simulation small - Data: torch.Size([10, 1, 36]), Labels: torch.Size([10, 36])
+2025-03-13 07:40:21,806 - dmbd_gaussian_blob_integration - INFO - Simulation medium - Data: torch.Size([15, 1, 144]), Labels: torch.Size([15, 144])
+2025-03-13 07:40:21,809 - dmbd_gaussian_blob_integration - INFO - Simulation large - Data: torch.Size([20, 1, 256]), Labels: torch.Size([20, 256])
+2025-03-13 07:40:21,819 - dmbd_gaussian_blob_integration - INFO - Running complete end-to-end integration test...
+2025-03-13 07:40:23,477 - dmbd_gaussian_blob_integration - INFO - DMBD update success: True
+2025-03-13 07:40:23,514 - dmbd_gaussian_blob_integration - ERROR - Error during end-to-end test: The shape of the mask [20, 1] at index 1 does not match the shape of the indexed tensor [20, 256] at index 1
+2025-03-13 07:40:23,514 - dmbd_gaussian_blob_integration - INFO - End-to-end integration test completed
+2025-03-13 07:40:23,515 - dmbd_test_runner - INFO - Running environment tests...
+2025-03-13 07:40:25,206 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2025-03-13 07:40:25,206 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2025-03-13 07:40:26,906 - dmbd_test_runner - INFO - Running examples tests...
+2025-03-13 07:46:20,421 - dmbd_test_runner - INFO - Running PyTorch functionality test...
+2025-03-13 07:46:20,755 - dmbd_test_runner - INFO - Successfully imported PyTorch functionality test
+2025-03-13 07:46:20,757 - torch_functionality_tests - INFO - Test output directory: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality
+2025-03-13 07:46:20,757 - torch_functionality_tests - INFO - Visualization directory: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations
+2025-03-13 07:46:20,757 - torch_functionality_tests - INFO - PyTorch version: 2.1.0+cpu
+2025-03-13 07:46:20,758 - torch_functionality_tests - INFO - CUDA available: False
+2025-03-13 07:46:20,758 - torch_functionality_tests - INFO - Testing batch operations...
+2025-03-13 07:46:24,001 - torch_functionality_tests - INFO - Saved visualization: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations/batch_operations_20250313_074623.png
+2025-03-13 07:46:24,608 - torch_functionality_tests - INFO - Saved visualization: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations/tensor_metrics_pytorch_functionality_test_results_20250313_074624.png
+2025-03-13 07:46:24,608 - torch_functionality_tests - INFO - Generated final metrics visualization: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations/tensor_metrics_pytorch_functionality_test_results_20250313_074624.png
+2025-03-13 07:46:24,608 - torch_functionality_tests - INFO - Saved metrics to: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/torch_metrics.json
+2025-03-13 07:46:24,608 - torch_functionality_tests - INFO - Test Summary:
+2025-03-13 07:46:24,608 - torch_functionality_tests - INFO - Total visualizations generated: 35
+2025-03-13 07:46:24,609 - torch_functionality_tests - INFO - Visualization directory: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations
+2025-03-13 07:46:24,609 - torch_functionality_tests - INFO - Metrics file: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/torch_metrics.json
+2025-03-13 07:46:24,609 - torch_functionality_tests - INFO - Test output directory: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality
+2025-03-13 07:46:24,609 - torch_functionality_tests - INFO - Visualization directory: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations
+2025-03-13 07:46:24,609 - torch_functionality_tests - INFO - PyTorch version: 2.1.0+cpu
+2025-03-13 07:46:24,609 - torch_functionality_tests - INFO - CUDA available: False
+2025-03-13 07:46:24,609 - torch_functionality_tests - INFO - Testing device operations...
+2025-03-13 07:46:25,145 - torch_functionality_tests - INFO - Saved visualization: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations/tensor_metrics_pytorch_functionality_test_results_20250313_074624.png
+2025-03-13 07:46:25,145 - torch_functionality_tests - INFO - Generated final metrics visualization: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations/tensor_metrics_pytorch_functionality_test_results_20250313_074624.png
+2025-03-13 07:46:25,146 - torch_functionality_tests - INFO - Saved metrics to: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/torch_metrics.json
+2025-03-13 07:46:25,146 - torch_functionality_tests - INFO - Test Summary:
+2025-03-13 07:46:25,146 - torch_functionality_tests - INFO - Total visualizations generated: 35
+2025-03-13 07:46:25,146 - torch_functionality_tests - INFO - Visualization directory: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations
+2025-03-13 07:46:25,146 - torch_functionality_tests - INFO - Metrics file: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/torch_metrics.json
+2025-03-13 07:46:25,146 - torch_functionality_tests - INFO - Test output directory: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality
+2025-03-13 07:46:25,146 - torch_functionality_tests - INFO - Visualization directory: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations
+2025-03-13 07:46:25,146 - torch_functionality_tests - INFO - PyTorch version: 2.1.0+cpu
+2025-03-13 07:46:25,146 - torch_functionality_tests - INFO - CUDA available: False
+2025-03-13 07:46:25,146 - torch_functionality_tests - INFO - Testing inference processes...
+2025-03-13 07:46:25,927 - torch_functionality_tests - INFO - Saved visualization: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations/inference_processes_20250313_074625.png
+2025-03-13 07:46:26,524 - torch_functionality_tests - INFO - Saved visualization: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations/tensor_metrics_pytorch_functionality_test_results_20250313_074626.png
+2025-03-13 07:46:26,525 - torch_functionality_tests - INFO - Generated final metrics visualization: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations/tensor_metrics_pytorch_functionality_test_results_20250313_074626.png
+2025-03-13 07:46:26,525 - torch_functionality_tests - INFO - Saved metrics to: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/torch_metrics.json
+2025-03-13 07:46:26,525 - torch_functionality_tests - INFO - Test Summary:
+2025-03-13 07:46:26,525 - torch_functionality_tests - INFO - Total visualizations generated: 37
+2025-03-13 07:46:26,525 - torch_functionality_tests - INFO - Visualization directory: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations
+2025-03-13 07:46:26,525 - torch_functionality_tests - INFO - Metrics file: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/torch_metrics.json
+2025-03-13 07:46:26,525 - torch_functionality_tests - INFO - Test output directory: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality
+2025-03-13 07:46:26,525 - torch_functionality_tests - INFO - Visualization directory: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations
+2025-03-13 07:46:26,525 - torch_functionality_tests - INFO - PyTorch version: 2.1.0+cpu
+2025-03-13 07:46:26,525 - torch_functionality_tests - INFO - CUDA available: False
+2025-03-13 07:46:26,525 - torch_functionality_tests - INFO - Testing Markov blanket dynamics...
+2025-03-13 07:46:27,348 - torch_functionality_tests - INFO - Saved visualization: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations/markov_blanket_dynamics_20250313_074626.png
+2025-03-13 07:46:28,045 - torch_functionality_tests - INFO - Saved visualization: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations/tensor_metrics_pytorch_functionality_test_results_20250313_074627.png
+2025-03-13 07:46:28,045 - torch_functionality_tests - INFO - Generated final metrics visualization: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations/tensor_metrics_pytorch_functionality_test_results_20250313_074627.png
+2025-03-13 07:46:28,045 - torch_functionality_tests - INFO - Saved metrics to: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/torch_metrics.json
+2025-03-13 07:46:28,045 - torch_functionality_tests - INFO - Test Summary:
+2025-03-13 07:46:28,045 - torch_functionality_tests - INFO - Total visualizations generated: 39
+2025-03-13 07:46:28,045 - torch_functionality_tests - INFO - Visualization directory: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations
+2025-03-13 07:46:28,045 - torch_functionality_tests - INFO - Metrics file: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/torch_metrics.json
+2025-03-13 07:46:28,046 - torch_functionality_tests - INFO - Test output directory: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality
+2025-03-13 07:46:28,046 - torch_functionality_tests - INFO - Visualization directory: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations
+2025-03-13 07:46:28,046 - torch_functionality_tests - INFO - PyTorch version: 2.1.0+cpu
+2025-03-13 07:46:28,046 - torch_functionality_tests - INFO - CUDA available: False
+2025-03-13 07:46:28,046 - torch_functionality_tests - INFO - Testing matrix operations...
+2025-03-13 07:46:28,967 - torch_functionality_tests - INFO - Saved visualization: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations/matrix_operations_20250313_074628.png
+2025-03-13 07:46:29,565 - torch_functionality_tests - INFO - Saved visualization: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations/tensor_metrics_pytorch_functionality_test_results_20250313_074629.png
+2025-03-13 07:46:29,565 - torch_functionality_tests - INFO - Generated final metrics visualization: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations/tensor_metrics_pytorch_functionality_test_results_20250313_074629.png
+2025-03-13 07:46:29,565 - torch_functionality_tests - INFO - Saved metrics to: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/torch_metrics.json
+2025-03-13 07:46:29,565 - torch_functionality_tests - INFO - Test Summary:
+2025-03-13 07:46:29,565 - torch_functionality_tests - INFO - Total visualizations generated: 41
+2025-03-13 07:46:29,565 - torch_functionality_tests - INFO - Visualization directory: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations
+2025-03-13 07:46:29,565 - torch_functionality_tests - INFO - Metrics file: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/torch_metrics.json
+2025-03-13 07:46:29,566 - torch_functionality_tests - INFO - Test output directory: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality
+2025-03-13 07:46:29,566 - torch_functionality_tests - INFO - Visualization directory: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations
+2025-03-13 07:46:29,566 - torch_functionality_tests - INFO - PyTorch version: 2.1.0+cpu
+2025-03-13 07:46:29,566 - torch_functionality_tests - INFO - CUDA available: False
+2025-03-13 07:46:29,566 - torch_functionality_tests - INFO - Testing memory management...
+2025-03-13 07:46:30,365 - torch_functionality_tests - INFO - Saved visualization: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations/memory_management_20250313_074629.png
+2025-03-13 07:46:30,934 - torch_functionality_tests - INFO - Saved visualization: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations/tensor_metrics_pytorch_functionality_test_results_20250313_074630.png
+2025-03-13 07:46:30,934 - torch_functionality_tests - INFO - Generated final metrics visualization: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations/tensor_metrics_pytorch_functionality_test_results_20250313_074630.png
+2025-03-13 07:46:30,935 - torch_functionality_tests - INFO - Saved metrics to: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/torch_metrics.json
+2025-03-13 07:46:30,935 - torch_functionality_tests - INFO - Test Summary:
+2025-03-13 07:46:30,935 - torch_functionality_tests - INFO - Total visualizations generated: 43
+2025-03-13 07:46:30,935 - torch_functionality_tests - INFO - Visualization directory: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations
+2025-03-13 07:46:30,935 - torch_functionality_tests - INFO - Metrics file: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/torch_metrics.json
+2025-03-13 07:46:30,935 - torch_functionality_tests - INFO - Test output directory: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality
+2025-03-13 07:46:30,935 - torch_functionality_tests - INFO - Visualization directory: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations
+2025-03-13 07:46:30,935 - torch_functionality_tests - INFO - PyTorch version: 2.1.0+cpu
+2025-03-13 07:46:30,935 - torch_functionality_tests - INFO - CUDA available: False
+2025-03-13 07:46:30,935 - torch_functionality_tests - INFO - Testing numerical stability...
+2025-03-13 07:46:31,827 - torch_functionality_tests - INFO - Saved visualization: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations/numerical_stability_20250313_074631.png
+2025-03-13 07:46:32,394 - torch_functionality_tests - INFO - Saved visualization: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations/tensor_metrics_pytorch_functionality_test_results_20250313_074631.png
+2025-03-13 07:46:32,395 - torch_functionality_tests - INFO - Generated final metrics visualization: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations/tensor_metrics_pytorch_functionality_test_results_20250313_074631.png
+2025-03-13 07:46:32,395 - torch_functionality_tests - INFO - Saved metrics to: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/torch_metrics.json
+2025-03-13 07:46:32,395 - torch_functionality_tests - INFO - Test Summary:
+2025-03-13 07:46:32,395 - torch_functionality_tests - INFO - Total visualizations generated: 45
+2025-03-13 07:46:32,395 - torch_functionality_tests - INFO - Visualization directory: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations
+2025-03-13 07:46:32,395 - torch_functionality_tests - INFO - Metrics file: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/torch_metrics.json
+2025-03-13 07:46:32,395 - torch_functionality_tests - INFO - Test output directory: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality
+2025-03-13 07:46:32,395 - torch_functionality_tests - INFO - Visualization directory: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations
+2025-03-13 07:46:32,395 - torch_functionality_tests - INFO - PyTorch version: 2.1.0+cpu
+2025-03-13 07:46:32,395 - torch_functionality_tests - INFO - CUDA available: False
+2025-03-13 07:46:32,395 - torch_functionality_tests - INFO - Testing role assignment...
+2025-03-13 07:46:33,153 - torch_functionality_tests - INFO - Saved visualization: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations/role_assignment_20250313_074632.png
+2025-03-13 07:46:33,703 - torch_functionality_tests - INFO - Saved visualization: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations/tensor_metrics_pytorch_functionality_test_results_20250313_074633.png
+2025-03-13 07:46:33,704 - torch_functionality_tests - INFO - Generated final metrics visualization: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations/tensor_metrics_pytorch_functionality_test_results_20250313_074633.png
+2025-03-13 07:46:33,704 - torch_functionality_tests - INFO - Saved metrics to: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/torch_metrics.json
+2025-03-13 07:46:33,704 - torch_functionality_tests - INFO - Test Summary:
+2025-03-13 07:46:33,704 - torch_functionality_tests - INFO - Total visualizations generated: 47
+2025-03-13 07:46:33,704 - torch_functionality_tests - INFO - Visualization directory: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations
+2025-03-13 07:46:33,704 - torch_functionality_tests - INFO - Metrics file: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/torch_metrics.json
+2025-03-13 07:46:33,704 - torch_functionality_tests - INFO - Test output directory: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality
+2025-03-13 07:46:33,704 - torch_functionality_tests - INFO - Visualization directory: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations
+2025-03-13 07:46:33,704 - torch_functionality_tests - INFO - PyTorch version: 2.1.0+cpu
+2025-03-13 07:46:33,704 - torch_functionality_tests - INFO - CUDA available: False
+2025-03-13 07:46:33,704 - torch_functionality_tests - INFO - Testing basic tensor operations...
+2025-03-13 07:46:34,746 - torch_functionality_tests - INFO - Saved visualization: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations/enhanced_tensor_operations_20250313_074634.png
+2025-03-13 07:46:35,361 - torch_functionality_tests - INFO - Saved visualization: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations/tensor_metrics_pytorch_functionality_test_results_20250313_074634.png
+2025-03-13 07:46:35,361 - torch_functionality_tests - INFO - Generated final metrics visualization: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations/tensor_metrics_pytorch_functionality_test_results_20250313_074634.png
+2025-03-13 07:46:35,361 - torch_functionality_tests - INFO - Saved metrics to: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/torch_metrics.json
+2025-03-13 07:46:35,361 - torch_functionality_tests - INFO - Test Summary:
+2025-03-13 07:46:35,361 - torch_functionality_tests - INFO - Total visualizations generated: 49
+2025-03-13 07:46:35,361 - torch_functionality_tests - INFO - Visualization directory: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations
+2025-03-13 07:46:35,361 - torch_functionality_tests - INFO - Metrics file: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/torch_metrics.json
+2025-03-13 07:46:35,362 - dmbd_test_runner - INFO - PyTorch functionality test PASSED: All tests completed successfully
+2025-03-13 07:46:35,362 - dmbd_test_runner - INFO - All tests completed. Total: 16, Passed: 10, Failed: 6, Errors: 0, Skipped: 0
+2025-03-13 07:46:35,362 - dmbd_test_runner - INFO - Generating comprehensive test report...
+2025-03-13 07:46:35,517 - dmbd_test_runner - INFO - Generated graphical summary of test results
+2025-03-13 07:46:35,517 - dmbd_test_runner - INFO - Report generated at fork/test_results/reports/dmbd_test_report_20250313_074635.txt
+2025-03-13 07:46:35,517 - dmbd_test_runner - INFO - Test report generated at: fork/test_results/reports/dmbd_test_report_20250313_074635.txt
+2025-03-13 07:46:35,517 - dmbd_test_runner - INFO - Test logs are available at: fork/test_results/logs/dmbd_test.log
+2025-03-13 07:57:09,024 - dmbd_test_runner - INFO - Test outputs will be saved to: fork/test_results
+2025-03-13 07:57:09,024 - dmbd_test_runner - INFO - Test reports will be saved to: fork/test_results/reports
+2025-03-13 07:57:09,024 - dmbd_test_runner - INFO - Test logs will be saved to: fork/test_results/logs
+2025-03-13 07:57:09,034 - dmbd_test_runner - INFO - Successfully imported DMBD module from alternative path
+2025-03-13 07:57:09,093 - dmbd_dimensions_test - INFO - Successfully imported DMBD from root
+2025-03-13 07:57:09,094 - dmbd_gaussian_stability_test - INFO - Successfully imported stability utilities
+2025-03-13 07:57:09,094 - dmbd_gaussian_stability_test - INFO - Imported DMBD from dmbd.dmbd
+2025-03-13 07:57:09,101 - dmbd_gaussian_stability_test - INFO - Imported GaussianBlobSimulation
+2025-03-13 07:57:09,104 - dmbd_gaussian_stability_test - INFO - Imported utilities from dmbd_gaussian_blob_stabilized
+2025-03-13 07:57:09,105 - dmbd_gaussian_blob_integration - INFO - Successfully imported GaussianBlobSimulation from examples
+2025-03-13 07:57:09,106 - dmbd_numerical_stability_tests - INFO - Imported DMBD from dmbd.dmbd
+2025-03-13 07:57:09,106 - dmbd_numerical_stability_tests - INFO - Imported GaussianBlobSimulation
+2025-03-13 07:57:09,423 - dmbd_test_runner - INFO - Successfully imported all test modules
+2025-03-13 07:57:09,423 - dmbd_test_runner - INFO - Successfully imported 7 test modules
+2025-03-13 07:57:09,425 - dmbd_test_runner - INFO - Successfully imported DMBD dimensions test
+2025-03-13 07:57:10,026 - dmbd_dimensions_test - INFO - Matrix shapes test completed successfully
+2025-03-13 07:57:10,027 - dmbd_dimensions_test - INFO - Testing dimensions: features=6, roles=2
+2025-03-13 07:57:10,112 - dmbd_dimensions_test - WARNING - Dimension issue: Missing critical tensor: A
+2025-03-13 07:57:10,112 - dmbd_dimensions_test - WARNING - Dimension issue: Missing critical tensor: C
+2025-03-13 07:57:10,113 - dmbd_dimensions_test - ERROR - Error during dimension test: 2 != 0 : Dimension issues found with features=6, roles=2
+2025-03-13 07:57:10,215 - dmbd_dimensions_test - INFO - Testing: Feature dimension mismatch
+2025-03-13 07:57:10,225 - dmbd_dimensions_test - WARNING - Expected error for Feature dimension mismatch but none occurred
+2025-03-13 07:57:10,225 - dmbd_dimensions_test - INFO - Error for Feature dimension mismatch as expected: Expected error for Feature dimension mismatch but none occurred
+2025-03-13 07:57:10,225 - dmbd_dimensions_test - INFO - Testing: Batch dimension mismatch
+2025-03-13 07:57:10,236 - dmbd_dimensions_test - WARNING - Expected error for Batch dimension mismatch but none occurred
+2025-03-13 07:57:10,236 - dmbd_dimensions_test - INFO - Error for Batch dimension mismatch as expected: Expected error for Batch dimension mismatch but none occurred
+2025-03-13 07:57:10,237 - dmbd_dimensions_test - INFO - Testing: Time dimension zero
+2025-03-13 07:57:10,249 - dmbd_dimensions_test - WARNING - Expected error for Time dimension zero but none occurred
+2025-03-13 07:57:10,249 - dmbd_dimensions_test - INFO - Error for Time dimension zero as expected: Expected error for Time dimension zero but none occurred
+2025-03-13 07:57:10,249 - dmbd_dimensions_test - INFO - Testing: Correct dimensions
+2025-03-13 07:57:10,262 - dmbd_dimensions_test - INFO - No error for Correct dimensions as expected
+2025-03-13 07:57:10,262 - dmbd_dimensions_test - INFO - Dimension mismatch test completed
+2025-03-13 07:57:10,266 - dmbd_dimensions_test - INFO - Testing regularization strength: 0
+2025-03-13 07:57:10,275 - dmbd_dimensions_test - WARNING - Matrix Zero on diagonal: Inversion failed with error: linalg.inv: The diagonal element 4 is zero, the inversion could not be completed because the input matrix is singular.
+2025-03-13 07:57:10,275 - dmbd_dimensions_test - INFO - Matrix Identical rows: Inversion successful, Error: 9.976821
+2025-03-13 07:57:10,275 - dmbd_dimensions_test - INFO - Matrix High condition number: Inversion successful, Error: 5.130544
+2025-03-13 07:57:10,275 - dmbd_dimensions_test - INFO - Regularization 0: Success rate 0.67
+2025-03-13 07:57:10,352 - dmbd_dimensions_test - INFO - DMBD update with regularization 0: Success
+2025-03-13 07:57:10,352 - dmbd_dimensions_test - INFO - Testing regularization strength: 1e-08
+2025-03-13 07:57:10,355 - dmbd_dimensions_test - INFO - Applied regularization: False
+2025-03-13 07:57:10,355 - dmbd_dimensions_test - INFO - Matrix Zero on diagonal: Inversion successful, Error: 0.000000
+2025-03-13 07:57:10,355 - dmbd_dimensions_test - INFO - Matrix Identical rows: Inversion successful, Error: 50.226734
+2025-03-13 07:57:10,356 - dmbd_dimensions_test - INFO - Matrix High condition number: Inversion successful, Error: 4.812463
+2025-03-13 07:57:10,356 - dmbd_dimensions_test - INFO - Regularization 1e-08: Success rate 1.00
+2025-03-13 07:57:10,431 - dmbd_dimensions_test - INFO - DMBD update with regularization 1e-08: Success
+2025-03-13 07:57:10,432 - dmbd_dimensions_test - INFO - Testing regularization strength: 0.0001
+2025-03-13 07:57:10,435 - dmbd_dimensions_test - INFO - Applied regularization: False
+2025-03-13 07:57:10,435 - dmbd_dimensions_test - INFO - Matrix Zero on diagonal: Inversion successful, Error: 0.000000
+2025-03-13 07:57:10,435 - dmbd_dimensions_test - INFO - Matrix Identical rows: Inversion successful, Error: 0.014586
+2025-03-13 07:57:10,436 - dmbd_dimensions_test - INFO - Matrix High condition number: Inversion successful, Error: 0.114162
+2025-03-13 07:57:10,436 - dmbd_dimensions_test - INFO - Regularization 0.0001: Success rate 1.00
+2025-03-13 07:57:10,512 - dmbd_dimensions_test - INFO - DMBD update with regularization 0.0001: Success
+2025-03-13 07:57:10,513 - dmbd_dimensions_test - INFO - Testing regularization strength: 0.01
+2025-03-13 07:57:10,516 - dmbd_dimensions_test - INFO - Applied regularization: False
+2025-03-13 07:57:10,516 - dmbd_dimensions_test - INFO - Matrix Zero on diagonal: Inversion successful, Error: 0.000000
+2025-03-13 07:57:10,516 - dmbd_dimensions_test - INFO - Matrix Identical rows: Inversion successful, Error: 0.000245
+2025-03-13 07:57:10,517 - dmbd_dimensions_test - INFO - Matrix High condition number: Inversion successful, Error: 0.001767
+2025-03-13 07:57:10,517 - dmbd_dimensions_test - INFO - Regularization 0.01: Success rate 1.00
+2025-03-13 07:57:10,593 - dmbd_dimensions_test - INFO - DMBD update with regularization 0.01: Success
+2025-03-13 07:57:10,593 - dmbd_dimensions_test - INFO - Testing regularization strength: 0.1
+2025-03-13 07:57:10,597 - dmbd_dimensions_test - INFO - Applied regularization: False
+2025-03-13 07:57:10,597 - dmbd_dimensions_test - INFO - Matrix Zero on diagonal: Inversion successful, Error: 0.000000
+2025-03-13 07:57:10,597 - dmbd_dimensions_test - INFO - Matrix Identical rows: Inversion successful, Error: 0.000025
+2025-03-13 07:57:10,597 - dmbd_dimensions_test - INFO - Matrix High condition number: Inversion successful, Error: 0.000142
+2025-03-13 07:57:10,597 - dmbd_dimensions_test - INFO - Regularization 0.1: Success rate 1.00
+2025-03-13 07:57:10,673 - dmbd_dimensions_test - INFO - DMBD update with regularization 0.1: Success
+2025-03-13 07:57:10,769 - dmbd_test_runner - WARNING - Dimensions test FAILED: 0 errors, 2 failures
+2025-03-13 07:57:10,769 - dmbd_test_runner - INFO - Generating comprehensive test report...
+2025-03-13 07:57:10,856 - dmbd_test_runner - INFO - Generated graphical summary of test results
+2025-03-13 07:57:10,856 - dmbd_test_runner - INFO - Report generated at fork/test_results/reports/dmbd_test_report_20250313_075710.txt
+2025-03-13 07:57:10,856 - dmbd_test_runner - INFO - Test report generated at: fork/test_results/reports/dmbd_test_report_20250313_075710.txt
+2025-03-13 07:57:10,856 - dmbd_test_runner - INFO - Test logs are available at: fork/test_results/logs/dmbd_test.log
+2025-03-13 07:59:43,098 - dmbd_test_runner - INFO - Test outputs will be saved to: fork/test_results
+2025-03-13 07:59:43,098 - dmbd_test_runner - INFO - Test reports will be saved to: fork/test_results/reports
+2025-03-13 07:59:43,098 - dmbd_test_runner - INFO - Test logs will be saved to: fork/test_results/logs
+2025-03-13 07:59:43,110 - dmbd_test_runner - INFO - Successfully imported DMBD module from alternative path
+2025-03-13 07:59:43,162 - dmbd_dimensions_test - INFO - Successfully imported DMBD from root
+2025-03-13 07:59:43,163 - dmbd_gaussian_stability_test - INFO - Successfully imported stability utilities
+2025-03-13 07:59:43,163 - dmbd_gaussian_stability_test - INFO - Imported DMBD from dmbd.dmbd
+2025-03-13 07:59:43,170 - dmbd_gaussian_stability_test - INFO - Imported GaussianBlobSimulation
+2025-03-13 07:59:43,170 - dmbd_gaussian_stability_test - INFO - Imported utilities from dmbd_gaussian_blob_stabilized
+2025-03-13 07:59:43,171 - dmbd_gaussian_blob_integration - INFO - Successfully imported GaussianBlobSimulation from examples
+2025-03-13 07:59:43,171 - dmbd_numerical_stability_tests - INFO - Imported DMBD from dmbd.dmbd
+2025-03-13 07:59:43,171 - dmbd_numerical_stability_tests - INFO - Imported GaussianBlobSimulation
+2025-03-13 07:59:43,432 - dmbd_test_runner - INFO - Successfully imported all test modules
+2025-03-13 07:59:43,432 - dmbd_test_runner - INFO - Successfully imported 7 test modules
+2025-03-13 07:59:43,433 - dmbd_test_runner - INFO - Successfully imported DMBD dimensions test
+2025-03-13 07:59:44,210 - dmbd_dimensions_test - INFO - Matrix shapes test completed successfully
+2025-03-13 07:59:44,211 - dmbd_dimensions_test - INFO - Testing dimensions: features=6, roles=2
+2025-03-13 07:59:44,215 - dmbd_dimensions_test - WARNING - Dimension issue: Error in execution: TestDMBDDimensions._trace_dimensions_during_update.<locals>.update_with_tracing() got multiple values for argument 'y'
+2025-03-13 07:59:44,215 - dmbd_dimensions_test - WARNING - Dimension issue: Missing critical tensor: A
+2025-03-13 07:59:44,215 - dmbd_dimensions_test - WARNING - Dimension issue: Missing critical tensor: C
+2025-03-13 07:59:44,215 - dmbd_dimensions_test - ERROR - Error during dimension test: 3 != 0 : Dimension issues found with features=6, roles=2
+2025-03-13 07:59:44,327 - dmbd_dimensions_test - INFO - Testing: Feature dimension mismatch
+2025-03-13 07:59:44,343 - dmbd_dimensions_test - WARNING - Expected error for Feature dimension mismatch but none occurred
+2025-03-13 07:59:44,343 - dmbd_dimensions_test - INFO - Error for Feature dimension mismatch as expected: Expected error for Feature dimension mismatch but none occurred
+2025-03-13 07:59:44,343 - dmbd_dimensions_test - INFO - Testing: Batch dimension mismatch
+2025-03-13 07:59:44,361 - dmbd_dimensions_test - WARNING - Expected error for Batch dimension mismatch but none occurred
+2025-03-13 07:59:44,361 - dmbd_dimensions_test - INFO - Error for Batch dimension mismatch as expected: Expected error for Batch dimension mismatch but none occurred
+2025-03-13 07:59:44,361 - dmbd_dimensions_test - INFO - Testing: Time dimension zero
+2025-03-13 07:59:44,380 - dmbd_dimensions_test - WARNING - Expected error for Time dimension zero but none occurred
+2025-03-13 07:59:44,380 - dmbd_dimensions_test - INFO - Error for Time dimension zero as expected: Expected error for Time dimension zero but none occurred
+2025-03-13 07:59:44,380 - dmbd_dimensions_test - INFO - Testing: Correct dimensions
+2025-03-13 07:59:44,399 - dmbd_dimensions_test - INFO - No error for Correct dimensions as expected
+2025-03-13 07:59:44,399 - dmbd_dimensions_test - INFO - Dimension mismatch test completed
+2025-03-13 07:59:44,400 - dmbd_dimensions_test - INFO - Testing regularization strength: 0
+2025-03-13 07:59:44,407 - dmbd_dimensions_test - WARNING - Matrix Zero on diagonal: Inversion failed with error: linalg.inv: The diagonal element 5 is zero, the inversion could not be completed because the input matrix is singular.
+2025-03-13 07:59:44,414 - dmbd_dimensions_test - WARNING - Matrix Identical rows: Inversion failed with error: linalg.inv: The diagonal element 2 is zero, the inversion could not be completed because the input matrix is singular.
+2025-03-13 07:59:44,414 - dmbd_dimensions_test - INFO - Matrix High condition number: Inversion successful, Error: 0.000009
+2025-03-13 07:59:44,415 - dmbd_dimensions_test - ERROR - Error testing matrix High condition number: 189811168.0 not less than 100000000.0 : Condition number too high: 189811168.0
+2025-03-13 07:59:44,415 - dmbd_dimensions_test - INFO - Regularization 0: Success rate 0.33
+2025-03-13 07:59:44,520 - dmbd_dimensions_test - INFO - DMBD update with regularization 0: Success
+2025-03-13 07:59:44,520 - dmbd_dimensions_test - INFO - Testing regularization strength: 1e-08
+2025-03-13 07:59:44,520 - dmbd_dimensions_test - INFO - Applied regularization: 1e-08
+2025-03-13 07:59:44,520 - dmbd_dimensions_test - INFO - Matrix Zero on diagonal: Inversion successful, Error: 0.000000
+2025-03-13 07:59:44,520 - dmbd_dimensions_test - INFO - Applied regularization: 1e-08
+2025-03-13 07:59:44,527 - dmbd_dimensions_test - WARNING - Matrix Identical rows: Inversion failed with error: linalg.inv: The diagonal element 2 is zero, the inversion could not be completed because the input matrix is singular.
+2025-03-13 07:59:44,527 - dmbd_dimensions_test - INFO - Applied regularization: 1e-08
+2025-03-13 07:59:44,528 - dmbd_dimensions_test - INFO - Matrix High condition number: Inversion successful, Error: 0.000005
+2025-03-13 07:59:44,528 - dmbd_dimensions_test - INFO - Regularization 1e-08: Success rate 0.67
+2025-03-13 07:59:44,623 - dmbd_dimensions_test - INFO - DMBD update with regularization 1e-08: Success
+2025-03-13 07:59:44,624 - dmbd_dimensions_test - INFO - Testing regularization strength: 0.0001
+2025-03-13 07:59:44,624 - dmbd_dimensions_test - INFO - Applied regularization: 0.0001
+2025-03-13 07:59:44,624 - dmbd_dimensions_test - INFO - Matrix Zero on diagonal: Inversion successful, Error: 0.000000
+2025-03-13 07:59:44,624 - dmbd_dimensions_test - INFO - Applied regularization: 0.0001
+2025-03-13 07:59:44,624 - dmbd_dimensions_test - INFO - Matrix Identical rows: Inversion successful, Error: 0.005393
+2025-03-13 07:59:44,624 - dmbd_dimensions_test - INFO - Applied regularization: 0.0001
+2025-03-13 07:59:44,625 - dmbd_dimensions_test - INFO - Matrix High condition number: Inversion successful, Error: 0.003762
+2025-03-13 07:59:44,625 - dmbd_dimensions_test - ERROR - Error testing matrix High condition number: 34916286464.0 not less than 100000000.0 : Condition number too high: 34916286464.0
+2025-03-13 07:59:44,625 - dmbd_dimensions_test - INFO - Regularization 0.0001: Success rate 1.00
+2025-03-13 07:59:44,720 - dmbd_dimensions_test - INFO - DMBD update with regularization 0.0001: Success
+2025-03-13 07:59:44,720 - dmbd_dimensions_test - INFO - Testing regularization strength: 0.01
+2025-03-13 07:59:44,720 - dmbd_dimensions_test - INFO - Applied regularization: 0.01
+2025-03-13 07:59:44,720 - dmbd_dimensions_test - INFO - Matrix Zero on diagonal: Inversion successful, Error: 0.000000
+2025-03-13 07:59:44,720 - dmbd_dimensions_test - INFO - Applied regularization: 0.01
+2025-03-13 07:59:44,720 - dmbd_dimensions_test - INFO - Matrix Identical rows: Inversion successful, Error: 0.000056
+2025-03-13 07:59:44,720 - dmbd_dimensions_test - INFO - Applied regularization: 0.01
+2025-03-13 07:59:44,721 - dmbd_dimensions_test - INFO - Matrix High condition number: Inversion successful, Error: 0.000001
+2025-03-13 07:59:44,721 - dmbd_dimensions_test - INFO - Regularization 0.01: Success rate 1.00
+2025-03-13 07:59:44,822 - dmbd_dimensions_test - INFO - DMBD update with regularization 0.01: Success
+2025-03-13 07:59:44,823 - dmbd_dimensions_test - INFO - Testing regularization strength: 0.1
+2025-03-13 07:59:44,823 - dmbd_dimensions_test - INFO - Applied regularization: 0.1
+2025-03-13 07:59:44,823 - dmbd_dimensions_test - INFO - Matrix Zero on diagonal: Inversion successful, Error: 0.000000
+2025-03-13 07:59:44,823 - dmbd_dimensions_test - INFO - Applied regularization: 0.1
+2025-03-13 07:59:44,823 - dmbd_dimensions_test - INFO - Matrix Identical rows: Inversion successful, Error: 0.000005
+2025-03-13 07:59:44,823 - dmbd_dimensions_test - INFO - Applied regularization: 0.1
+2025-03-13 07:59:44,824 - dmbd_dimensions_test - INFO - Matrix High condition number: Inversion successful, Error: 0.000001
+2025-03-13 07:59:44,824 - dmbd_dimensions_test - INFO - Regularization 0.1: Success rate 1.00
+2025-03-13 07:59:44,946 - dmbd_dimensions_test - INFO - DMBD update with regularization 0.1: Success
+2025-03-13 07:59:44,946 - dmbd_test_runner - WARNING - Dimensions test FAILED: 0 errors, 2 failures
+2025-03-13 07:59:44,946 - dmbd_test_runner - INFO - Generating comprehensive test report...
+2025-03-13 07:59:45,052 - dmbd_test_runner - INFO - Generated graphical summary of test results
+2025-03-13 07:59:45,052 - dmbd_test_runner - INFO - Report generated at fork/test_results/reports/dmbd_test_report_20250313_075944.txt
+2025-03-13 07:59:45,052 - dmbd_test_runner - INFO - Test report generated at: fork/test_results/reports/dmbd_test_report_20250313_075944.txt
+2025-03-13 07:59:45,052 - dmbd_test_runner - INFO - Test logs are available at: fork/test_results/logs/dmbd_test.log
+2025-03-13 08:01:19,013 - dmbd_test_runner - INFO - Test outputs will be saved to: fork/test_results
+2025-03-13 08:01:19,013 - dmbd_test_runner - INFO - Test reports will be saved to: fork/test_results/reports
+2025-03-13 08:01:19,013 - dmbd_test_runner - INFO - Test logs will be saved to: fork/test_results/logs
+2025-03-13 08:01:19,020 - dmbd_test_runner - INFO - Successfully imported DMBD module from alternative path
+2025-03-13 08:01:19,070 - dmbd_dimensions_test - INFO - Successfully imported DMBD from root
+2025-03-13 08:01:19,071 - dmbd_gaussian_stability_test - INFO - Successfully imported stability utilities
+2025-03-13 08:01:19,071 - dmbd_gaussian_stability_test - INFO - Imported DMBD from dmbd.dmbd
+2025-03-13 08:01:19,078 - dmbd_gaussian_stability_test - INFO - Imported GaussianBlobSimulation
+2025-03-13 08:01:19,078 - dmbd_gaussian_stability_test - INFO - Imported utilities from dmbd_gaussian_blob_stabilized
+2025-03-13 08:01:19,079 - dmbd_gaussian_blob_integration - INFO - Successfully imported GaussianBlobSimulation from examples
+2025-03-13 08:01:19,079 - dmbd_numerical_stability_tests - INFO - Imported DMBD from dmbd.dmbd
+2025-03-13 08:01:19,080 - dmbd_numerical_stability_tests - INFO - Imported GaussianBlobSimulation
+2025-03-13 08:01:19,397 - dmbd_test_runner - INFO - Successfully imported all test modules
+2025-03-13 08:01:19,397 - dmbd_test_runner - INFO - Successfully imported 7 test modules
+2025-03-13 08:01:19,399 - dmbd_test_runner - INFO - Successfully imported DMBD dimensions test
+2025-03-13 08:01:20,226 - dmbd_dimensions_test - INFO - Matrix shapes test completed successfully
+2025-03-13 08:01:20,228 - dmbd_dimensions_test - INFO - Testing: Feature dimension mismatch
+2025-03-13 08:01:20,241 - dmbd_dimensions_test - WARNING - Expected error for Feature dimension mismatch but none occurred
+2025-03-13 08:01:20,242 - dmbd_dimensions_test - INFO - Error for Feature dimension mismatch as expected: Expected error for Feature dimension mismatch but none occurred
+2025-03-13 08:01:20,242 - dmbd_dimensions_test - INFO - Testing: Batch dimension mismatch
+2025-03-13 08:01:20,266 - dmbd_dimensions_test - WARNING - Expected error for Batch dimension mismatch but none occurred
+2025-03-13 08:01:20,266 - dmbd_dimensions_test - INFO - Error for Batch dimension mismatch as expected: Expected error for Batch dimension mismatch but none occurred
+2025-03-13 08:01:20,266 - dmbd_dimensions_test - INFO - Testing: Time dimension zero
+2025-03-13 08:01:20,287 - dmbd_dimensions_test - WARNING - Expected error for Time dimension zero but none occurred
+2025-03-13 08:01:20,287 - dmbd_dimensions_test - INFO - Error for Time dimension zero as expected: Expected error for Time dimension zero but none occurred
+2025-03-13 08:01:20,287 - dmbd_dimensions_test - INFO - Testing: Correct dimensions
+2025-03-13 08:01:20,306 - dmbd_dimensions_test - INFO - No error for Correct dimensions as expected
+2025-03-13 08:01:20,306 - dmbd_dimensions_test - INFO - Dimension mismatch test completed
+2025-03-13 08:01:20,307 - dmbd_dimensions_test - INFO - Testing regularization strength: 0
+2025-03-13 08:01:20,316 - dmbd_dimensions_test - WARNING - Matrix Zero on diagonal: Inversion failed with error: linalg.inv: The diagonal element 5 is zero, the inversion could not be completed because the input matrix is singular.
+2025-03-13 08:01:20,325 - dmbd_dimensions_test - WARNING - Matrix Identical rows: Inversion failed with error: linalg.inv: The diagonal element 2 is zero, the inversion could not be completed because the input matrix is singular.
+2025-03-13 08:01:20,326 - dmbd_dimensions_test - INFO - Matrix High condition number: Inversion successful, Error: 0.000009
+2025-03-13 08:01:20,327 - dmbd_dimensions_test - ERROR - Error testing matrix High condition number: 189811168.0 not less than 100000000.0 : Condition number too high: 189811168.0
+2025-03-13 08:01:20,327 - dmbd_dimensions_test - INFO - Regularization 0: Success rate 0.33
+2025-03-13 08:01:20,449 - dmbd_dimensions_test - INFO - DMBD update with regularization 0: Success
+2025-03-13 08:01:20,449 - dmbd_dimensions_test - INFO - Testing regularization strength: 1e-08
+2025-03-13 08:01:20,449 - dmbd_dimensions_test - INFO - Applied regularization: 1e-08
+2025-03-13 08:01:20,449 - dmbd_dimensions_test - INFO - Matrix Zero on diagonal: Inversion successful, Error: 0.000000
+2025-03-13 08:01:20,449 - dmbd_dimensions_test - INFO - Applied regularization: 1e-08
+2025-03-13 08:01:20,454 - dmbd_dimensions_test - WARNING - Matrix Identical rows: Inversion failed with error: linalg.inv: The diagonal element 2 is zero, the inversion could not be completed because the input matrix is singular.
+2025-03-13 08:01:20,454 - dmbd_dimensions_test - INFO - Applied regularization: 1e-08
+2025-03-13 08:01:20,455 - dmbd_dimensions_test - INFO - Matrix High condition number: Inversion successful, Error: 0.000005
+2025-03-13 08:01:20,455 - dmbd_dimensions_test - INFO - Regularization 1e-08: Success rate 0.67
+2025-03-13 08:01:20,551 - dmbd_dimensions_test - INFO - DMBD update with regularization 1e-08: Success
+2025-03-13 08:01:20,551 - dmbd_dimensions_test - INFO - Testing regularization strength: 0.0001
+2025-03-13 08:01:20,551 - dmbd_dimensions_test - INFO - Applied regularization: 0.0001
+2025-03-13 08:01:20,552 - dmbd_dimensions_test - INFO - Matrix Zero on diagonal: Inversion successful, Error: 0.000000
+2025-03-13 08:01:20,552 - dmbd_dimensions_test - INFO - Applied regularization: 0.0001
+2025-03-13 08:01:20,552 - dmbd_dimensions_test - INFO - Matrix Identical rows: Inversion successful, Error: 0.005393
+2025-03-13 08:01:20,552 - dmbd_dimensions_test - INFO - Applied regularization: 0.0001
+2025-03-13 08:01:20,552 - dmbd_dimensions_test - INFO - Matrix High condition number: Inversion successful, Error: 0.003762
+2025-03-13 08:01:20,552 - dmbd_dimensions_test - ERROR - Error testing matrix High condition number: 34916286464.0 not less than 100000000.0 : Condition number too high: 34916286464.0
+2025-03-13 08:01:20,553 - dmbd_dimensions_test - INFO - Regularization 0.0001: Success rate 1.00
+2025-03-13 08:01:20,658 - dmbd_dimensions_test - INFO - DMBD update with regularization 0.0001: Success
+2025-03-13 08:01:20,658 - dmbd_dimensions_test - INFO - Testing regularization strength: 0.01
+2025-03-13 08:01:20,658 - dmbd_dimensions_test - INFO - Applied regularization: 0.01
+2025-03-13 08:01:20,658 - dmbd_dimensions_test - INFO - Matrix Zero on diagonal: Inversion successful, Error: 0.000000
+2025-03-13 08:01:20,658 - dmbd_dimensions_test - INFO - Applied regularization: 0.01
+2025-03-13 08:01:20,659 - dmbd_dimensions_test - INFO - Matrix Identical rows: Inversion successful, Error: 0.000056
+2025-03-13 08:01:20,659 - dmbd_dimensions_test - INFO - Applied regularization: 0.01
+2025-03-13 08:01:20,659 - dmbd_dimensions_test - INFO - Matrix High condition number: Inversion successful, Error: 0.000001
+2025-03-13 08:01:20,659 - dmbd_dimensions_test - INFO - Regularization 0.01: Success rate 1.00
+2025-03-13 08:01:20,762 - dmbd_dimensions_test - INFO - DMBD update with regularization 0.01: Success
+2025-03-13 08:01:20,762 - dmbd_dimensions_test - INFO - Testing regularization strength: 0.1
+2025-03-13 08:01:20,763 - dmbd_dimensions_test - INFO - Applied regularization: 0.1
+2025-03-13 08:01:20,763 - dmbd_dimensions_test - INFO - Matrix Zero on diagonal: Inversion successful, Error: 0.000000
+2025-03-13 08:01:20,763 - dmbd_dimensions_test - INFO - Applied regularization: 0.1
+2025-03-13 08:01:20,763 - dmbd_dimensions_test - INFO - Matrix Identical rows: Inversion successful, Error: 0.000005
+2025-03-13 08:01:20,763 - dmbd_dimensions_test - INFO - Applied regularization: 0.1
+2025-03-13 08:01:20,763 - dmbd_dimensions_test - INFO - Matrix High condition number: Inversion successful, Error: 0.000001
+2025-03-13 08:01:20,764 - dmbd_dimensions_test - INFO - Regularization 0.1: Success rate 1.00
+2025-03-13 08:01:20,859 - dmbd_dimensions_test - INFO - DMBD update with regularization 0.1: Success
+2025-03-13 08:01:20,859 - dmbd_test_runner - WARNING - Dimensions test FAILED: 2 errors, 0 failures
+2025-03-13 08:01:20,859 - dmbd_test_runner - INFO - Generating comprehensive test report...
+2025-03-13 08:01:20,969 - dmbd_test_runner - INFO - Generated graphical summary of test results
+2025-03-13 08:01:20,969 - dmbd_test_runner - INFO - Report generated at fork/test_results/reports/dmbd_test_report_20250313_080120.txt
+2025-03-13 08:01:20,969 - dmbd_test_runner - INFO - Test report generated at: fork/test_results/reports/dmbd_test_report_20250313_080120.txt
+2025-03-13 08:01:20,969 - dmbd_test_runner - INFO - Test logs are available at: fork/test_results/logs/dmbd_test.log
+2025-03-13 08:02:14,457 - dmbd_test_runner - INFO - Test outputs will be saved to: fork/test_results
+2025-03-13 08:02:14,458 - dmbd_test_runner - INFO - Test reports will be saved to: fork/test_results/reports
+2025-03-13 08:02:14,458 - dmbd_test_runner - INFO - Test logs will be saved to: fork/test_results/logs
+2025-03-13 08:02:14,464 - dmbd_test_runner - INFO - Successfully imported DMBD module from alternative path
+2025-03-13 08:02:14,508 - dmbd_dimensions_test - INFO - Successfully imported DMBD from root
+2025-03-13 08:02:14,509 - dmbd_gaussian_stability_test - INFO - Successfully imported stability utilities
+2025-03-13 08:02:14,509 - dmbd_gaussian_stability_test - INFO - Imported DMBD from dmbd.dmbd
+2025-03-13 08:02:14,514 - dmbd_gaussian_stability_test - INFO - Imported GaussianBlobSimulation
+2025-03-13 08:02:14,515 - dmbd_gaussian_stability_test - INFO - Imported utilities from dmbd_gaussian_blob_stabilized
+2025-03-13 08:02:14,515 - dmbd_gaussian_blob_integration - INFO - Successfully imported GaussianBlobSimulation from examples
+2025-03-13 08:02:14,516 - dmbd_numerical_stability_tests - INFO - Imported DMBD from dmbd.dmbd
+2025-03-13 08:02:14,516 - dmbd_numerical_stability_tests - INFO - Imported GaussianBlobSimulation
+2025-03-13 08:02:14,729 - dmbd_test_runner - INFO - Successfully imported all test modules
+2025-03-13 08:02:14,729 - dmbd_test_runner - INFO - Successfully imported 7 test modules
+2025-03-13 08:02:14,730 - dmbd_test_runner - INFO - Successfully imported DMBD dimensions test
+2025-03-13 08:02:14,734 - dmbd_dimensions_test - INFO - Testing dimensions: features=6, roles=2
+2025-03-13 08:02:14,735 - dmbd_dimensions_test - INFO - Testing: Feature dimension mismatch
+2025-03-13 08:02:14,748 - dmbd_dimensions_test - WARNING - Expected error for Feature dimension mismatch but none occurred
+2025-03-13 08:02:14,748 - dmbd_dimensions_test - INFO - Error for Feature dimension mismatch as expected: Expected error for Feature dimension mismatch but none occurred
+2025-03-13 08:02:14,748 - dmbd_dimensions_test - INFO - Testing: Batch dimension mismatch
+2025-03-13 08:02:14,761 - dmbd_dimensions_test - WARNING - Expected error for Batch dimension mismatch but none occurred
+2025-03-13 08:02:14,761 - dmbd_dimensions_test - INFO - Error for Batch dimension mismatch as expected: Expected error for Batch dimension mismatch but none occurred
+2025-03-13 08:02:14,761 - dmbd_dimensions_test - INFO - Testing: Time dimension zero
+2025-03-13 08:02:14,775 - dmbd_dimensions_test - WARNING - Expected error for Time dimension zero but none occurred
+2025-03-13 08:02:14,775 - dmbd_dimensions_test - INFO - Error for Time dimension zero as expected: Expected error for Time dimension zero but none occurred
+2025-03-13 08:02:14,776 - dmbd_dimensions_test - INFO - Testing: Correct dimensions
+2025-03-13 08:02:14,790 - dmbd_dimensions_test - INFO - No error for Correct dimensions as expected
+2025-03-13 08:02:14,791 - dmbd_dimensions_test - INFO - Dimension mismatch test completed
+2025-03-13 08:02:14,791 - dmbd_dimensions_test - INFO - Testing regularization strength: 0
+2025-03-13 08:02:14,797 - dmbd_dimensions_test - WARNING - Matrix Zero on diagonal: Inversion failed with error: linalg.inv: The diagonal element 5 is zero, the inversion could not be completed because the input matrix is singular.
+2025-03-13 08:02:14,802 - dmbd_dimensions_test - WARNING - Matrix Identical rows: Inversion failed with error: linalg.inv: The diagonal element 2 is zero, the inversion could not be completed because the input matrix is singular.
+2025-03-13 08:02:14,803 - dmbd_dimensions_test - INFO - Matrix High condition number: Inversion successful, Error: 0.000007
+2025-03-13 08:02:14,803 - dmbd_dimensions_test - INFO - Regularization 0: Success rate 0.33
+2025-03-13 08:02:14,887 - dmbd_dimensions_test - INFO - DMBD update with regularization 0: Success
+2025-03-13 08:02:14,887 - dmbd_dimensions_test - INFO - Testing regularization strength: 1e-08
+2025-03-13 08:02:14,887 - dmbd_dimensions_test - INFO - Applied regularization: 1e-08
+2025-03-13 08:02:14,887 - dmbd_dimensions_test - INFO - Matrix Zero on diagonal: Inversion successful, Error: 0.000000
+2025-03-13 08:02:14,888 - dmbd_dimensions_test - INFO - Applied regularization: 1e-08
+2025-03-13 08:02:14,893 - dmbd_dimensions_test - WARNING - Matrix Identical rows: Inversion failed with error: linalg.inv: The diagonal element 2 is zero, the inversion could not be completed because the input matrix is singular.
+2025-03-13 08:02:14,893 - dmbd_dimensions_test - INFO - Applied regularization: 1e-08
+2025-03-13 08:02:14,894 - dmbd_dimensions_test - INFO - Matrix High condition number: Inversion successful, Error: 0.000052
+2025-03-13 08:02:14,894 - dmbd_dimensions_test - ERROR - Error testing matrix High condition number: 449601088.0 not less than 100000000.0 : Condition number too high: 449601088.0
+2025-03-13 08:02:14,894 - dmbd_dimensions_test - INFO - Regularization 1e-08: Success rate 0.67
+2025-03-13 08:02:14,980 - dmbd_dimensions_test - INFO - DMBD update with regularization 1e-08: Success
+2025-03-13 08:02:14,981 - dmbd_dimensions_test - INFO - Testing regularization strength: 0.0001
+2025-03-13 08:02:14,981 - dmbd_dimensions_test - INFO - Applied regularization: 0.0001
+2025-03-13 08:02:14,981 - dmbd_dimensions_test - INFO - Matrix Zero on diagonal: Inversion successful, Error: 0.000000
+2025-03-13 08:02:14,981 - dmbd_dimensions_test - INFO - Applied regularization: 0.0001
+2025-03-13 08:02:14,981 - dmbd_dimensions_test - INFO - Matrix Identical rows: Inversion successful, Error: 0.005393
+2025-03-13 08:02:14,981 - dmbd_dimensions_test - INFO - Applied regularization: 0.0001
+2025-03-13 08:02:14,982 - dmbd_dimensions_test - INFO - Matrix High condition number: Inversion successful, Error: 0.000003
+2025-03-13 08:02:14,982 - dmbd_dimensions_test - INFO - Regularization 0.0001: Success rate 1.00
+2025-03-13 08:02:15,070 - dmbd_dimensions_test - INFO - DMBD update with regularization 0.0001: Success
+2025-03-13 08:02:15,070 - dmbd_dimensions_test - INFO - Testing regularization strength: 0.01
+2025-03-13 08:02:15,071 - dmbd_dimensions_test - INFO - Applied regularization: 0.01
+2025-03-13 08:02:15,071 - dmbd_dimensions_test - INFO - Matrix Zero on diagonal: Inversion successful, Error: 0.000000
+2025-03-13 08:02:15,071 - dmbd_dimensions_test - INFO - Applied regularization: 0.01
+2025-03-13 08:02:15,071 - dmbd_dimensions_test - INFO - Matrix Identical rows: Inversion successful, Error: 0.000056
+2025-03-13 08:02:15,071 - dmbd_dimensions_test - INFO - Applied regularization: 0.01
+2025-03-13 08:02:15,072 - dmbd_dimensions_test - INFO - Matrix High condition number: Inversion successful, Error: 0.000001
+2025-03-13 08:02:15,072 - dmbd_dimensions_test - INFO - Regularization 0.01: Success rate 1.00
+2025-03-13 08:02:15,157 - dmbd_dimensions_test - INFO - DMBD update with regularization 0.01: Success
+2025-03-13 08:02:15,158 - dmbd_dimensions_test - INFO - Testing regularization strength: 0.1
+2025-03-13 08:02:15,158 - dmbd_dimensions_test - INFO - Applied regularization: 0.1
+2025-03-13 08:02:15,158 - dmbd_dimensions_test - INFO - Matrix Zero on diagonal: Inversion successful, Error: 0.000000
+2025-03-13 08:02:15,158 - dmbd_dimensions_test - INFO - Applied regularization: 0.1
+2025-03-13 08:02:15,158 - dmbd_dimensions_test - INFO - Matrix Identical rows: Inversion successful, Error: 0.000005
+2025-03-13 08:02:15,158 - dmbd_dimensions_test - INFO - Applied regularization: 0.1
+2025-03-13 08:02:15,159 - dmbd_dimensions_test - INFO - Matrix High condition number: Inversion successful, Error: 0.000001
+2025-03-13 08:02:15,159 - dmbd_dimensions_test - INFO - Regularization 0.1: Success rate 1.00
+2025-03-13 08:02:15,244 - dmbd_dimensions_test - INFO - DMBD update with regularization 0.1: Success
+2025-03-13 08:02:15,244 - dmbd_test_runner - WARNING - Dimensions test FAILED: 3 errors, 0 failures
+2025-03-13 08:02:15,245 - dmbd_test_runner - INFO - Generating comprehensive test report...
+2025-03-13 08:02:15,345 - dmbd_test_runner - INFO - Generated graphical summary of test results
+2025-03-13 08:02:15,346 - dmbd_test_runner - INFO - Report generated at fork/test_results/reports/dmbd_test_report_20250313_080215.txt
+2025-03-13 08:02:15,346 - dmbd_test_runner - INFO - Test report generated at: fork/test_results/reports/dmbd_test_report_20250313_080215.txt
+2025-03-13 08:02:15,346 - dmbd_test_runner - INFO - Test logs are available at: fork/test_results/logs/dmbd_test.log
+2025-03-13 08:04:22,319 - dmbd_test_runner - INFO - Test outputs will be saved to: fork/test_results
+2025-03-13 08:04:22,319 - dmbd_test_runner - INFO - Test reports will be saved to: fork/test_results/reports
+2025-03-13 08:04:22,319 - dmbd_test_runner - INFO - Test logs will be saved to: fork/test_results/logs
+2025-03-13 08:04:22,329 - dmbd_test_runner - INFO - Successfully imported DMBD module from alternative path
+2025-03-13 08:04:22,403 - dmbd_dimensions_test - INFO - Successfully imported DMBD from root
+2025-03-13 08:04:22,404 - dmbd_gaussian_stability_test - INFO - Successfully imported stability utilities
+2025-03-13 08:04:22,404 - dmbd_gaussian_stability_test - INFO - Imported DMBD from dmbd.dmbd
+2025-03-13 08:04:22,415 - dmbd_gaussian_stability_test - INFO - Imported GaussianBlobSimulation
+2025-03-13 08:04:22,416 - dmbd_gaussian_stability_test - INFO - Imported utilities from dmbd_gaussian_blob_stabilized
+2025-03-13 08:04:22,417 - dmbd_gaussian_blob_integration - INFO - Successfully imported GaussianBlobSimulation from examples
+2025-03-13 08:04:22,417 - dmbd_numerical_stability_tests - INFO - Imported DMBD from dmbd.dmbd
+2025-03-13 08:04:22,418 - dmbd_numerical_stability_tests - INFO - Imported GaussianBlobSimulation
+2025-03-13 08:04:22,698 - dmbd_test_runner - INFO - Successfully imported all test modules
+2025-03-13 08:04:22,698 - dmbd_test_runner - INFO - Successfully imported 7 test modules
+2025-03-13 08:04:22,699 - dmbd_test_runner - INFO - Successfully imported DMBD dimensions test
+2025-03-13 08:04:22,699 - dmbd_dimensions_test - INFO - Testing matrix shapes: features=6, roles=2
+2025-03-13 08:04:22,705 - dmbd_dimensions_test - INFO - Testing dimensions: features=6, roles=2
+2025-03-13 08:04:22,709 - dmbd_dimensions_test - WARNING - Dimension issue: Error in execution:
+ DMBD.update() missing 1 required positional argument: 'u'
+2025-03-13 08:04:22,709 - dmbd_dimensions_test - WARNING - Dimension issue: DMBD.update() missing 1 required positional argument: 'u'
+2025-03-13 08:04:22,714 - dmbd_dimensions_test - ERROR - Error during gradient tracking: DMBD.update() missing 1 required positional argument: 'u'
+2025-03-13 08:04:22,715 - dmbd_dimensions_test - INFO - Testing: Feature dimension mismatch
+2025-03-13 08:04:22,733 - dmbd_dimensions_test - WARNING - Expected error for Feature dimension mismatch but none occurred
+2025-03-13 08:04:22,733 - dmbd_dimensions_test - INFO - Error for Feature dimension mismatch as expected: Expected error for Feature dimension mismatch but none occurred
+2025-03-13 08:04:22,733 - dmbd_dimensions_test - INFO - Testing: Batch dimension mismatch
+2025-03-13 08:04:22,748 - dmbd_dimensions_test - WARNING - Expected error for Batch dimension mismatch but none occurred
+2025-03-13 08:04:22,748 - dmbd_dimensions_test - INFO - Error for Batch dimension mismatch as expected: Expected error for Batch dimension mismatch but none occurred
+2025-03-13 08:04:22,748 - dmbd_dimensions_test - INFO - Testing: Time dimension zero
+2025-03-13 08:04:22,766 - dmbd_dimensions_test - WARNING - Expected error for Time dimension zero but none occurred
+2025-03-13 08:04:22,766 - dmbd_dimensions_test - INFO - Error for Time dimension zero as expected: Expected error for Time dimension zero but none occurred
+2025-03-13 08:04:22,767 - dmbd_dimensions_test - INFO - Testing: Correct dimensions
+2025-03-13 08:04:22,787 - dmbd_dimensions_test - INFO - No error for Correct dimensions as expected
+2025-03-13 08:04:22,787 - dmbd_dimensions_test - INFO - Dimension mismatch test completed
+2025-03-13 08:04:22,788 - dmbd_dimensions_test - INFO - Testing regularization strength: 0
+2025-03-13 08:04:22,796 - dmbd_dimensions_test - WARNING - Matrix Zero on diagonal: Inversion failed with error: linalg.inv: The diagonal element 5 is zero, the inversion could not be completed because the input matrix is singular.
+2025-03-13 08:04:22,804 - dmbd_dimensions_test - WARNING - Matrix Identical rows: Inversion failed with error: linalg.inv: The diagonal element 2 is zero, the inversion could not be completed because the input matrix is singular.
+2025-03-13 08:04:22,804 - dmbd_dimensions_test - INFO - Matrix High condition number: Inversion successful, Error: 0.000001
+2025-03-13 08:04:22,805 - dmbd_dimensions_test - INFO - Regularization 0: Success rate 0.33
+2025-03-13 08:04:22,918 - dmbd_dimensions_test - INFO - DMBD update with regularization 0: Success
+2025-03-13 08:04:22,918 - dmbd_dimensions_test - INFO - Testing regularization strength: 1e-08
+2025-03-13 08:04:22,919 - dmbd_dimensions_test - INFO - Applied regularization: 1e-08
+2025-03-13 08:04:22,919 - dmbd_dimensions_test - INFO - Matrix Zero on diagonal: Inversion successful, Error: 0.000000
+2025-03-13 08:04:22,919 - dmbd_dimensions_test - INFO - Applied regularization: 1e-08
+2025-03-13 08:04:22,930 - dmbd_dimensions_test - WARNING - Matrix Identical rows: Inversion failed with error: linalg.inv: The diagonal element 2 is zero, the inversion could not be completed because the input matrix is singular.
+2025-03-13 08:04:22,931 - dmbd_dimensions_test - INFO - Applied regularization: 1e-08
+2025-03-13 08:04:22,931 - dmbd_dimensions_test - INFO - Matrix High condition number: Inversion successful, Error: 0.000003
+2025-03-13 08:04:22,931 - dmbd_dimensions_test - INFO - Regularization 1e-08: Success rate 0.67
+2025-03-13 08:04:23,131 - dmbd_dimensions_test - INFO - DMBD update with regularization 1e-08: Success
+2025-03-13 08:04:23,132 - dmbd_dimensions_test - INFO - Testing regularization strength: 0.0001
+2025-03-13 08:04:23,132 - dmbd_dimensions_test - INFO - Applied regularization: 0.0001
+2025-03-13 08:04:23,132 - dmbd_dimensions_test - INFO - Matrix Zero on diagonal: Inversion successful, Error: 0.000000
+2025-03-13 08:04:23,132 - dmbd_dimensions_test - INFO - Applied regularization: 0.0001
+2025-03-13 08:04:23,132 - dmbd_dimensions_test - INFO - Matrix Identical rows: Inversion successful, Error: 0.005393
+2025-03-13 08:04:23,133 - dmbd_dimensions_test - INFO - Applied regularization: 0.0001
+2025-03-13 08:04:23,133 - dmbd_dimensions_test - INFO - Matrix High condition number: Inversion successful, Error: 0.000125
+2025-03-13 08:04:23,133 - dmbd_dimensions_test - ERROR - Error testing matrix High condition number: 235798304.0 not less than 100000000.0 : Condition number too high: 235798304.0
+2025-03-13 08:04:23,133 - dmbd_dimensions_test - INFO - Regularization 0.0001: Success rate 1.00
+2025-03-13 08:04:23,298 - dmbd_dimensions_test - INFO - DMBD update with regularization 0.0001: Success
+2025-03-13 08:04:23,299 - dmbd_dimensions_test - INFO - Testing regularization strength: 0.01
+2025-03-13 08:04:23,299 - dmbd_dimensions_test - INFO - Applied regularization: 0.01
+2025-03-13 08:04:23,299 - dmbd_dimensions_test - INFO - Matrix Zero on diagonal: Inversion successful, Error: 0.000000
+2025-03-13 08:04:23,300 - dmbd_dimensions_test - INFO - Applied regularization: 0.01
+2025-03-13 08:04:23,300 - dmbd_dimensions_test - INFO - Matrix Identical rows: Inversion successful, Error: 0.000056
+2025-03-13 08:04:23,300 - dmbd_dimensions_test - INFO - Applied regularization: 0.01
+2025-03-13 08:04:23,300 - dmbd_dimensions_test - INFO - Matrix High condition number: Inversion successful, Error: 0.000006
+2025-03-13 08:04:23,300 - dmbd_dimensions_test - INFO - Regularization 0.01: Success rate 1.00
+2025-03-13 08:04:23,444 - dmbd_dimensions_test - INFO - DMBD update with regularization 0.01: Success
+2025-03-13 08:04:23,445 - dmbd_dimensions_test - INFO - Testing regularization strength: 0.1
+2025-03-13 08:04:23,445 - dmbd_dimensions_test - INFO - Applied regularization: 0.1
+2025-03-13 08:04:23,446 - dmbd_dimensions_test - INFO - Matrix Zero on diagonal: Inversion successful, Error: 0.000000
+2025-03-13 08:04:23,446 - dmbd_dimensions_test - INFO - Applied regularization: 0.1
+2025-03-13 08:04:23,446 - dmbd_dimensions_test - INFO - Matrix Identical rows: Inversion successful, Error: 0.000005
+2025-03-13 08:04:23,446 - dmbd_dimensions_test - INFO - Applied regularization: 0.1
+2025-03-13 08:04:23,447 - dmbd_dimensions_test - INFO - Matrix High condition number: Inversion successful, Error: 0.000003
+2025-03-13 08:04:23,447 - dmbd_dimensions_test - INFO - Regularization 0.1: Success rate 1.00
+2025-03-13 08:04:23,593 - dmbd_dimensions_test - INFO - DMBD update with regularization 0.1: Success
+2025-03-13 08:04:23,594 - dmbd_test_runner - WARNING - Dimensions test FAILED: 2 errors, 1 failures
+2025-03-13 08:04:23,594 - dmbd_test_runner - INFO - Generating comprehensive test report...
+2025-03-13 08:04:23,758 - dmbd_test_runner - INFO - Generated graphical summary of test results
+2025-03-13 08:04:23,758 - dmbd_test_runner - INFO - Report generated at fork/test_results/reports/dmbd_test_report_20250313_080423.txt
+2025-03-13 08:04:23,758 - dmbd_test_runner - INFO - Test report generated at: fork/test_results/reports/dmbd_test_report_20250313_080423.txt
+2025-03-13 08:04:23,758 - dmbd_test_runner - INFO - Test logs are available at: fork/test_results/logs/dmbd_test.log
+2025-03-13 08:05:38,369 - dmbd_test_runner - INFO - Test outputs will be saved to: fork/test_results
+2025-03-13 08:05:38,369 - dmbd_test_runner - INFO - Test reports will be saved to: fork/test_results/reports
+2025-03-13 08:05:38,369 - dmbd_test_runner - INFO - Test logs will be saved to: fork/test_results/logs
+2025-03-13 08:05:38,377 - dmbd_test_runner - INFO - Successfully imported DMBD module from alternative path
+2025-03-13 08:05:38,438 - dmbd_dimensions_test - INFO - Successfully imported DMBD from root
+2025-03-13 08:05:38,439 - dmbd_gaussian_stability_test - INFO - Successfully imported stability utilities
+2025-03-13 08:05:38,439 - dmbd_gaussian_stability_test - INFO - Imported DMBD from dmbd.dmbd
+2025-03-13 08:05:38,448 - dmbd_gaussian_stability_test - INFO - Imported GaussianBlobSimulation
+2025-03-13 08:05:38,448 - dmbd_gaussian_stability_test - INFO - Imported utilities from dmbd_gaussian_blob_stabilized
+2025-03-13 08:05:38,449 - dmbd_gaussian_blob_integration - INFO - Successfully imported GaussianBlobSimulation from examples
+2025-03-13 08:05:38,449 - dmbd_numerical_stability_tests - INFO - Imported DMBD from dmbd.dmbd
+2025-03-13 08:05:38,449 - dmbd_numerical_stability_tests - INFO - Imported GaussianBlobSimulation
+2025-03-13 08:05:38,713 - dmbd_test_runner - INFO - Successfully imported all test modules
+2025-03-13 08:05:38,713 - dmbd_test_runner - INFO - Successfully imported 7 test modules
+2025-03-13 08:05:38,714 - dmbd_test_runner - INFO - Successfully imported DMBD dimensions test
+2025-03-13 08:05:38,714 - dmbd_dimensions_test - INFO - Testing matrix shapes: features=6, roles=2
+2025-03-13 08:05:38,719 - dmbd_dimensions_test - INFO - Testing dimensions: features=6, roles=2
+2025-03-13 08:05:38,731 - dmbd_dimensions_test - INFO - Testing: Feature dimension mismatch
+2025-03-13 08:05:38,746 - dmbd_dimensions_test - WARNING - Expected error for Feature dimension mismatch but none occurred
+2025-03-13 08:05:38,746 - dmbd_dimensions_test - INFO - Error for Feature dimension mismatch as expected: Expected error for Feature dimension mismatch but none occurred
+2025-03-13 08:05:38,746 - dmbd_dimensions_test - INFO - Testing: Batch dimension mismatch
+2025-03-13 08:05:38,765 - dmbd_dimensions_test - WARNING - Expected error for Batch dimension mismatch but none occurred
+2025-03-13 08:05:38,765 - dmbd_dimensions_test - INFO - Error for Batch dimension mismatch as expected: Expected error for Batch dimension mismatch but none occurred
+2025-03-13 08:05:38,765 - dmbd_dimensions_test - INFO - Testing: Time dimension zero
+2025-03-13 08:05:38,785 - dmbd_dimensions_test - WARNING - Expected error for Time dimension zero but none occurred
+2025-03-13 08:05:38,786 - dmbd_dimensions_test - INFO - Error for Time dimension zero as expected: Expected error for Time dimension zero but none occurred
+2025-03-13 08:05:38,786 - dmbd_dimensions_test - INFO - Testing: Correct dimensions
+2025-03-13 08:05:38,805 - dmbd_dimensions_test - INFO - No error for Correct dimensions as expected
+2025-03-13 08:05:38,805 - dmbd_dimensions_test - INFO - Dimension mismatch test completed
+2025-03-13 08:05:38,805 - dmbd_dimensions_test - INFO - Testing regularization strength: 0
+2025-03-13 08:05:38,812 - dmbd_dimensions_test - WARNING - Matrix Zero on diagonal: Inversion failed with error: linalg.inv: The diagonal element 5 is zero, the inversion could not be completed because the input matrix is singular.
+2025-03-13 08:05:38,819 - dmbd_dimensions_test - WARNING - Matrix Identical rows: Inversion failed with error: linalg.inv: The diagonal element 2 is zero, the inversion could not be completed because the input matrix is singular.
+2025-03-13 08:05:38,820 - dmbd_dimensions_test - INFO - Matrix High condition number: Inversion successful, Error: 0.000006
+2025-03-13 08:05:38,820 - dmbd_dimensions_test - INFO - Regularization 0: Success rate 0.33
+2025-03-13 08:05:38,936 - dmbd_dimensions_test - INFO - DMBD update with regularization 0: Success
+2025-03-13 08:05:38,936 - dmbd_dimensions_test - INFO - Testing regularization strength: 1e-08
+2025-03-13 08:05:38,936 - dmbd_dimensions_test - INFO - Applied regularization: 1e-08
+2025-03-13 08:05:38,936 - dmbd_dimensions_test - INFO - Matrix Zero on diagonal: Inversion successful, Error: 0.000000
+2025-03-13 08:05:38,937 - dmbd_dimensions_test - INFO - Applied regularization: 1e-08
+2025-03-13 08:05:38,943 - dmbd_dimensions_test - WARNING - Matrix Identical rows: Inversion failed with error: linalg.inv: The diagonal element 2 is zero, the inversion could not be completed because the input matrix is singular.
+2025-03-13 08:05:38,943 - dmbd_dimensions_test - INFO - Applied regularization: 1e-08
+2025-03-13 08:05:38,943 - dmbd_dimensions_test - INFO - Matrix High condition number: Inversion successful, Error: 0.000002
+2025-03-13 08:05:38,943 - dmbd_dimensions_test - INFO - Regularization 1e-08: Success rate 0.67
+2025-03-13 08:05:39,051 - dmbd_dimensions_test - INFO - DMBD update with regularization 1e-08: Success
+2025-03-13 08:05:39,051 - dmbd_dimensions_test - INFO - Testing regularization strength: 0.0001
+2025-03-13 08:05:39,052 - dmbd_dimensions_test - INFO - Applied regularization: 0.0001
+2025-03-13 08:05:39,052 - dmbd_dimensions_test - INFO - Matrix Zero on diagonal: Inversion successful, Error: 0.000000
+2025-03-13 08:05:39,052 - dmbd_dimensions_test - INFO - Applied regularization: 0.0001
+2025-03-13 08:05:39,052 - dmbd_dimensions_test - INFO - Matrix Identical rows: Inversion successful, Error: 0.005393
+2025-03-13 08:05:39,052 - dmbd_dimensions_test - INFO - Applied regularization: 0.0001
+2025-03-13 08:05:39,052 - dmbd_dimensions_test - INFO - Matrix High condition number: Inversion successful, Error: 0.000026
+2025-03-13 08:05:39,052 - dmbd_dimensions_test - ERROR - Error testing matrix High condition number: 176323440.0 not less than 100000000.0 : Condition number too high: 176323440.0
+2025-03-13 08:05:39,053 - dmbd_dimensions_test - INFO - Regularization 0.0001: Success rate 1.00
+2025-03-13 08:05:39,158 - dmbd_dimensions_test - INFO - DMBD update with regularization 0.0001: Success
+2025-03-13 08:05:39,158 - dmbd_dimensions_test - INFO - Testing regularization strength: 0.01
+2025-03-13 08:05:39,158 - dmbd_dimensions_test - INFO - Applied regularization: 0.01
+2025-03-13 08:05:39,158 - dmbd_dimensions_test - INFO - Matrix Zero on diagonal: Inversion successful, Error: 0.000000
+2025-03-13 08:05:39,158 - dmbd_dimensions_test - INFO - Applied regularization: 0.01
+2025-03-13 08:05:39,159 - dmbd_dimensions_test - INFO - Matrix Identical rows: Inversion successful, Error: 0.000056
+2025-03-13 08:05:39,159 - dmbd_dimensions_test - INFO - Applied regularization: 0.01
+2025-03-13 08:05:39,159 - dmbd_dimensions_test - INFO - Matrix High condition number: Inversion successful, Error: 0.000010
+2025-03-13 08:05:39,159 - dmbd_dimensions_test - ERROR - Error testing matrix High condition number: 467513472.0 not less than 100000000.0 : Condition number too high: 467513472.0
+2025-03-13 08:05:39,159 - dmbd_dimensions_test - INFO - Regularization 0.01: Success rate 1.00
+2025-03-13 08:05:39,270 - dmbd_dimensions_test - INFO - DMBD update with regularization 0.01: Success
+2025-03-13 08:05:39,270 - dmbd_dimensions_test - INFO - Testing regularization strength: 0.1
+2025-03-13 08:05:39,270 - dmbd_dimensions_test - INFO - Applied regularization: 0.1
+2025-03-13 08:05:39,271 - dmbd_dimensions_test - INFO - Matrix Zero on diagonal: Inversion successful, Error: 0.000000
+2025-03-13 08:05:39,271 - dmbd_dimensions_test - INFO - Applied regularization: 0.1
+2025-03-13 08:05:39,271 - dmbd_dimensions_test - INFO - Matrix Identical rows: Inversion successful, Error: 0.000005
+2025-03-13 08:05:39,271 - dmbd_dimensions_test - INFO - Applied regularization: 0.1
+2025-03-13 08:05:39,271 - dmbd_dimensions_test - INFO - Matrix High condition number: Inversion successful, Error: 0.000001
+2025-03-13 08:05:39,271 - dmbd_dimensions_test - INFO - Regularization 0.1: Success rate 1.00
+2025-03-13 08:05:39,382 - dmbd_dimensions_test - INFO - DMBD update with regularization 0.1: Success
+2025-03-13 08:05:39,382 - dmbd_test_runner - WARNING - Dimensions test FAILED: 2 errors, 1 failures
+2025-03-13 08:05:39,383 - dmbd_test_runner - INFO - Generating comprehensive test report...
+2025-03-13 08:05:39,513 - dmbd_test_runner - INFO - Generated graphical summary of test results
+2025-03-13 08:05:39,513 - dmbd_test_runner - INFO - Report generated at fork/test_results/reports/dmbd_test_report_20250313_080539.txt
+2025-03-13 08:05:39,513 - dmbd_test_runner - INFO - Test report generated at: fork/test_results/reports/dmbd_test_report_20250313_080539.txt
+2025-03-13 08:05:39,513 - dmbd_test_runner - INFO - Test logs are available at: fork/test_results/logs/dmbd_test.log
+2025-03-13 08:06:59,328 - dmbd_test_runner - INFO - Test outputs will be saved to: fork/test_results
+2025-03-13 08:06:59,328 - dmbd_test_runner - INFO - Test reports will be saved to: fork/test_results/reports
+2025-03-13 08:06:59,328 - dmbd_test_runner - INFO - Test logs will be saved to: fork/test_results/logs
+2025-03-13 08:06:59,336 - dmbd_test_runner - INFO - Successfully imported DMBD module from alternative path
+2025-03-13 08:06:59,399 - dmbd_dimensions_test - INFO - Successfully imported DMBD from root
+2025-03-13 08:06:59,400 - dmbd_gaussian_stability_test - INFO - Successfully imported stability utilities
+2025-03-13 08:06:59,400 - dmbd_gaussian_stability_test - INFO - Imported DMBD from dmbd.dmbd
+2025-03-13 08:06:59,407 - dmbd_gaussian_stability_test - INFO - Imported GaussianBlobSimulation
+2025-03-13 08:06:59,408 - dmbd_gaussian_stability_test - INFO - Imported utilities from dmbd_gaussian_blob_stabilized
+2025-03-13 08:06:59,408 - dmbd_gaussian_blob_integration - INFO - Successfully imported GaussianBlobSimulation from examples
+2025-03-13 08:06:59,409 - dmbd_numerical_stability_tests - INFO - Imported DMBD from dmbd.dmbd
+2025-03-13 08:06:59,409 - dmbd_numerical_stability_tests - INFO - Imported GaussianBlobSimulation
+2025-03-13 08:06:59,729 - dmbd_test_runner - INFO - Successfully imported all test modules
+2025-03-13 08:06:59,729 - dmbd_test_runner - INFO - Successfully imported 7 test modules
+2025-03-13 08:06:59,730 - dmbd_test_runner - INFO - Successfully imported DMBD dimensions test
+2025-03-13 08:06:59,731 - dmbd_dimensions_test - INFO - Testing matrix shapes: features=6, roles=2
+2025-03-13 08:06:59,739 - dmbd_dimensions_test - INFO - Testing dimensions: features=6, roles=2
+2025-03-13 08:06:59,767 - dmbd_dimensions_test - ERROR - Error during gradient tracking: 0 not greater than 0 : Should have captured gradients during update
+2025-03-13 08:06:59,767 - dmbd_dimensions_test - INFO - Testing: Feature dimension mismatch
+2025-03-13 08:06:59,783 - dmbd_dimensions_test - WARNING - Expected error for Feature dimension mismatch but none occurred
+2025-03-13 08:06:59,784 - dmbd_dimensions_test - INFO - Error for Feature dimension mismatch as expected: Expected error for Feature dimension mismatch but none occurred
+2025-03-13 08:06:59,784 - dmbd_dimensions_test - INFO - Testing: Batch dimension mismatch
+2025-03-13 08:06:59,800 - dmbd_dimensions_test - WARNING - Expected error for Batch dimension mismatch but none occurred
+2025-03-13 08:06:59,800 - dmbd_dimensions_test - INFO - Error for Batch dimension mismatch as expected: Expected error for Batch dimension mismatch but none occurred
+2025-03-13 08:06:59,800 - dmbd_dimensions_test - INFO - Testing: Time dimension zero
+2025-03-13 08:06:59,817 - dmbd_dimensions_test - WARNING - Expected error for Time dimension zero but none occurred
+2025-03-13 08:06:59,817 - dmbd_dimensions_test - INFO - Error for Time dimension zero as expected: Expected error for Time dimension zero but none occurred
+2025-03-13 08:06:59,817 - dmbd_dimensions_test - INFO - Testing: Correct dimensions
+2025-03-13 08:06:59,835 - dmbd_dimensions_test - INFO - No error for Correct dimensions as expected
+2025-03-13 08:06:59,835 - dmbd_dimensions_test - INFO - Dimension mismatch test completed
+2025-03-13 08:06:59,835 - dmbd_dimensions_test - INFO - Testing regularization strength: 0
+2025-03-13 08:06:59,843 - dmbd_dimensions_test - WARNING - Matrix Zero on diagonal: Inversion failed with error: linalg.inv: The diagonal element 5 is zero, the inversion could not be completed because the input matrix is singular.
+2025-03-13 08:06:59,850 - dmbd_dimensions_test - WARNING - Matrix Identical rows: Inversion failed with error: linalg.inv: The diagonal element 2 is zero, the inversion could not be completed because the input matrix is singular.
+2025-03-13 08:06:59,850 - dmbd_dimensions_test - INFO - Matrix High condition number: Inversion successful, Error: 0.000006
+2025-03-13 08:06:59,850 - dmbd_dimensions_test - ERROR - Error testing matrix High condition number: 109364672.0 not less than 100000000.0 : Condition number too high: 109364672.0
+2025-03-13 08:06:59,850 - dmbd_dimensions_test - INFO - Regularization 0: Success rate 0.33
+2025-03-13 08:06:59,958 - dmbd_dimensions_test - INFO - DMBD update with regularization 0: Success
+2025-03-13 08:06:59,958 - dmbd_dimensions_test - INFO - Testing regularization strength: 1e-08
+2025-03-13 08:06:59,958 - dmbd_dimensions_test - INFO - Applied regularization: 1e-08
+2025-03-13 08:06:59,958 - dmbd_dimensions_test - INFO - Matrix Zero on diagonal: Inversion successful, Error: 0.000000
+2025-03-13 08:06:59,959 - dmbd_dimensions_test - INFO - Applied regularization: 1e-08
+2025-03-13 08:06:59,965 - dmbd_dimensions_test - WARNING - Matrix Identical rows: Inversion failed with error: linalg.inv: The diagonal element 2 is zero, the inversion could not be completed because the input matrix is singular.
+2025-03-13 08:06:59,965 - dmbd_dimensions_test - INFO - Applied regularization: 1e-08
+2025-03-13 08:06:59,965 - dmbd_dimensions_test - INFO - Matrix High condition number: Inversion successful, Error: 0.000001
+2025-03-13 08:06:59,966 - dmbd_dimensions_test - INFO - Regularization 1e-08: Success rate 0.67
+2025-03-13 08:07:00,070 - dmbd_dimensions_test - INFO - DMBD update with regularization 1e-08: Success
+2025-03-13 08:07:00,070 - dmbd_dimensions_test - INFO - Testing regularization strength: 0.0001
+2025-03-13 08:07:00,070 - dmbd_dimensions_test - INFO - Applied regularization: 0.0001
+2025-03-13 08:07:00,070 - dmbd_dimensions_test - INFO - Matrix Zero on diagonal: Inversion successful, Error: 0.000000
+2025-03-13 08:07:00,070 - dmbd_dimensions_test - INFO - Applied regularization: 0.0001
+2025-03-13 08:07:00,071 - dmbd_dimensions_test - INFO - Matrix Identical rows: Inversion successful, Error: 0.005393
+2025-03-13 08:07:00,071 - dmbd_dimensions_test - INFO - Applied regularization: 0.0001
+2025-03-13 08:07:00,071 - dmbd_dimensions_test - INFO - Matrix High condition number: Inversion successful, Error: 0.000038
+2025-03-13 08:07:00,071 - dmbd_dimensions_test - ERROR - Error testing matrix High condition number: 216603056.0 not less than 100000000.0 : Condition number too high: 216603056.0
+2025-03-13 08:07:00,071 - dmbd_dimensions_test - INFO - Regularization 0.0001: Success rate 1.00
+2025-03-13 08:07:00,177 - dmbd_dimensions_test - INFO - DMBD update with regularization 0.0001: Success
+2025-03-13 08:07:00,177 - dmbd_dimensions_test - INFO - Testing regularization strength: 0.01
+2025-03-13 08:07:00,178 - dmbd_dimensions_test - INFO - Applied regularization: 0.01
+2025-03-13 08:07:00,178 - dmbd_dimensions_test - INFO - Matrix Zero on diagonal: Inversion successful, Error: 0.000000
+2025-03-13 08:07:00,178 - dmbd_dimensions_test - INFO - Applied regularization: 0.01
+2025-03-13 08:07:00,178 - dmbd_dimensions_test - INFO - Matrix Identical rows: Inversion successful, Error: 0.000056
+2025-03-13 08:07:00,178 - dmbd_dimensions_test - INFO - Applied regularization: 0.01
+2025-03-13 08:07:00,179 - dmbd_dimensions_test - INFO - Matrix High condition number: Inversion successful, Error: 0.000007
+2025-03-13 08:07:00,179 - dmbd_dimensions_test - ERROR - Error testing matrix High condition number: 190005504.0 not less than 100000000.0 : Condition number too high: 190005504.0
+2025-03-13 08:07:00,179 - dmbd_dimensions_test - INFO - Regularization 0.01: Success rate 1.00
+2025-03-13 08:07:00,288 - dmbd_dimensions_test - INFO - DMBD update with regularization 0.01: Success
+2025-03-13 08:07:00,288 - dmbd_dimensions_test - INFO - Testing regularization strength: 0.1
+2025-03-13 08:07:00,289 - dmbd_dimensions_test - INFO - Applied regularization: 0.1
+2025-03-13 08:07:00,289 - dmbd_dimensions_test - INFO - Matrix Zero on diagonal: Inversion successful, Error: 0.000000
+2025-03-13 08:07:00,289 - dmbd_dimensions_test - INFO - Applied regularization: 0.1
+2025-03-13 08:07:00,289 - dmbd_dimensions_test - INFO - Matrix Identical rows: Inversion successful, Error: 0.000005
+2025-03-13 08:07:00,289 - dmbd_dimensions_test - INFO - Applied regularization: 0.1
+2025-03-13 08:07:00,289 - dmbd_dimensions_test - INFO - Matrix High condition number: Inversion successful, Error: 0.000002
+2025-03-13 08:07:00,290 - dmbd_dimensions_test - INFO - Regularization 0.1: Success rate 1.00
+2025-03-13 08:07:00,399 - dmbd_dimensions_test - INFO - DMBD update with regularization 0.1: Success
+2025-03-13 08:07:00,400 - dmbd_test_runner - WARNING - Dimensions test FAILED: 0 errors, 2 failures
+2025-03-13 08:07:00,400 - dmbd_test_runner - INFO - Generating comprehensive test report...
+2025-03-13 08:07:00,577 - dmbd_test_runner - INFO - Generated graphical summary of test results
+2025-03-13 08:07:00,577 - dmbd_test_runner - INFO - Report generated at fork/test_results/reports/dmbd_test_report_20250313_080700.txt
+2025-03-13 08:07:00,577 - dmbd_test_runner - INFO - Test report generated at: fork/test_results/reports/dmbd_test_report_20250313_080700.txt
+2025-03-13 08:07:00,577 - dmbd_test_runner - INFO - Test logs are available at: fork/test_results/logs/dmbd_test.log
+2025-03-13 08:08:36,170 - dmbd_test_runner - INFO - Test outputs will be saved to: fork/test_results
+2025-03-13 08:08:36,170 - dmbd_test_runner - INFO - Test reports will be saved to: fork/test_results/reports
+2025-03-13 08:08:36,170 - dmbd_test_runner - INFO - Test logs will be saved to: fork/test_results/logs
+2025-03-13 08:08:36,178 - dmbd_test_runner - INFO - Successfully imported DMBD module from alternative path
+2025-03-13 08:08:36,236 - dmbd_dimensions_test - INFO - Successfully imported DMBD from root
+2025-03-13 08:08:36,236 - dmbd_gaussian_stability_test - INFO - Successfully imported stability utilities
+2025-03-13 08:08:36,236 - dmbd_gaussian_stability_test - INFO - Imported DMBD from dmbd.dmbd
+2025-03-13 08:08:36,244 - dmbd_gaussian_stability_test - INFO - Imported GaussianBlobSimulation
+2025-03-13 08:08:36,245 - dmbd_gaussian_stability_test - INFO - Imported utilities from dmbd_gaussian_blob_stabilized
+2025-03-13 08:08:36,247 - dmbd_gaussian_blob_integration - INFO - Successfully imported GaussianBlobSimulation from examples
+2025-03-13 08:08:36,247 - dmbd_numerical_stability_tests - INFO - Imported DMBD from dmbd.dmbd
+2025-03-13 08:08:36,247 - dmbd_numerical_stability_tests - INFO - Imported GaussianBlobSimulation
+2025-03-13 08:08:36,523 - dmbd_test_runner - INFO - Successfully imported all test modules
+2025-03-13 08:08:36,523 - dmbd_test_runner - INFO - Successfully imported 7 test modules
+2025-03-13 08:08:36,524 - dmbd_test_runner - INFO - Successfully imported DMBD dimensions test
+2025-03-13 08:08:36,524 - dmbd_dimensions_test - INFO - Testing matrix shapes: features=6, roles=2
+2025-03-13 08:08:36,530 - dmbd_dimensions_test - INFO - Testing dimensions: features=6, roles=2
+2025-03-13 08:08:36,563 - dmbd_dimensions_test - ERROR - Error during gradient tracking: 0 not greater than 0 : Should have captured gradients during update
+2025-03-13 08:08:36,563 - dmbd_dimensions_test - INFO - Testing: Feature dimension mismatch
+2025-03-13 08:08:36,577 - dmbd_dimensions_test - WARNING - Expected error for Feature dimension mismatch but none occurred
+2025-03-13 08:08:36,577 - dmbd_dimensions_test - INFO - Error for Feature dimension mismatch as expected: Expected error for Feature dimension mismatch but none occurred
+2025-03-13 08:08:36,577 - dmbd_dimensions_test - INFO - Testing: Batch dimension mismatch
+2025-03-13 08:08:36,593 - dmbd_dimensions_test - WARNING - Expected error for Batch dimension mismatch but none occurred
+2025-03-13 08:08:36,593 - dmbd_dimensions_test - INFO - Error for Batch dimension mismatch as expected: Expected error for Batch dimension mismatch but none occurred
+2025-03-13 08:08:36,593 - dmbd_dimensions_test - INFO - Testing: Time dimension zero
+2025-03-13 08:08:36,612 - dmbd_dimensions_test - WARNING - Expected error for Time dimension zero but none occurred
+2025-03-13 08:08:36,612 - dmbd_dimensions_test - INFO - Error for Time dimension zero as expected: Expected error for Time dimension zero but none occurred
+2025-03-13 08:08:36,612 - dmbd_dimensions_test - INFO - Testing: Correct dimensions
+2025-03-13 08:08:36,631 - dmbd_dimensions_test - INFO - No error for Correct dimensions as expected
+2025-03-13 08:08:36,632 - dmbd_dimensions_test - INFO - Dimension mismatch test completed
+2025-03-13 08:08:36,632 - dmbd_dimensions_test - INFO - Testing regularization strength: 0
+2025-03-13 08:08:36,641 - dmbd_dimensions_test - WARNING - Matrix Zero on diagonal: Inversion failed with error: linalg.inv: The diagonal element 5 is zero, the inversion could not be completed because the input matrix is singular.
+2025-03-13 08:08:36,648 - dmbd_dimensions_test - WARNING - Matrix Identical rows: Inversion failed with error: linalg.inv: The diagonal element 2 is zero, the inversion could not be completed because the input matrix is singular.
+2025-03-13 08:08:36,649 - dmbd_dimensions_test - INFO - Matrix High condition number: Inversion successful, Error: 0.000005
+2025-03-13 08:08:36,649 - dmbd_dimensions_test - ERROR - Error testing matrix High condition number: 123488144.0 not less than 100000000.0 : Condition number too high: 123488144.0
+2025-03-13 08:08:36,650 - dmbd_dimensions_test - INFO - Regularization 0: Success rate 0.33
+2025-03-13 08:08:36,766 - dmbd_dimensions_test - INFO - DMBD update with regularization 0: Success
+2025-03-13 08:08:36,766 - dmbd_dimensions_test - INFO - Testing regularization strength: 1e-08
+2025-03-13 08:08:36,767 - dmbd_dimensions_test - INFO - Applied regularization: 1e-08
+2025-03-13 08:08:36,767 - dmbd_dimensions_test - INFO - Matrix Zero on diagonal: Inversion successful, Error: 0.000000
+2025-03-13 08:08:36,767 - dmbd_dimensions_test - INFO - Applied regularization: 1e-08
+2025-03-13 08:08:36,775 - dmbd_dimensions_test - WARNING - Matrix Identical rows: Inversion failed with error: linalg.inv: The diagonal element 2 is zero, the inversion could not be completed because the input matrix is singular.
+2025-03-13 08:08:36,775 - dmbd_dimensions_test - INFO - Applied regularization: 1e-08
+2025-03-13 08:08:36,775 - dmbd_dimensions_test - INFO - Matrix High condition number: Inversion successful, Error: 0.000001
+2025-03-13 08:08:36,775 - dmbd_dimensions_test - INFO - Regularization 1e-08: Success rate 0.67
+2025-03-13 08:08:36,886 - dmbd_dimensions_test - INFO - DMBD update with regularization 1e-08: Success
+2025-03-13 08:08:36,886 - dmbd_dimensions_test - INFO - Testing regularization strength: 0.0001
+2025-03-13 08:08:36,887 - dmbd_dimensions_test - INFO - Applied regularization: 0.0001
+2025-03-13 08:08:36,887 - dmbd_dimensions_test - INFO - Matrix Zero on diagonal: Inversion successful, Error: 0.000000
+2025-03-13 08:08:36,887 - dmbd_dimensions_test - INFO - Applied regularization: 0.0001
+2025-03-13 08:08:36,887 - dmbd_dimensions_test - INFO - Matrix Identical rows: Inversion successful, Error: 0.005393
+2025-03-13 08:08:36,887 - dmbd_dimensions_test - INFO - Applied regularization: 0.0001
+2025-03-13 08:08:36,887 - dmbd_dimensions_test - INFO - Matrix High condition number: Inversion successful, Error: 0.000044
+2025-03-13 08:08:36,888 - dmbd_dimensions_test - ERROR - Error testing matrix High condition number: 1288175872.0 not less than 100000000.0 : Condition number too high: 1288175872.0
+2025-03-13 08:08:36,888 - dmbd_dimensions_test - INFO - Regularization 0.0001: Success rate 1.00
+2025-03-13 08:08:37,000 - dmbd_dimensions_test - INFO - DMBD update with regularization 0.0001: Success
+2025-03-13 08:08:37,000 - dmbd_dimensions_test - INFO - Testing regularization strength: 0.01
+2025-03-13 08:08:37,000 - dmbd_dimensions_test - INFO - Applied regularization: 0.01
+2025-03-13 08:08:37,000 - dmbd_dimensions_test - INFO - Matrix Zero on diagonal: Inversion successful, Error: 0.000000
+2025-03-13 08:08:37,000 - dmbd_dimensions_test - INFO - Applied regularization: 0.01
+2025-03-13 08:08:37,001 - dmbd_dimensions_test - INFO - Matrix Identical rows: Inversion successful, Error: 0.000056
+2025-03-13 08:08:37,001 - dmbd_dimensions_test - INFO - Applied regularization: 0.01
+2025-03-13 08:08:37,001 - dmbd_dimensions_test - INFO - Matrix High condition number: Inversion successful, Error: 0.000005
+2025-03-13 08:08:37,001 - dmbd_dimensions_test - INFO - Regularization 0.01: Success rate 1.00
+2025-03-13 08:08:37,109 - dmbd_dimensions_test - INFO - DMBD update with regularization 0.01: Success
+2025-03-13 08:08:37,109 - dmbd_dimensions_test - INFO - Testing regularization strength: 0.1
+2025-03-13 08:08:37,109 - dmbd_dimensions_test - INFO - Applied regularization: 0.1
+2025-03-13 08:08:37,110 - dmbd_dimensions_test - INFO - Matrix Zero on diagonal: Inversion successful, Error: 0.000000
+2025-03-13 08:08:37,110 - dmbd_dimensions_test - INFO - Applied regularization: 0.1
+2025-03-13 08:08:37,110 - dmbd_dimensions_test - INFO - Matrix Identical rows: Inversion successful, Error: 0.000005
+2025-03-13 08:08:37,110 - dmbd_dimensions_test - INFO - Applied regularization: 0.1
+2025-03-13 08:08:37,110 - dmbd_dimensions_test - INFO - Matrix High condition number: Inversion successful, Error: 0.000002
+2025-03-13 08:08:37,110 - dmbd_dimensions_test - INFO - Regularization 0.1: Success rate 1.00
+2025-03-13 08:08:37,215 - dmbd_dimensions_test - INFO - DMBD update with regularization 0.1: Success
+2025-03-13 08:08:37,215 - dmbd_test_runner - WARNING - Dimensions test FAILED: 0 errors, 2 failures
+2025-03-13 08:08:37,216 - dmbd_test_runner - INFO - Generating comprehensive test report...
+2025-03-13 08:08:37,334 - dmbd_test_runner - INFO - Generated graphical summary of test results
+2025-03-13 08:08:37,334 - dmbd_test_runner - INFO - Report generated at fork/test_results/reports/dmbd_test_report_20250313_080837.txt
+2025-03-13 08:08:37,334 - dmbd_test_runner - INFO - Test report generated at: fork/test_results/reports/dmbd_test_report_20250313_080837.txt
+2025-03-13 08:08:37,334 - dmbd_test_runner - INFO - Test logs are available at: fork/test_results/logs/dmbd_test.log
+2025-03-13 08:10:38,938 - dmbd_test_runner - INFO - Test outputs will be saved to: fork/test_results
+2025-03-13 08:10:38,938 - dmbd_test_runner - INFO - Test reports will be saved to: fork/test_results/reports
+2025-03-13 08:10:38,938 - dmbd_test_runner - INFO - Test logs will be saved to: fork/test_results/logs
+2025-03-13 08:10:38,948 - dmbd_test_runner - INFO - Successfully imported DMBD module from alternative path
+2025-03-13 08:10:39,007 - dmbd_dimensions_test - INFO - Successfully imported DMBD from root
+2025-03-13 08:10:39,007 - dmbd_gaussian_stability_test - INFO - Successfully imported stability utilities
+2025-03-13 08:10:39,008 - dmbd_gaussian_stability_test - INFO - Imported DMBD from dmbd.dmbd
+2025-03-13 08:10:39,018 - dmbd_gaussian_stability_test - INFO - Imported GaussianBlobSimulation
+2025-03-13 08:10:39,018 - dmbd_gaussian_stability_test - INFO - Imported utilities from dmbd_gaussian_blob_stabilized
+2025-03-13 08:10:39,019 - dmbd_gaussian_blob_integration - INFO - Successfully imported GaussianBlobSimulation from examples
+2025-03-13 08:10:39,019 - dmbd_numerical_stability_tests - INFO - Imported DMBD from dmbd.dmbd
+2025-03-13 08:10:39,019 - dmbd_numerical_stability_tests - INFO - Imported GaussianBlobSimulation
+2025-03-13 08:10:39,310 - dmbd_test_runner - INFO - Successfully imported all test modules
+2025-03-13 08:10:39,310 - dmbd_test_runner - INFO - Successfully imported 7 test modules
+2025-03-13 08:10:39,311 - dmbd_test_runner - INFO - Successfully imported DMBD dimensions test
+2025-03-13 08:10:39,312 - dmbd_dimensions_test - INFO - Testing matrix shapes: features=6, roles=2
+2025-03-13 08:10:39,319 - dmbd_dimensions_test - INFO - Testing dimensions: features=6, roles=2
+2025-03-13 08:10:39,351 - dmbd_dimensions_test - ERROR - Error during gradient tracking: 0 not greater than 0 : No gradients were captured during update
+2025-03-13 08:10:39,352 - dmbd_dimensions_test - INFO - Testing: Feature dimension mismatch
+2025-03-13 08:10:39,368 - dmbd_dimensions_test - WARNING - Expected error for Feature dimension mismatch but none occurred
+2025-03-13 08:10:39,369 - dmbd_dimensions_test - INFO - Error for Feature dimension mismatch as expected: Expected error for Feature dimension mismatch but none occurred
+2025-03-13 08:10:39,369 - dmbd_dimensions_test - INFO - Testing: Batch dimension mismatch
+2025-03-13 08:10:39,386 - dmbd_dimensions_test - WARNING - Expected error for Batch dimension mismatch but none occurred
+2025-03-13 08:10:39,386 - dmbd_dimensions_test - INFO - Error for Batch dimension mismatch as expected: Expected error for Batch dimension mismatch but none occurred
+2025-03-13 08:10:39,386 - dmbd_dimensions_test - INFO - Testing: Time dimension zero
+2025-03-13 08:10:39,403 - dmbd_dimensions_test - WARNING - Expected error for Time dimension zero but none occurred
+2025-03-13 08:10:39,403 - dmbd_dimensions_test - INFO - Error for Time dimension zero as expected: Expected error for Time dimension zero but none occurred
+2025-03-13 08:10:39,403 - dmbd_dimensions_test - INFO - Testing: Correct dimensions
+2025-03-13 08:10:39,424 - dmbd_dimensions_test - INFO - No error for Correct dimensions as expected
+2025-03-13 08:10:39,424 - dmbd_dimensions_test - INFO - Dimension mismatch test completed
+2025-03-13 08:10:39,425 - dmbd_dimensions_test - INFO - Testing regularization strength: 0
+2025-03-13 08:10:39,433 - dmbd_dimensions_test - WARNING - Matrix Zero on diagonal: Inversion failed with error: linalg.inv: The diagonal element 5 is zero, the inversion could not be completed because the input matrix is singular.
+2025-03-13 08:10:39,441 - dmbd_dimensions_test - WARNING - Matrix Identical rows: Inversion failed with error: linalg.inv: The diagonal element 2 is zero, the inversion could not be completed because the input matrix is singular.
+2025-03-13 08:10:39,441 - dmbd_dimensions_test - INFO - Matrix High condition number: Inversion successful, Error: 0.000003
+2025-03-13 08:10:39,442 - dmbd_dimensions_test - INFO - Regularization 0: Success rate 0.33
+2025-03-13 08:10:39,556 - dmbd_dimensions_test - INFO - DMBD update with regularization 0: Success
+2025-03-13 08:10:39,557 - dmbd_dimensions_test - INFO - Testing regularization strength: 1e-08
+2025-03-13 08:10:39,557 - dmbd_dimensions_test - INFO - Applied regularization: 1e-08
+2025-03-13 08:10:39,558 - dmbd_dimensions_test - INFO - Matrix Zero on diagonal: Inversion successful, Error: 0.000000
+2025-03-13 08:10:39,558 - dmbd_dimensions_test - INFO - Applied regularization: 1e-08
+2025-03-13 08:10:39,565 - dmbd_dimensions_test - WARNING - Matrix Identical rows: Inversion failed with error: linalg.inv: The diagonal element 2 is zero, the inversion could not be completed because the input matrix is singular.
+2025-03-13 08:10:39,565 - dmbd_dimensions_test - INFO - Applied regularization: 1e-08
+2025-03-13 08:10:39,566 - dmbd_dimensions_test - INFO - Matrix High condition number: Inversion successful, Error: 0.000004
+2025-03-13 08:10:39,566 - dmbd_dimensions_test - INFO - Regularization 1e-08: Success rate 0.67
+2025-03-13 08:10:39,678 - dmbd_dimensions_test - INFO - DMBD update with regularization 1e-08: Success
+2025-03-13 08:10:39,679 - dmbd_dimensions_test - INFO - Testing regularization strength: 0.0001
+2025-03-13 08:10:39,679 - dmbd_dimensions_test - INFO - Applied regularization: 0.0001
+2025-03-13 08:10:39,679 - dmbd_dimensions_test - INFO - Matrix Zero on diagonal: Inversion successful, Error: 0.000000
+2025-03-13 08:10:39,680 - dmbd_dimensions_test - INFO - Applied regularization: 0.0001
+2025-03-13 08:10:39,680 - dmbd_dimensions_test - INFO - Matrix Identical rows: Inversion successful, Error: 0.005393
+2025-03-13 08:10:39,680 - dmbd_dimensions_test - INFO - Applied regularization: 0.0001
+2025-03-13 08:10:39,680 - dmbd_dimensions_test - INFO - Matrix High condition number: Inversion successful, Error: 0.000001
+2025-03-13 08:10:39,680 - dmbd_dimensions_test - INFO - Regularization 0.0001: Success rate 1.00
+2025-03-13 08:10:39,792 - dmbd_dimensions_test - INFO - DMBD update with regularization 0.0001: Success
+2025-03-13 08:10:39,793 - dmbd_dimensions_test - INFO - Testing regularization strength: 0.01
+2025-03-13 08:10:39,793 - dmbd_dimensions_test - INFO - Applied regularization: 0.01
+2025-03-13 08:10:39,793 - dmbd_dimensions_test - INFO - Matrix Zero on diagonal: Inversion successful, Error: 0.000000
+2025-03-13 08:10:39,793 - dmbd_dimensions_test - INFO - Applied regularization: 0.01
+2025-03-13 08:10:39,793 - dmbd_dimensions_test - INFO - Matrix Identical rows: Inversion successful, Error: 0.000056
+2025-03-13 08:10:39,794 - dmbd_dimensions_test - INFO - Applied regularization: 0.01
+2025-03-13 08:10:39,794 - dmbd_dimensions_test - INFO - Matrix High condition number: Inversion successful, Error: 0.000041
+2025-03-13 08:10:39,794 - dmbd_dimensions_test - ERROR - Error testing matrix High condition number: 360677248.0 not less than 100000000.0 : Condition number too high: 360677248.0
+2025-03-13 08:10:39,794 - dmbd_dimensions_test - INFO - Regularization 0.01: Success rate 1.00
+2025-03-13 08:10:39,911 - dmbd_dimensions_test - INFO - DMBD update with regularization 0.01: Success
+2025-03-13 08:10:39,911 - dmbd_dimensions_test - INFO - Testing regularization strength: 0.1
+2025-03-13 08:10:39,912 - dmbd_dimensions_test - INFO - Applied regularization: 0.1
+2025-03-13 08:10:39,912 - dmbd_dimensions_test - INFO - Matrix Zero on diagonal: Inversion successful, Error: 0.000000
+2025-03-13 08:10:39,912 - dmbd_dimensions_test - INFO - Applied regularization: 0.1
+2025-03-13 08:10:39,912 - dmbd_dimensions_test - INFO - Matrix Identical rows: Inversion successful, Error: 0.000005
+2025-03-13 08:10:39,912 - dmbd_dimensions_test - INFO - Applied regularization: 0.1
+2025-03-13 08:10:39,913 - dmbd_dimensions_test - INFO - Matrix High condition number: Inversion successful, Error: 0.000003
+2025-03-13 08:10:39,913 - dmbd_dimensions_test - INFO - Regularization 0.1: Success rate 1.00
+2025-03-13 08:10:40,023 - dmbd_dimensions_test - INFO - DMBD update with regularization 0.1: Success
+2025-03-13 08:10:40,023 - dmbd_test_runner - WARNING - Dimensions test FAILED: 0 errors, 2 failures
+2025-03-13 08:10:40,023 - dmbd_test_runner - INFO - Generating comprehensive test report...
+2025-03-13 08:10:40,162 - dmbd_test_runner - INFO - Generated graphical summary of test results
+2025-03-13 08:10:40,162 - dmbd_test_runner - INFO - Report generated at fork/test_results/reports/dmbd_test_report_20250313_081040.txt
+2025-03-13 08:10:40,162 - dmbd_test_runner - INFO - Test report generated at: fork/test_results/reports/dmbd_test_report_20250313_081040.txt
+2025-03-13 08:10:40,162 - dmbd_test_runner - INFO - Test logs are available at: fork/test_results/logs/dmbd_test.log
+2025-03-13 09:03:28,131 - dmbd_test_runner - INFO - Test outputs will be saved to: fork/test_results
+2025-03-13 09:03:28,131 - dmbd_test_runner - INFO - Test reports will be saved to: fork/test_results/reports
+2025-03-13 09:03:28,131 - dmbd_test_runner - INFO - Test logs will be saved to: fork/test_results/logs
+2025-03-13 09:03:28,142 - dmbd_test_runner - INFO - Successfully imported DMBD module from alternative path
+2025-03-13 09:03:28,226 - dmbd_dimensions_test - INFO - Successfully imported DMBD from root
+2025-03-13 09:03:28,227 - dmbd_gaussian_stability_test - INFO - Successfully imported stability utilities
+2025-03-13 09:03:28,227 - dmbd_gaussian_stability_test - INFO - Imported DMBD from dmbd.dmbd
+2025-03-13 09:03:28,237 - dmbd_gaussian_stability_test - INFO - Imported GaussianBlobSimulation
+2025-03-13 09:03:28,238 - dmbd_gaussian_stability_test - INFO - Imported utilities from dmbd_gaussian_blob_stabilized
+2025-03-13 09:03:28,239 - dmbd_gaussian_blob_integration - INFO - Successfully imported GaussianBlobSimulation from examples
+2025-03-13 09:03:28,239 - dmbd_numerical_stability_tests - INFO - Imported DMBD from dmbd.dmbd
+2025-03-13 09:03:28,239 - dmbd_numerical_stability_tests - INFO - Imported GaussianBlobSimulation
+2025-03-13 09:03:28,629 - dmbd_test_runner - INFO - Successfully imported all test modules
+2025-03-13 09:03:28,629 - dmbd_test_runner - INFO - Successfully imported 7 test modules
+2025-03-13 09:03:28,632 - dmbd_test_runner - INFO - Successfully imported DMBD dimensions test
+2025-03-13 09:03:28,632 - dmbd_dimensions_test - INFO - Testing matrix shapes: features=6, roles=2
+2025-03-13 09:03:28,639 - dmbd_dimensions_test - INFO - Matrix shape tests passed
+2025-03-13 09:03:28,640 - dmbd_dimensions_test - INFO - Testing matrix shapes: features=6, roles=3
+2025-03-13 09:03:28,646 - dmbd_dimensions_test - INFO - Matrix shape tests passed
+2025-03-13 09:03:28,646 - dmbd_dimensions_test - INFO - Testing matrix shapes: features=6, roles=4
+2025-03-13 09:03:28,651 - dmbd_dimensions_test - INFO - Matrix shape tests passed
+2025-03-13 09:03:28,651 - dmbd_dimensions_test - INFO - Testing matrix shapes: features=9, roles=2
+2025-03-13 09:03:28,656 - dmbd_dimensions_test - INFO - Matrix shape tests passed
+2025-03-13 09:03:28,656 - dmbd_dimensions_test - INFO - Testing matrix shapes: features=9, roles=3
+2025-03-13 09:03:28,662 - dmbd_dimensions_test - INFO - Matrix shape tests passed
+2025-03-13 09:03:28,662 - dmbd_dimensions_test - INFO - Testing matrix shapes: features=9, roles=4
+2025-03-13 09:03:28,668 - dmbd_dimensions_test - INFO - Matrix shape tests passed
+2025-03-13 09:03:28,668 - dmbd_dimensions_test - INFO - Testing matrix shapes: features=12, roles=2
+2025-03-13 09:03:28,674 - dmbd_dimensions_test - INFO - Matrix shape tests passed
+2025-03-13 09:03:28,675 - dmbd_dimensions_test - INFO - Testing matrix shapes: features=12, roles=3
+2025-03-13 09:03:28,680 - dmbd_dimensions_test - INFO - Matrix shape tests passed
+2025-03-13 09:03:28,680 - dmbd_dimensions_test - INFO - Testing matrix shapes: features=12, roles=4
+2025-03-13 09:03:28,688 - dmbd_dimensions_test - INFO - Matrix shape tests passed
+2025-03-13 09:03:28,695 - dmbd_dimensions_test - INFO - Testing dimensions: features=6, roles=2
+2025-03-13 09:03:28,757 - dmbd_dimensions_test - INFO - Gradient statistics:
+2025-03-13 09:03:28,757 - dmbd_dimensions_test - INFO -   Average norm: 0.146753
+2025-03-13 09:03:28,757 - dmbd_dimensions_test - INFO -   Max norm: 0.221782
+2025-03-13 09:03:28,757 - dmbd_dimensions_test - INFO -   Min norm: 0.071724
+2025-03-13 09:03:28,758 - dmbd_dimensions_test - INFO - Testing: Feature dimension mismatch
+2025-03-13 09:03:28,786 - dmbd_dimensions_test - WARNING - Expected error for Feature dimension mismatch but none occurred
+2025-03-13 09:03:28,787 - dmbd_dimensions_test - INFO - Error for Feature dimension mismatch as expected: Expected error for Feature dimension mismatch but none occurred
+2025-03-13 09:03:28,787 - dmbd_dimensions_test - INFO - Testing: Batch dimension mismatch
+2025-03-13 09:03:28,811 - dmbd_dimensions_test - WARNING - Expected error for Batch dimension mismatch but none occurred
+2025-03-13 09:03:28,811 - dmbd_dimensions_test - INFO - Error for Batch dimension mismatch as expected: Expected error for Batch dimension mismatch but none occurred
+2025-03-13 09:03:28,811 - dmbd_dimensions_test - INFO - Testing: Time dimension zero
+2025-03-13 09:03:28,840 - dmbd_dimensions_test - WARNING - Expected error for Time dimension zero but none occurred
+2025-03-13 09:03:28,841 - dmbd_dimensions_test - INFO - Error for Time dimension zero as expected: Expected error for Time dimension zero but none occurred
+2025-03-13 09:03:28,841 - dmbd_dimensions_test - INFO - Testing: Correct dimensions
+2025-03-13 09:03:28,871 - dmbd_dimensions_test - INFO - No error for Correct dimensions as expected
+2025-03-13 09:03:28,872 - dmbd_dimensions_test - INFO - Dimension mismatch test completed
+2025-03-13 09:03:28,872 - dmbd_dimensions_test - INFO - Testing regularization strength: 0
+2025-03-13 09:03:28,883 - dmbd_dimensions_test - WARNING - Matrix Zero on diagonal: Inversion failed with error: linalg.inv: The diagonal element 5 is zero, the inversion could not be completed because the input matrix is singular.
+2025-03-13 09:03:28,892 - dmbd_dimensions_test - WARNING - Matrix Identical rows: Inversion failed with error: linalg.inv: The diagonal element 2 is zero, the inversion could not be completed because the input matrix is singular.
+2025-03-13 09:03:28,892 - dmbd_dimensions_test - INFO - Matrix High condition number: Inversion successful, Error: 0.000003
+2025-03-13 09:03:28,892 - dmbd_dimensions_test - INFO - Regularization 0: Success rate 0.33
+2025-03-13 09:03:29,053 - dmbd_dimensions_test - INFO - DMBD update with regularization 0: Success
+2025-03-13 09:03:29,053 - dmbd_dimensions_test - INFO - Testing regularization strength: 1e-08
+2025-03-13 09:03:29,053 - dmbd_dimensions_test - INFO - Applied regularization: 1e-08
+2025-03-13 09:03:29,053 - dmbd_dimensions_test - INFO - Matrix Zero on diagonal: Inversion successful, Error: 0.000000
+2025-03-13 09:03:29,054 - dmbd_dimensions_test - INFO - Applied regularization: 1e-08
+2025-03-13 09:03:29,063 - dmbd_dimensions_test - WARNING - Matrix Identical rows: Inversion failed with error: linalg.inv: The diagonal element 2 is zero, the inversion could not be completed because the input matrix is singular.
+2025-03-13 09:03:29,063 - dmbd_dimensions_test - INFO - Applied regularization: 1e-08
+2025-03-13 09:03:29,064 - dmbd_dimensions_test - INFO - Matrix High condition number: Inversion successful, Error: 0.000001
+2025-03-13 09:03:29,065 - dmbd_dimensions_test - INFO - Regularization 1e-08: Success rate 0.67
+2025-03-13 09:03:29,252 - dmbd_dimensions_test - INFO - DMBD update with regularization 1e-08: Success
+2025-03-13 09:03:29,253 - dmbd_dimensions_test - INFO - Testing regularization strength: 0.0001
+2025-03-13 09:03:29,253 - dmbd_dimensions_test - INFO - Applied regularization: 0.0001
+2025-03-13 09:03:29,253 - dmbd_dimensions_test - INFO - Matrix Zero on diagonal: Inversion successful, Error: 0.000000
+2025-03-13 09:03:29,254 - dmbd_dimensions_test - INFO - Applied regularization: 0.0001
+2025-03-13 09:03:29,254 - dmbd_dimensions_test - INFO - Matrix Identical rows: Inversion successful, Error: 0.005393
+2025-03-13 09:03:29,254 - dmbd_dimensions_test - INFO - Applied regularization: 0.0001
+2025-03-13 09:03:29,254 - dmbd_dimensions_test - INFO - Matrix High condition number: Inversion successful, Error: 0.000004
+2025-03-13 09:03:29,254 - dmbd_dimensions_test - INFO - Regularization 0.0001: Success rate 1.00
+2025-03-13 09:03:29,427 - dmbd_dimensions_test - INFO - DMBD update with regularization 0.0001: Success
+2025-03-13 09:03:29,427 - dmbd_dimensions_test - INFO - Testing regularization strength: 0.01
+2025-03-13 09:03:29,427 - dmbd_dimensions_test - INFO - Applied regularization: 0.01
+2025-03-13 09:03:29,428 - dmbd_dimensions_test - INFO - Matrix Zero on diagonal: Inversion successful, Error: 0.000000
+2025-03-13 09:03:29,428 - dmbd_dimensions_test - INFO - Applied regularization: 0.01
+2025-03-13 09:03:29,428 - dmbd_dimensions_test - INFO - Matrix Identical rows: Inversion successful, Error: 0.000056
+2025-03-13 09:03:29,428 - dmbd_dimensions_test - INFO - Applied regularization: 0.01
+2025-03-13 09:03:29,428 - dmbd_dimensions_test - INFO - Matrix High condition number: Inversion successful, Error: 0.000005
+2025-03-13 09:03:29,428 - dmbd_dimensions_test - INFO - Regularization 0.01: Success rate 1.00
+2025-03-13 09:03:29,618 - dmbd_dimensions_test - INFO - DMBD update with regularization 0.01: Success
+2025-03-13 09:03:29,618 - dmbd_dimensions_test - INFO - Testing regularization strength: 0.1
+2025-03-13 09:03:29,619 - dmbd_dimensions_test - INFO - Applied regularization: 0.1
+2025-03-13 09:03:29,623 - dmbd_dimensions_test - INFO - Matrix Zero on diagonal: Inversion successful, Error: 0.000000
+2025-03-13 09:03:29,624 - dmbd_dimensions_test - INFO - Applied regularization: 0.1
+2025-03-13 09:03:29,625 - dmbd_dimensions_test - INFO - Matrix Identical rows: Inversion successful, Error: 0.000005
+2025-03-13 09:03:29,625 - dmbd_dimensions_test - INFO - Applied regularization: 0.1
+2025-03-13 09:03:29,626 - dmbd_dimensions_test - INFO - Matrix High condition number: Inversion successful, Error: 0.000006
+2025-03-13 09:03:29,626 - dmbd_dimensions_test - INFO - Regularization 0.1: Success rate 1.00
+2025-03-13 09:03:29,806 - dmbd_dimensions_test - INFO - DMBD update with regularization 0.1: Success
+2025-03-13 09:03:29,807 - dmbd_test_runner - WARNING - Dimensions test FAILED: 1 errors, 0 failures
+2025-03-13 09:03:29,807 - dmbd_test_runner - INFO - Generating comprehensive test report...
+2025-03-13 09:03:30,016 - dmbd_test_runner - INFO - Generated graphical summary of test results
+2025-03-13 09:03:30,017 - dmbd_test_runner - INFO - Report generated at fork/test_results/reports/dmbd_test_report_20250313_090329.txt
+2025-03-13 09:03:30,017 - dmbd_test_runner - INFO - Test report generated at: fork/test_results/reports/dmbd_test_report_20250313_090329.txt
+2025-03-13 09:03:30,017 - dmbd_test_runner - INFO - Test logs are available at: fork/test_results/logs/dmbd_test.log
+2025-03-13 09:04:35,478 - dmbd_test_runner - INFO - Test outputs will be saved to: fork/test_results
+2025-03-13 09:04:35,478 - dmbd_test_runner - INFO - Test reports will be saved to: fork/test_results/reports
+2025-03-13 09:04:35,478 - dmbd_test_runner - INFO - Test logs will be saved to: fork/test_results/logs
+2025-03-13 09:04:35,489 - dmbd_test_runner - INFO - Successfully imported DMBD module from alternative path
+2025-03-13 09:04:35,576 - dmbd_dimensions_test - INFO - Successfully imported DMBD from root
+2025-03-13 09:04:35,578 - dmbd_gaussian_stability_test - INFO - Successfully imported stability utilities
+2025-03-13 09:04:35,579 - dmbd_gaussian_stability_test - INFO - Imported DMBD from dmbd.dmbd
+2025-03-13 09:04:35,590 - dmbd_gaussian_stability_test - INFO - Imported GaussianBlobSimulation
+2025-03-13 09:04:35,591 - dmbd_gaussian_stability_test - INFO - Imported utilities from dmbd_gaussian_blob_stabilized
+2025-03-13 09:04:35,592 - dmbd_gaussian_blob_integration - INFO - Successfully imported GaussianBlobSimulation from examples
+2025-03-13 09:04:35,593 - dmbd_numerical_stability_tests - INFO - Imported DMBD from dmbd.dmbd
+2025-03-13 09:04:35,593 - dmbd_numerical_stability_tests - INFO - Imported GaussianBlobSimulation
+2025-03-13 09:04:35,956 - dmbd_test_runner - INFO - Successfully imported all test modules
+2025-03-13 09:04:35,957 - dmbd_test_runner - INFO - Successfully imported 7 test modules
+2025-03-13 09:04:35,958 - dmbd_test_runner - INFO - Successfully imported DMBD dimensions test
+2025-03-13 09:04:35,960 - dmbd_dimensions_test - INFO - Testing matrix shapes: features=6, roles=2
+2025-03-13 09:04:35,969 - dmbd_dimensions_test - INFO - Matrix shape tests passed
+2025-03-13 09:04:35,969 - dmbd_dimensions_test - INFO - Testing matrix shapes: features=6, roles=3
+2025-03-13 09:04:35,975 - dmbd_dimensions_test - INFO - Matrix shape tests passed
+2025-03-13 09:04:35,975 - dmbd_dimensions_test - INFO - Testing matrix shapes: features=6, roles=4
+2025-03-13 09:04:35,981 - dmbd_dimensions_test - INFO - Matrix shape tests passed
+2025-03-13 09:04:35,982 - dmbd_dimensions_test - INFO - Testing matrix shapes: features=9, roles=2
+2025-03-13 09:04:35,986 - dmbd_dimensions_test - INFO - Matrix shape tests passed
+2025-03-13 09:04:35,987 - dmbd_dimensions_test - INFO - Testing matrix shapes: features=9, roles=3
+2025-03-13 09:04:35,992 - dmbd_dimensions_test - INFO - Matrix shape tests passed
+2025-03-13 09:04:35,992 - dmbd_dimensions_test - INFO - Testing matrix shapes: features=9, roles=4
+2025-03-13 09:04:35,999 - dmbd_dimensions_test - INFO - Matrix shape tests passed
+2025-03-13 09:04:35,999 - dmbd_dimensions_test - INFO - Testing matrix shapes: features=12, roles=2
+2025-03-13 09:04:36,005 - dmbd_dimensions_test - INFO - Matrix shape tests passed
+2025-03-13 09:04:36,006 - dmbd_dimensions_test - INFO - Testing matrix shapes: features=12, roles=3
+2025-03-13 09:04:36,012 - dmbd_dimensions_test - INFO - Matrix shape tests passed
+2025-03-13 09:04:36,013 - dmbd_dimensions_test - INFO - Testing matrix shapes: features=12, roles=4
+2025-03-13 09:04:36,019 - dmbd_dimensions_test - INFO - Matrix shape tests passed
+2025-03-13 09:04:36,019 - dmbd_dimensions_test - INFO - Matrix shapes test completed successfully
+2025-03-13 09:04:36,020 - dmbd_dimensions_test - INFO - Testing dimensions: features=6, roles=2
+2025-03-13 09:04:36,061 - dmbd_dimensions_test - INFO - Gradient statistics:
+2025-03-13 09:04:36,062 - dmbd_dimensions_test - INFO -   Average norm: 0.151428
+2025-03-13 09:04:36,062 - dmbd_dimensions_test - INFO -   Max norm: 0.229271
+2025-03-13 09:04:36,062 - dmbd_dimensions_test - INFO -   Min norm: 0.073585
+2025-03-13 09:04:36,063 - dmbd_dimensions_test - INFO - Testing: Feature dimension mismatch
+2025-03-13 09:04:36,094 - dmbd_dimensions_test - WARNING - Expected error for Feature dimension mismatch but none occurred
+2025-03-13 09:04:36,094 - dmbd_dimensions_test - INFO - Error for Feature dimension mismatch as expected: Expected error for Feature dimension mismatch but none occurred
+2025-03-13 09:04:36,094 - dmbd_dimensions_test - INFO - Testing: Batch dimension mismatch
+2025-03-13 09:04:36,134 - dmbd_dimensions_test - WARNING - Expected error for Batch dimension mismatch but none occurred
+2025-03-13 09:04:36,134 - dmbd_dimensions_test - INFO - Error for Batch dimension mismatch as expected: Expected error for Batch dimension mismatch but none occurred
+2025-03-13 09:04:36,134 - dmbd_dimensions_test - INFO - Testing: Time dimension zero
+2025-03-13 09:04:36,157 - dmbd_dimensions_test - WARNING - Expected error for Time dimension zero but none occurred
+2025-03-13 09:04:36,157 - dmbd_dimensions_test - INFO - Error for Time dimension zero as expected: Expected error for Time dimension zero but none occurred
+2025-03-13 09:04:36,157 - dmbd_dimensions_test - INFO - Testing: Correct dimensions
+2025-03-13 09:04:36,178 - dmbd_dimensions_test - INFO - No error for Correct dimensions as expected
+2025-03-13 09:04:36,179 - dmbd_dimensions_test - INFO - Dimension mismatch test completed
+2025-03-13 09:04:36,179 - dmbd_dimensions_test - INFO - Testing regularization strength: 0
+2025-03-13 09:04:36,189 - dmbd_dimensions_test - WARNING - Matrix Zero on diagonal: Inversion failed with error: linalg.inv: The diagonal element 5 is zero, the inversion could not be completed because the input matrix is singular.
+2025-03-13 09:04:36,200 - dmbd_dimensions_test - WARNING - Matrix Identical rows: Inversion failed with error: linalg.inv: The diagonal element 2 is zero, the inversion could not be completed because the input matrix is singular.
+2025-03-13 09:04:36,201 - dmbd_dimensions_test - INFO - Matrix High condition number: Inversion successful, Error: 0.000004
+2025-03-13 09:04:36,202 - dmbd_dimensions_test - INFO - Regularization 0: Success rate 0.33
+2025-03-13 09:04:36,441 - dmbd_dimensions_test - INFO - DMBD update with regularization 0: Success
+2025-03-13 09:04:36,441 - dmbd_dimensions_test - INFO - Testing regularization strength: 1e-08
+2025-03-13 09:04:36,442 - dmbd_dimensions_test - INFO - Applied regularization: 1e-08
+2025-03-13 09:04:36,442 - dmbd_dimensions_test - INFO - Matrix Zero on diagonal: Inversion successful, Error: 0.000000
+2025-03-13 09:04:36,443 - dmbd_dimensions_test - INFO - Applied regularization: 1e-08
+2025-03-13 09:04:36,458 - dmbd_dimensions_test - WARNING - Matrix Identical rows: Inversion failed with error: linalg.inv: The diagonal element 2 is zero, the inversion could not be completed because the input matrix is singular.
+2025-03-13 09:04:36,460 - dmbd_dimensions_test - INFO - Applied regularization: 1e-08
+2025-03-13 09:04:36,460 - dmbd_dimensions_test - INFO - Matrix High condition number: Inversion successful, Error: 0.000004
+2025-03-13 09:04:36,461 - dmbd_dimensions_test - INFO - Regularization 1e-08: Success rate 0.67
+2025-03-13 09:04:36,619 - dmbd_dimensions_test - INFO - DMBD update with regularization 1e-08: Success
+2025-03-13 09:04:36,620 - dmbd_dimensions_test - INFO - Testing regularization strength: 0.0001
+2025-03-13 09:04:36,621 - dmbd_dimensions_test - INFO - Applied regularization: 0.0001
+2025-03-13 09:04:36,622 - dmbd_dimensions_test - INFO - Matrix Zero on diagonal: Inversion successful, Error: 0.000000
+2025-03-13 09:04:36,622 - dmbd_dimensions_test - INFO - Applied regularization: 0.0001
+2025-03-13 09:04:36,623 - dmbd_dimensions_test - INFO - Matrix Identical rows: Inversion successful, Error: 0.005393
+2025-03-13 09:04:36,623 - dmbd_dimensions_test - INFO - Applied regularization: 0.0001
+2025-03-13 09:04:36,624 - dmbd_dimensions_test - INFO - Matrix High condition number: Inversion successful, Error: 0.000007
+2025-03-13 09:04:36,624 - dmbd_dimensions_test - ERROR - Error testing matrix High condition number: 150826768.0 not less than 100000000.0 : Condition number too high: 150826768.0
+2025-03-13 09:04:36,624 - dmbd_dimensions_test - INFO - Regularization 0.0001: Success rate 1.00
+2025-03-13 09:04:36,787 - dmbd_dimensions_test - INFO - DMBD update with regularization 0.0001: Success
+2025-03-13 09:04:36,788 - dmbd_dimensions_test - INFO - Testing regularization strength: 0.01
+2025-03-13 09:04:36,788 - dmbd_dimensions_test - INFO - Applied regularization: 0.01
+2025-03-13 09:04:36,789 - dmbd_dimensions_test - INFO - Matrix Zero on diagonal: Inversion successful, Error: 0.000000
+2025-03-13 09:04:36,789 - dmbd_dimensions_test - INFO - Applied regularization: 0.01
+2025-03-13 09:04:36,790 - dmbd_dimensions_test - INFO - Matrix Identical rows: Inversion successful, Error: 0.000056
+2025-03-13 09:04:36,790 - dmbd_dimensions_test - INFO - Applied regularization: 0.01
+2025-03-13 09:04:36,790 - dmbd_dimensions_test - INFO - Matrix High condition number: Inversion successful, Error: 0.000008
+2025-03-13 09:04:36,791 - dmbd_dimensions_test - INFO - Regularization 0.01: Success rate 1.00
+2025-03-13 09:04:36,970 - dmbd_dimensions_test - INFO - DMBD update with regularization 0.01: Success
+2025-03-13 09:04:36,970 - dmbd_dimensions_test - INFO - Testing regularization strength: 0.1
+2025-03-13 09:04:36,971 - dmbd_dimensions_test - INFO - Applied regularization: 0.1
+2025-03-13 09:04:36,971 - dmbd_dimensions_test - INFO - Matrix Zero on diagonal: Inversion successful, Error: 0.000000
+2025-03-13 09:04:36,971 - dmbd_dimensions_test - INFO - Applied regularization: 0.1
+2025-03-13 09:04:36,971 - dmbd_dimensions_test - INFO - Matrix Identical rows: Inversion successful, Error: 0.000005
+2025-03-13 09:04:36,971 - dmbd_dimensions_test - INFO - Applied regularization: 0.1
+2025-03-13 09:04:36,971 - dmbd_dimensions_test - INFO - Matrix High condition number: Inversion successful, Error: 0.000005
+2025-03-13 09:04:36,972 - dmbd_dimensions_test - INFO - Regularization 0.1: Success rate 1.00
+2025-03-13 09:04:37,118 - dmbd_dimensions_test - INFO - DMBD update with regularization 0.1: Success
+2025-03-13 09:04:37,118 - dmbd_test_runner - INFO - Dimensions test PASSED: All tests completed successfully
+2025-03-13 09:04:37,118 - dmbd_test_runner - INFO - Generating comprehensive test report...
+2025-03-13 09:04:37,273 - dmbd_test_runner - INFO - Generated graphical summary of test results
+2025-03-13 09:04:37,273 - dmbd_test_runner - INFO - Report generated at fork/test_results/reports/dmbd_test_report_20250313_090437.txt
+2025-03-13 09:04:37,273 - dmbd_test_runner - INFO - Test report generated at: fork/test_results/reports/dmbd_test_report_20250313_090437.txt
+2025-03-13 09:04:37,273 - dmbd_test_runner - INFO - Test logs are available at: fork/test_results/logs/dmbd_test.log

@@ -1,0 +1,14 @@
+DMBD Gaussian Blob Analysis Summary
+===================================
+
+Date: 2025-03-13 10:16:39
+Grid size: 16x16
+Time steps: 30
+Feature type: combined
+Using DMBD: False
+
+Accuracy Metrics:
+  Overall accuracy: 0.5728
+    Internal: 1.0000
+    Blanket: 0.0000
+    External: 0.6152

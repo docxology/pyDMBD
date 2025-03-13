@@ -1,0 +1,31 @@
+DMBD Model Regularization Test Results
+====================================
+
+
+Regularization strength: 0.0
+------------------------------
+Model build success: True
+Update success: True
+Role assignment accuracy: 0.0000
+Error: The shape of the mask [30, 1] at index 1 does not match the shape of the indexed tensor [30, 256] at index 1
+
+Regularization strength: 1e-06
+------------------------------
+Model build success: True
+Update success: True
+Role assignment accuracy: 0.0000
+Error: The shape of the mask [30, 1] at index 1 does not match the shape of the indexed tensor [30, 256] at index 1
+
+Regularization strength: 0.0001
+------------------------------
+Model build success: True
+Update success: True
+Role assignment accuracy: 0.0000
+Error: The shape of the mask [30, 1] at index 1 does not match the shape of the indexed tensor [30, 256] at index 1
+
+Regularization strength: 0.01
+------------------------------
+Model build success: True
+Update success: True
+Role assignment accuracy: 0.0000
+Error: The shape of the mask [30, 1] at index 1 does not match the shape of the indexed tensor [30, 256] at index 1

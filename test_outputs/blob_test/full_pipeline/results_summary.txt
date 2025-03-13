@@ -1,0 +1,12 @@
+DMBD Evaluation Results
+======================
+
+Overall accuracy: 0.6719
+
+Role mapping:
+  DMBD role 0 -> Ground truth role 2
+
+Per-role accuracy:
+  Role 0: 0.0000
+  Role 1: 0.0000
+  Role 2: 1.0000

@@ -1,0 +1,24 @@
+Feature Extraction Method Test Results
+====================================
+
+
+Feature method: basic
+--------------------
+Model build success: True
+Update success: True
+Role assignment accuracy: 0.0000
+Error: The shape of the mask [30, 1] at index 1 does not match the shape of the indexed tensor [30, 256] at index 1
+
+Feature method: spatial
+--------------------
+Model build success: True
+Update success: True
+Role assignment accuracy: 0.0000
+Error: The shape of the mask [30, 1] at index 1 does not match the shape of the indexed tensor [30, 256] at index 1
+
+Feature method: roles
+--------------------
+Model build success: True
+Update success: True
+Role assignment accuracy: 0.0000
+Error: The shape of the mask [30, 1] at index 1 does not match the shape of the indexed tensor [30, 256] at index 1

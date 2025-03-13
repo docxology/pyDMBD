@@ -1,0 +1,26 @@
+DMBD Test Suite Summary
+======================
+
+Run completed on: Wed Mar 12 14:32:28 2025
+Tests run: 1
+Successes: 0
+Failures: 1
+
+Environment:
+  PYTHONMALLOC=debug
+  PYTHONFAULTHANDLER=1
+  OMP_NUM_THREADS=1
+  MKL_NUM_THREADS=1
+  Memory limit: 8192 MB
+  Timeout: 1200 seconds
+
+Test Results:
+------------
+
+✗ FAILED - gaussian_blob (8.47s)
+  Configurations run: 3
+  Successful configurations: 0
+  ✗ Config 1: Grid=8, Steps=30, Method=basic
+  ✗ Config 2: Grid=12, Steps=40, Method=spatial
+  ✗ Config 3: Grid=16, Steps=50, Method=roles
+

@@ -1,0 +1,174 @@
+2025-03-13 07:31:52,751 - dmbd_test_runner - INFO - Test outputs will be saved to: tests/test_outputs
+2025-03-13 07:31:52,751 - dmbd_test_runner - INFO - Test reports will be saved to: tests/test_outputs/reports
+2025-03-13 07:31:52,751 - dmbd_test_runner - INFO - Test logs will be saved to: tests/test_outputs/logs
+2025-03-13 07:31:52,756 - dmbd_test_runner - INFO - Successfully imported DMBD module from alternative path
+2025-03-13 07:31:52,757 - dmbd_dimensions_test - INFO - Successfully imported DMBD from root
+2025-03-13 07:31:52,763 - dmbd_gaussian_blob_integration - INFO - Successfully imported GaussianBlobSimulation from parent_dir/examples
+2025-03-13 07:31:52,763 - dmbd_test_runner - INFO - Successfully imported test modules
+2025-03-13 07:31:52,764 - dmbd_numerical_stability_tests - INFO - Imported DMBD from dmbd.dmbd
+2025-03-13 07:31:52,764 - dmbd_numerical_stability_tests - INFO - Imported GaussianBlobSimulation
+2025-03-13 07:31:52,764 - dmbd_test_runner - INFO - Successfully imported numerical stability test from /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_dmbd_numerical_stability.py
+2025-03-13 07:31:52,768 - dmbd_test_runner - INFO - Successfully imported minimal DMBD test from /home/trim/Documents/GitHub/pyDMBD/minimal_dmbd_test.py
+2025-03-13 07:31:52,768 - dmbd_test_runner - INFO - Successfully imported DMBD dimensions test
+2025-03-13 07:31:52,768 - dmbd_test_runner - INFO - Successfully imported Gaussian Blob integration test
+2025-03-13 07:31:52,768 - dmbd_test_runner - INFO - Successfully imported 4 test modules
+2025-03-13 07:31:52,769 - dmbd_test_runner - INFO - Running all DMBD tests...
+2025-03-13 07:31:52,769 - dmbd_test_runner - INFO - Running DMBD numerical stability test...
+2025-03-13 07:31:52,779 - dmbd_numerical_stability_tests - INFO - Created test data: raw data shape=torch.Size([20, 1, 64]), features shape=torch.Size([20, 1, 9])
+2025-03-13 07:31:52,779 - dmbd_numerical_stability_tests - INFO - Testing comprehensive numerical stability solution...
+2025-03-13 07:31:52,793 - dmbd_numerical_stability_tests - INFO - Created test data: raw data shape=torch.Size([20, 1, 64]), features shape=torch.Size([20, 1, 9])
+2025-03-13 07:31:52,793 - dmbd_numerical_stability_tests - INFO - Testing matrix conditioning problems...
+2025-03-13 07:31:52,963 - dmbd_numerical_stability_tests - INFO - Matrix inversion failures before stabilization: 0
+2025-03-13 07:31:52,971 - dmbd_numerical_stability_tests - INFO - Created test data: raw data shape=torch.Size([20, 1, 64]), features shape=torch.Size([20, 1, 9])
+2025-03-13 07:31:52,971 - dmbd_numerical_stability_tests - INFO - Testing tensor dimension consistency issues...
+2025-03-13 07:31:53,053 - dmbd_numerical_stability_tests - INFO - Found 0 dimension inconsistencies before fixes
+2025-03-13 07:31:53,071 - dmbd_numerical_stability_tests - WARNING - DMBD update_obs_parms: latent not initialized
+2025-03-13 07:31:53,071 - dmbd_numerical_stability_tests - WARNING - DMBD update_latent_parms: observations not available
+2025-03-13 07:31:53,072 - dmbd_numerical_stability_tests - WARNING - DMBD update_obs_parms: latent not initialized
+2025-03-13 07:31:53,072 - dmbd_numerical_stability_tests - WARNING - DMBD update_latent_parms: observations not available
+2025-03-13 07:31:53,089 - dmbd_numerical_stability_tests - WARNING - DMBD update_obs_parms: latent not initialized
+2025-03-13 07:31:53,090 - dmbd_numerical_stability_tests - WARNING - DMBD update_latent_parms: observations not available
+2025-03-13 07:31:53,091 - dmbd_numerical_stability_tests - WARNING - DMBD update_obs_parms: latent not initialized
+2025-03-13 07:31:53,091 - dmbd_numerical_stability_tests - WARNING - DMBD update_latent_parms: observations not available
+2025-03-13 07:31:53,109 - dmbd_numerical_stability_tests - WARNING - DMBD update_obs_parms: latent not initialized
+2025-03-13 07:31:53,110 - dmbd_numerical_stability_tests - WARNING - DMBD update_latent_parms: observations not available
+2025-03-13 07:31:53,110 - dmbd_numerical_stability_tests - INFO - Found 0 dimension inconsistencies after fixes
+2025-03-13 07:31:53,110 - dmbd_test_runner - WARNING - Numerical stability test failed: 1 failures, 2 errors
+2025-03-13 07:31:53,110 - dmbd_test_runner - INFO - Numerical stability test FAILED: Errors detected during numerical stability test execution
+2025-03-13 07:31:53,110 - dmbd_test_runner - INFO - Running minimal DMBD test...
+2025-03-13 07:31:53,110 - dmbd_test - INFO - Initializing test...
+2025-03-13 07:31:53,427 - dmbd_test - INFO - Processed data shape: torch.Size([20, 1, 12])
+2025-03-13 07:31:54,618 - dmbd_test - INFO - Checking DMBD model parameters...
+2025-03-13 07:31:54,618 - dmbd_test - INFO - Torch tensor count: 0 tensors found
+2025-03-13 07:31:54,618 - dmbd_test - INFO - Testing model with gradient tracking...
+2025-03-13 07:31:54,633 - dmbd_test - INFO - Torch operations check: 0 operations performed
+2025-03-13 07:31:55,880 - dmbd_test_runner - INFO - Minimal DMBD test PASSED: Minimal test completed successfully
+2025-03-13 07:31:55,880 - dmbd_test_runner - WARNING - Dimensions test module not available. Skipping.
+2025-03-13 07:31:55,880 - dmbd_test_runner - WARNING - Gaussian blob test module not available. Skipping.
+2025-03-13 07:31:55,881 - dmbd_test_runner - INFO - Running PyTorch functionality test...
+2025-03-13 07:31:55,998 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2025-03-13 07:31:55,999 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2025-03-13 07:31:56,620 - dmbd_test_runner - INFO - Successfully imported PyTorch functionality test
+2025-03-13 07:31:56,621 - torch_functionality_tests - INFO - Test output directory: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality
+2025-03-13 07:31:56,621 - torch_functionality_tests - INFO - Visualization directory: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations
+2025-03-13 07:31:56,621 - torch_functionality_tests - INFO - PyTorch version: 2.1.0+cpu
+2025-03-13 07:31:56,621 - torch_functionality_tests - INFO - CUDA available: False
+2025-03-13 07:31:56,621 - torch_functionality_tests - INFO - Testing batch operations...
+2025-03-13 07:31:58,428 - torch_functionality_tests - INFO - Saved visualization: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations/batch_operations_20250313_073157.png
+2025-03-13 07:31:59,125 - torch_functionality_tests - INFO - Saved visualization: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations/tensor_metrics_pytorch_functionality_test_results_20250313_073158.png
+2025-03-13 07:31:59,125 - torch_functionality_tests - INFO - Generated final metrics visualization: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations/tensor_metrics_pytorch_functionality_test_results_20250313_073158.png
+2025-03-13 07:31:59,126 - torch_functionality_tests - INFO - Saved metrics to: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/torch_metrics.json
+2025-03-13 07:31:59,126 - torch_functionality_tests - INFO - Test Summary:
+2025-03-13 07:31:59,126 - torch_functionality_tests - INFO - Total visualizations generated: 2
+2025-03-13 07:31:59,126 - torch_functionality_tests - INFO - Visualization directory: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations
+2025-03-13 07:31:59,126 - torch_functionality_tests - INFO - Metrics file: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/torch_metrics.json
+2025-03-13 07:31:59,126 - torch_functionality_tests - INFO - Test output directory: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality
+2025-03-13 07:31:59,126 - torch_functionality_tests - INFO - Visualization directory: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations
+2025-03-13 07:31:59,126 - torch_functionality_tests - INFO - PyTorch version: 2.1.0+cpu
+2025-03-13 07:31:59,126 - torch_functionality_tests - INFO - CUDA available: False
+2025-03-13 07:31:59,126 - torch_functionality_tests - INFO - Testing device operations...
+2025-03-13 07:31:59,751 - torch_functionality_tests - INFO - Saved visualization: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations/tensor_metrics_pytorch_functionality_test_results_20250313_073159.png
+2025-03-13 07:31:59,752 - torch_functionality_tests - INFO - Generated final metrics visualization: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations/tensor_metrics_pytorch_functionality_test_results_20250313_073159.png
+2025-03-13 07:31:59,752 - torch_functionality_tests - INFO - Saved metrics to: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/torch_metrics.json
+2025-03-13 07:31:59,752 - torch_functionality_tests - INFO - Test Summary:
+2025-03-13 07:31:59,752 - torch_functionality_tests - INFO - Total visualizations generated: 3
+2025-03-13 07:31:59,752 - torch_functionality_tests - INFO - Visualization directory: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations
+2025-03-13 07:31:59,752 - torch_functionality_tests - INFO - Metrics file: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/torch_metrics.json
+2025-03-13 07:31:59,752 - torch_functionality_tests - INFO - Test output directory: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality
+2025-03-13 07:31:59,752 - torch_functionality_tests - INFO - Visualization directory: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations
+2025-03-13 07:31:59,752 - torch_functionality_tests - INFO - PyTorch version: 2.1.0+cpu
+2025-03-13 07:31:59,752 - torch_functionality_tests - INFO - CUDA available: False
+2025-03-13 07:31:59,752 - torch_functionality_tests - INFO - Testing inference processes...
+2025-03-13 07:32:00,703 - torch_functionality_tests - INFO - Saved visualization: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations/inference_processes_20250313_073200.png
+2025-03-13 07:32:01,551 - torch_functionality_tests - INFO - Saved visualization: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations/tensor_metrics_pytorch_functionality_test_results_20250313_073201.png
+2025-03-13 07:32:01,551 - torch_functionality_tests - INFO - Generated final metrics visualization: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations/tensor_metrics_pytorch_functionality_test_results_20250313_073201.png
+2025-03-13 07:32:01,551 - torch_functionality_tests - INFO - Saved metrics to: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/torch_metrics.json
+2025-03-13 07:32:01,551 - torch_functionality_tests - INFO - Test Summary:
+2025-03-13 07:32:01,552 - torch_functionality_tests - INFO - Total visualizations generated: 5
+2025-03-13 07:32:01,552 - torch_functionality_tests - INFO - Visualization directory: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations
+2025-03-13 07:32:01,552 - torch_functionality_tests - INFO - Metrics file: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/torch_metrics.json
+2025-03-13 07:32:01,552 - torch_functionality_tests - INFO - Test output directory: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality
+2025-03-13 07:32:01,552 - torch_functionality_tests - INFO - Visualization directory: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations
+2025-03-13 07:32:01,552 - torch_functionality_tests - INFO - PyTorch version: 2.1.0+cpu
+2025-03-13 07:32:01,552 - torch_functionality_tests - INFO - CUDA available: False
+2025-03-13 07:32:01,552 - torch_functionality_tests - INFO - Testing Markov blanket dynamics...
+2025-03-13 07:32:02,554 - torch_functionality_tests - INFO - Saved visualization: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations/markov_blanket_dynamics_20250313_073201.png
+2025-03-13 07:32:03,229 - torch_functionality_tests - INFO - Saved visualization: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations/tensor_metrics_pytorch_functionality_test_results_20250313_073202.png
+2025-03-13 07:32:03,229 - torch_functionality_tests - INFO - Generated final metrics visualization: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations/tensor_metrics_pytorch_functionality_test_results_20250313_073202.png
+2025-03-13 07:32:03,230 - torch_functionality_tests - INFO - Saved metrics to: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/torch_metrics.json
+2025-03-13 07:32:03,230 - torch_functionality_tests - INFO - Test Summary:
+2025-03-13 07:32:03,230 - torch_functionality_tests - INFO - Total visualizations generated: 7
+2025-03-13 07:32:03,230 - torch_functionality_tests - INFO - Visualization directory: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations
+2025-03-13 07:32:03,230 - torch_functionality_tests - INFO - Metrics file: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/torch_metrics.json
+2025-03-13 07:32:03,230 - torch_functionality_tests - INFO - Test output directory: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality
+2025-03-13 07:32:03,230 - torch_functionality_tests - INFO - Visualization directory: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations
+2025-03-13 07:32:03,230 - torch_functionality_tests - INFO - PyTorch version: 2.1.0+cpu
+2025-03-13 07:32:03,230 - torch_functionality_tests - INFO - CUDA available: False
+2025-03-13 07:32:03,230 - torch_functionality_tests - INFO - Testing matrix operations...
+2025-03-13 07:32:04,369 - torch_functionality_tests - INFO - Saved visualization: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations/matrix_operations_20250313_073203.png
+2025-03-13 07:32:05,111 - torch_functionality_tests - INFO - Saved visualization: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations/tensor_metrics_pytorch_functionality_test_results_20250313_073204.png
+2025-03-13 07:32:05,111 - torch_functionality_tests - INFO - Generated final metrics visualization: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations/tensor_metrics_pytorch_functionality_test_results_20250313_073204.png
+2025-03-13 07:32:05,111 - torch_functionality_tests - INFO - Saved metrics to: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/torch_metrics.json
+2025-03-13 07:32:05,112 - torch_functionality_tests - INFO - Test Summary:
+2025-03-13 07:32:05,112 - torch_functionality_tests - INFO - Total visualizations generated: 9
+2025-03-13 07:32:05,112 - torch_functionality_tests - INFO - Visualization directory: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations
+2025-03-13 07:32:05,112 - torch_functionality_tests - INFO - Metrics file: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/torch_metrics.json
+2025-03-13 07:32:05,112 - torch_functionality_tests - INFO - Test output directory: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality
+2025-03-13 07:32:05,112 - torch_functionality_tests - INFO - Visualization directory: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations
+2025-03-13 07:32:05,112 - torch_functionality_tests - INFO - PyTorch version: 2.1.0+cpu
+2025-03-13 07:32:05,112 - torch_functionality_tests - INFO - CUDA available: False
+2025-03-13 07:32:05,112 - torch_functionality_tests - INFO - Testing memory management...
+2025-03-13 07:32:05,992 - torch_functionality_tests - INFO - Saved visualization: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations/memory_management_20250313_073205.png
+2025-03-13 07:32:06,686 - torch_functionality_tests - INFO - Saved visualization: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations/tensor_metrics_pytorch_functionality_test_results_20250313_073206.png
+2025-03-13 07:32:06,686 - torch_functionality_tests - INFO - Generated final metrics visualization: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations/tensor_metrics_pytorch_functionality_test_results_20250313_073206.png
+2025-03-13 07:32:06,686 - torch_functionality_tests - INFO - Saved metrics to: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/torch_metrics.json
+2025-03-13 07:32:06,686 - torch_functionality_tests - INFO - Test Summary:
+2025-03-13 07:32:06,686 - torch_functionality_tests - INFO - Total visualizations generated: 11
+2025-03-13 07:32:06,686 - torch_functionality_tests - INFO - Visualization directory: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations
+2025-03-13 07:32:06,686 - torch_functionality_tests - INFO - Metrics file: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/torch_metrics.json
+2025-03-13 07:32:06,687 - torch_functionality_tests - INFO - Test output directory: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality
+2025-03-13 07:32:06,687 - torch_functionality_tests - INFO - Visualization directory: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations
+2025-03-13 07:32:06,687 - torch_functionality_tests - INFO - PyTorch version: 2.1.0+cpu
+2025-03-13 07:32:06,687 - torch_functionality_tests - INFO - CUDA available: False
+2025-03-13 07:32:06,687 - torch_functionality_tests - INFO - Testing numerical stability...
+2025-03-13 07:32:07,752 - torch_functionality_tests - INFO - Saved visualization: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations/numerical_stability_20250313_073207.png
+2025-03-13 07:32:08,433 - torch_functionality_tests - INFO - Saved visualization: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations/tensor_metrics_pytorch_functionality_test_results_20250313_073207.png
+2025-03-13 07:32:08,433 - torch_functionality_tests - INFO - Generated final metrics visualization: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations/tensor_metrics_pytorch_functionality_test_results_20250313_073207.png
+2025-03-13 07:32:08,433 - torch_functionality_tests - INFO - Saved metrics to: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/torch_metrics.json
+2025-03-13 07:32:08,433 - torch_functionality_tests - INFO - Test Summary:
+2025-03-13 07:32:08,433 - torch_functionality_tests - INFO - Total visualizations generated: 13
+2025-03-13 07:32:08,433 - torch_functionality_tests - INFO - Visualization directory: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations
+2025-03-13 07:32:08,433 - torch_functionality_tests - INFO - Metrics file: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/torch_metrics.json
+2025-03-13 07:32:08,434 - torch_functionality_tests - INFO - Test output directory: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality
+2025-03-13 07:32:08,434 - torch_functionality_tests - INFO - Visualization directory: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations
+2025-03-13 07:32:08,434 - torch_functionality_tests - INFO - PyTorch version: 2.1.0+cpu
+2025-03-13 07:32:08,434 - torch_functionality_tests - INFO - CUDA available: False
+2025-03-13 07:32:08,434 - torch_functionality_tests - INFO - Testing role assignment...
+2025-03-13 07:32:09,329 - torch_functionality_tests - INFO - Saved visualization: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations/role_assignment_20250313_073208.png
+2025-03-13 07:32:10,112 - torch_functionality_tests - INFO - Saved visualization: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations/tensor_metrics_pytorch_functionality_test_results_20250313_073209.png
+2025-03-13 07:32:10,112 - torch_functionality_tests - INFO - Generated final metrics visualization: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations/tensor_metrics_pytorch_functionality_test_results_20250313_073209.png
+2025-03-13 07:32:10,112 - torch_functionality_tests - INFO - Saved metrics to: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/torch_metrics.json
+2025-03-13 07:32:10,112 - torch_functionality_tests - INFO - Test Summary:
+2025-03-13 07:32:10,112 - torch_functionality_tests - INFO - Total visualizations generated: 15
+2025-03-13 07:32:10,112 - torch_functionality_tests - INFO - Visualization directory: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations
+2025-03-13 07:32:10,112 - torch_functionality_tests - INFO - Metrics file: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/torch_metrics.json
+2025-03-13 07:32:10,113 - torch_functionality_tests - INFO - Test output directory: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality
+2025-03-13 07:32:10,113 - torch_functionality_tests - INFO - Visualization directory: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations
+2025-03-13 07:32:10,113 - torch_functionality_tests - INFO - PyTorch version: 2.1.0+cpu
+2025-03-13 07:32:10,113 - torch_functionality_tests - INFO - CUDA available: False
+2025-03-13 07:32:10,113 - torch_functionality_tests - INFO - Testing basic tensor operations...
+2025-03-13 07:32:11,084 - torch_functionality_tests - INFO - Saved visualization: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations/enhanced_tensor_operations_20250313_073210.png
+2025-03-13 07:32:11,780 - torch_functionality_tests - INFO - Saved visualization: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations/tensor_metrics_pytorch_functionality_test_results_20250313_073211.png
+2025-03-13 07:32:11,780 - torch_functionality_tests - INFO - Generated final metrics visualization: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations/tensor_metrics_pytorch_functionality_test_results_20250313_073211.png
+2025-03-13 07:32:11,780 - torch_functionality_tests - INFO - Saved metrics to: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/torch_metrics.json
+2025-03-13 07:32:11,780 - torch_functionality_tests - INFO - Test Summary:
+2025-03-13 07:32:11,780 - torch_functionality_tests - INFO - Total visualizations generated: 17
+2025-03-13 07:32:11,780 - torch_functionality_tests - INFO - Visualization directory: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/visualizations
+2025-03-13 07:32:11,780 - torch_functionality_tests - INFO - Metrics file: /home/trim/Documents/GitHub/pyDMBD/fork/tests/test_results/torch_functionality/torch_metrics.json
+2025-03-13 07:32:11,781 - dmbd_test_runner - INFO - PyTorch functionality test PASSED: All tests completed successfully
+2025-03-13 07:32:11,781 - dmbd_test_runner - INFO - All tests completed. Total: 12, Passed: 10, Failed: 1, Errors: 0, Skipped: 2
+2025-03-13 07:32:11,781 - dmbd_test_runner - INFO - Generating comprehensive test report...
+2025-03-13 07:32:11,928 - dmbd_test_runner - INFO - Generated graphical summary of test results
+2025-03-13 07:32:11,928 - dmbd_test_runner - INFO - Report generated at tests/test_outputs/reports/dmbd_test_report_20250313_073152.txt
+2025-03-13 07:32:11,928 - dmbd_test_runner - INFO - Test report generated at: tests/test_outputs/reports/dmbd_test_report_20250313_073152.txt
+2025-03-13 07:32:11,928 - dmbd_test_runner - INFO - Test logs are available at: tests/test_outputs/logs/dmbd_test.log

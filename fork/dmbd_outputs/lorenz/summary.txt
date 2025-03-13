@@ -1,0 +1,19 @@
+DMBD Analysis Summary
+====================
+
+Total execution time: 311.08 seconds
+Data shape: torch.Size([399, 100, 1, 6])
+Role dimensions: (4, 4, 4)
+Hidden dimensions: (3, 3, 3)
+Training iterations: 100
+Learning rate: 0.1
+
+Final ELBO: 153407.943919
+Final reconstruction error: 0.000000
+
+Analysis successful! Key visualizations:
+- markov_blanket_final.png: Shows the discovered causal structure
+- assignments_final.png: Shows variable role assignments (sensor/boundary/internal)
+- dmbd_summary_dashboard.png: Overview of key results
+- training_progress.png: Training convergence
+- sbz_pc_analysis.png: Principal component analysis of latent states

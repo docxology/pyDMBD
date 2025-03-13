@@ -1,0 +1,14 @@
+DMBD DEBUG LOG
+=============
+
+Forager Simulation Parameters:
+  num_foods: 5
+  food_range: 8
+  forager_speed: 0.8
+  vision_range: 3.0
+  num_steps: 500
+  noise: 0.1
+
+Data tensor shape: torch.Size([501, 1, 5])
+
+Error: DMBD update returned False, model failed to converge

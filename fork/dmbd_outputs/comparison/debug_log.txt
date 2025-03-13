@@ -1,0 +1,28 @@
+Starting dataset comparison...
+Checking if directories exist:
+  Forager directory: /home/trim/Documents/GitHub/pyDMBD/fork/dmbd_outputs/forager/simplified - Exists: True
+  Synthetic directory: /home/trim/Documents/GitHub/pyDMBD/fork/dmbd_outputs/synthetic - Exists: True
+  Binary directory: /home/trim/Documents/GitHub/pyDMBD/fork/dmbd_outputs/binary - Exists: True
+Checking Forager path: /home/trim/Documents/GitHub/pyDMBD/fork/dmbd_outputs/forager/simplified/dmbd_results.pt
+  Loading Forager results...
+  Keys in results: ['data', 'positions', 'food_positions', 'memory', 'velocities', 'velocities_norm', 'u', 'role_dims', 'success', 'save_dir']
+  Loaded Forager data tensor with shape torch.Size([301, 1, 5])
+Checking Synthetic path: /home/trim/Documents/GitHub/pyDMBD/fork/dmbd_outputs/synthetic/dmbd_results.pt
+  Loading Synthetic results...
+  Keys in results: ['data', 'u', 'role_dims', 'success', 'save_dir']
+  Loaded Synthetic data tensor with shape torch.Size([500, 1, 3])
+Checking Binary path: /home/trim/Documents/GitHub/pyDMBD/fork/dmbd_outputs/binary/dmbd_results.pt
+  Loading Binary results...
+  Keys in results: ['data', 'u', 'role_dims', 'success', 'save_dir']
+  Loaded Binary data tensor with shape torch.Size([1000, 1, 3])
+Loaded 3 data tensors
+Creating comparison visualizations...
+Created statistics dataframe with 11 rows
+Saved statistics to /home/trim/Documents/GitHub/pyDMBD/fork/dmbd_outputs/comparison/dataset_comparison_stats.csv
+Saved heatmap to /home/trim/Documents/GitHub/pyDMBD/fork/dmbd_outputs/comparison/dataset_comparison_heatmap.png
+Saved distributions to /home/trim/Documents/GitHub/pyDMBD/fork/dmbd_outputs/comparison/dataset_comparison_distributions.png
+Saved autocorrelations to /home/trim/Documents/GitHub/pyDMBD/fork/dmbd_outputs/comparison/dataset_comparison_autocorrelations.png
+Saved correlation matrix for Forager to /home/trim/Documents/GitHub/pyDMBD/fork/dmbd_outputs/comparison/forager_correlation_matrix.png
+Saved correlation matrix for Synthetic to /home/trim/Documents/GitHub/pyDMBD/fork/dmbd_outputs/comparison/synthetic_correlation_matrix.png
+Saved correlation matrix for Binary to /home/trim/Documents/GitHub/pyDMBD/fork/dmbd_outputs/comparison/binary_correlation_matrix.png
+Comparison visualizations and report saved to /home/trim/Documents/GitHub/pyDMBD/fork/dmbd_outputs/comparison

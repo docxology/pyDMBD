@@ -1,0 +1,13 @@
+SYNTHETIC DMBD TEST LOG
+======================
+
+Creating synthetic dataset with clear Markov blanket structure
+Synthetic data tensor shape: torch.Size([500, 1, 3])
+Creating minimal DMBD model for synthetic data
+Attempting update with lr=0.01, iters=50
+Update result: False
+Attempting update with lr=0.05, iters=100
+Update result: False
+Attempting update with lr=0.2, iters=200
+Update result: False
+All DMBD update attempts failed to converge.

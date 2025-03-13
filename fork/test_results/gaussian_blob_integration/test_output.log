@@ -1,0 +1,17 @@
+test_01_feature_extraction_methods (test_dmbd_gaussian_blob_integration.TestDMBDGaussianBlobIntegration)
+Test different feature extraction methods on GaussianBlob data. ... ok
+test_02_dmbd_initialization_with_features (test_dmbd_gaussian_blob_integration.TestDMBDGaussianBlobIntegration)
+Test DMBD initialization with different feature dimensions. ... ok
+test_03_torch_operations_check (test_dmbd_gaussian_blob_integration.TestDMBDGaussianBlobIntegration)
+Test that DMBD operations use torch and support autograd. ... ok
+test_04_matrix_stability_evaluation (test_dmbd_gaussian_blob_integration.TestDMBDGaussianBlobIntegration)
+Test matrix inversion stability with different regularization strengths. ... ok
+test_05_role_assignment_accuracy (test_dmbd_gaussian_blob_integration.TestDMBDGaussianBlobIntegration)
+Test how well DMBD assigns roles compared to ground truth. ... ok
+test_06_end_to_end_integration (test_dmbd_gaussian_blob_integration.TestDMBDGaussianBlobIntegration)
+Run a complete end-to-end integration test between DMBD and GaussianBlob. ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 3.458s
+
+OK

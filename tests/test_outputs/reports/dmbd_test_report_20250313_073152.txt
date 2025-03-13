@@ -1,0 +1,131 @@
+================================================================================
+DMBD TEST REPORT - 2025-03-13 07:32:11
+================================================================================
+
+TEST SUMMARY
+--------------------------------------------------------------------------------
+Total tests: 12
+Passed: 10
+Failed: 1
+Errors: 0
+Skipped: 2
+
+DETAILED RESULTS
+--------------------------------------------------------------------------------
+Test: numerical_stability
+Status: FAILED
+Message: Errors detected during numerical stability test execution
+
+Output:
+----------------------------------------
+ARHMM_prXRY.__init__: batch2 initialized as None
+ELBO Calculation is Approximate!!!  Not Guaranteed to increase!!!
+ARHMM_prXRY.__init__: batch2 initialized as None
+ELBO Calculation is Approximate!!!  Not Guaranteed to increase!!!
+Initialized obs_model.p with shape torch.Size([20, 1, 9])
+YR[0] shape: torch.Size([20, 1, 9, 1])
+px4r.mu shape: torch.Size([20, 1, 9, 1])
+Error in update_states: 
+Final shapes - y: torch.Size([20, 1, 9, 1]), r: torch.Size([20, 1, 1, 1]), px4r.mu: torch.Size([20, 1, 9, 1])
+Initializing SE_xpu_xpu and related tensors
+Elog_like_X ENTRY: YR[0] shape: torch.Size([20, 1, 9, 1])
+Elog_like_X: Created batch2 with shape torch.Size([20, 1, 0])
+MatrixNormalWishart.Elog_like_X ENTRY: Y shape: torch.Size([20, 1, 9, 1])
+MatrixNormalWishart.Elog_like_X ENTRY: Y shape: torch.Size([20, 1, 9, 1])
+MatrixNormalWishart.Elog_like_X EXIT: invSigma_x_x shape: torch.Size([9, 9, 9]), invSigmamu_x shape: torch.Size([20, 9, 9, 1])
+MatrixNormalWishart.Elog_like_X EXIT: invSigma_x_x shape: 
+... (output truncated) ...
+
+Errors:
+----------------------------------------
+test_comprehensive_stability_solution (test_dmbd_numerical_stability.TestDMBDNumericalStability)
+Test comprehensive numerical stability solution. ... ERROR
+test_matrix_conditioning_issues (test_dmbd_numerical_stability.TestDMBDNumericalStability)
+Test and fix matrix conditioning issues causing inversion failures. ... ERROR
+test_tensor_dimension_consistency (test_dmbd_numerical_stability.TestDMBDNumericalStability)
+Test and fix tensor dimension consistency issues. ... FAIL
+
+======================================================================
+ERROR: test_comprehensive_stability_solution (test_dmbd_numerical_stability.TestDMBDNumericalStability)
+Test comprehensive numerical stability solution.
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/trim/Documents/GitHub/pyDMBD/fork/tests/test_dmbd_numerical_stability.py", line 584, in test_comprehensive_stability_solution
+    success = self.apply_improved_matrix_conditionin
+... (error output truncated) ...
+
+========================================
+
+Test: minimal_test
+Status: PASSED
+Message: Minimal test completed successfully
+
+Output:
+----------------------------------------
+Starting DMBD test with Gaussian Blob simulation...
+Creating simulation with grid_size=12, time_steps=20
+Simulation complete. Data shape: torch.Size([20, 1, 144]), Labels shape: torch.Size([20, 144])
+Extracting features from data...
+Processed Data details:
+  Shape: torch.Size([20, 1, 12])
+  Type: torch.float32
+  Min/Max: 0.0348/1.0000
+  Mean/Std: 0.2352/0.2478
+Initializing DMBD model...
+ARHMM_prXRY.__init__: batch2 initialized as None
+ELBO Calculation is Approximate!!!  Not Guaranteed to increase!!!
+DMBD model initialized with observation shape: (1, 12)
+Role dimensions: [4, 4, 4]
+Hidden dimensions: [4, 4, 4]
+Checking torch operations...
+Iteration 1/1
+Initialized obs_model.p with shape torch.Size([5, 1, 12])
+YR[0] shape: torch.Size([5, 1, 12, 1])
+px4r.mu shape: torch.Size([5, 1, 12, 1])
+Error in update_states: 
+Final shapes - y: torch.Size([5, 1, 12, 1]), r: torch.Size([5, 1, 1, 1]), px4r.mu: torch.Size([5, 1, 12, 1])
+Initializing SE_xpu_xpu and related tensors
+Elog_like_X ENTRY: YR[0] 
+... (output truncated) ...
+
+Errors:
+----------------------------------------
+/home/trim/.local/lib/python3.10/site-packages/torch/functional.py:504: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at ../aten/src/ATen/native/TensorShape.cpp:3526.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+
+========================================
+
+Test: dimensions_test
+Status: SKIPPED
+Message: Test module not available
+
+Errors:
+----------------------------------------
+Module import failed
+========================================
+
+Test: gaussian_blob_test
+Status: SKIPPED
+Message: Test module not available
+
+Errors:
+----------------------------------------
+Module import failed
+========================================
+
+Test: torch_functionality
+Status: PASSED
+Message: PyTorch functionality test completed successfully
+
+========================================
+
+RECOMMENDATIONS
+--------------------------------------------------------------------------------
+The following issues were detected:
+
+- numerical_stability: Errors detected during numerical stability test execution
+
+Recommended actions:
+1. Check the DMBD model implementation for numerical stability issues
+2. Ensure dimension consistency across all operations
+3. Verify matrix inversion operations have proper regularization

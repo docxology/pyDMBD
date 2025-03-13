@@ -1,0 +1,46 @@
+test_comprehensive_stability_solution (test_dmbd_numerical_stability.TestDMBDNumericalStability)
+Test comprehensive numerical stability solution. ... ERROR
+test_matrix_conditioning_issues (test_dmbd_numerical_stability.TestDMBDNumericalStability)
+Test and fix matrix conditioning issues causing inversion failures. ... ERROR
+test_tensor_dimension_consistency (test_dmbd_numerical_stability.TestDMBDNumericalStability)
+Test and fix tensor dimension consistency issues. ... FAIL
+
+======================================================================
+ERROR: test_comprehensive_stability_solution (test_dmbd_numerical_stability.TestDMBDNumericalStability)
+Test comprehensive numerical stability solution.
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/trim/Documents/GitHub/pyDMBD/fork/tests/test_dmbd_numerical_stability.py", line 584, in test_comprehensive_stability_solution
+    success = self.apply_improved_matrix_conditioning(model)
+  File "/home/trim/Documents/GitHub/pyDMBD/fork/tests/test_dmbd_numerical_stability.py", line 230, in apply_improved_matrix_conditioning
+    original_update_sigma = model.update_sigma
+  File "/home/trim/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1695, in __getattr__
+    raise AttributeError(f"'{type(self).__name__}' object has no attribute '{name}'")
+AttributeError: 'DMBD' object has no attribute 'update_sigma'
+
+======================================================================
+ERROR: test_matrix_conditioning_issues (test_dmbd_numerical_stability.TestDMBDNumericalStability)
+Test and fix matrix conditioning issues causing inversion failures.
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/trim/Documents/GitHub/pyDMBD/fork/tests/test_dmbd_numerical_stability.py", line 148, in test_matrix_conditioning_issues
+    self.apply_improved_matrix_conditioning(model)
+  File "/home/trim/Documents/GitHub/pyDMBD/fork/tests/test_dmbd_numerical_stability.py", line 230, in apply_improved_matrix_conditioning
+    original_update_sigma = model.update_sigma
+  File "/home/trim/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1695, in __getattr__
+    raise AttributeError(f"'{type(self).__name__}' object has no attribute '{name}'")
+AttributeError: 'DMBD' object has no attribute 'update_sigma'
+
+======================================================================
+FAIL: test_tensor_dimension_consistency (test_dmbd_numerical_stability.TestDMBDNumericalStability)
+Test and fix tensor dimension consistency issues.
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/trim/Documents/GitHub/pyDMBD/fork/tests/test_dmbd_numerical_stability.py", line 338, in test_tensor_dimension_consistency
+    self.assertLess(len(issues_after), len(issues_before),
+AssertionError: 0 not less than 0 : Dimension consistency fixes should reduce dimension issues
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.468s
+
+FAILED (failures=1, errors=2)

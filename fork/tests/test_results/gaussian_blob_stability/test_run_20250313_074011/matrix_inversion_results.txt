@@ -1,0 +1,72 @@
+Matrix Inversion Stability Test Results
+======================================
+
+
+well_conditioned:
+----------------:
+
+  Regularization: 0.0
+    Standard inversion: Success
+    Safe inversion: Success
+
+  Regularization: 1e-08
+    Standard inversion: Success
+    Safe inversion: Success
+
+  Regularization: 1e-06
+    Standard inversion: Success
+    Safe inversion: Success
+
+  Regularization: 0.0001
+    Standard inversion: Success
+    Safe inversion: Success
+
+  Regularization: 0.01
+    Standard inversion: Success
+    Safe inversion: Success
+
+poorly_conditioned:
+------------------:
+
+  Regularization: 0.0
+    Standard inversion: Success
+    Safe inversion: Success
+
+  Regularization: 1e-08
+    Standard inversion: Success
+    Safe inversion: Success
+
+  Regularization: 1e-06
+    Standard inversion: Success
+    Safe inversion: Success
+
+  Regularization: 0.0001
+    Standard inversion: Success
+    Safe inversion: Success
+
+  Regularization: 0.01
+    Standard inversion: Success
+    Safe inversion: Success
+
+nearly_singular:
+---------------:
+
+  Regularization: 0.0
+    Standard inversion: Success
+    Safe inversion: Success
+
+  Regularization: 1e-08
+    Standard inversion: Success
+    Safe inversion: Success
+
+  Regularization: 1e-06
+    Standard inversion: Success
+    Safe inversion: Success
+
+  Regularization: 0.0001
+    Standard inversion: Success
+    Safe inversion: Success
+
+  Regularization: 0.01
+    Standard inversion: Success
+    Safe inversion: Success

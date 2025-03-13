@@ -1,0 +1,24 @@
+Regularization 0.0:
+  success: True
+  error: None
+  assignments_shape: [15, 1]
+  unique_roles: [0]
+
+Regularization 0.001:
+  success: True
+  error: None
+  assignments_shape: [15, 1]
+  unique_roles: [0]
+
+Regularization 0.01:
+  success: True
+  error: None
+  assignments_shape: [15, 1]
+  unique_roles: [0]
+
+Regularization 0.1:
+  success: True
+  error: None
+  assignments_shape: [15, 1]
+  unique_roles: [0]
+

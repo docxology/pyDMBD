@@ -1,0 +1,347 @@
+[2025-03-12 10:16:02] [INFO] Starting Gaussian Blob DMBD run
+[2025-03-12 10:16:02] [INFO] Arguments: Namespace(output_dir='dmbd_outputs/gaussian_blob', grid_size=8, time_steps=20, seed=42, sigma=2.0, noise_level=0.02, convergence_attempts=10, save_interval=5, verbose=True)
+[2025-03-12 10:16:02] [INFO] Initializing Gaussian Blob Simulation...
+[2025-03-12 10:16:02] [INFO] Running the simulation...
+[2025-03-12 10:16:02] [INFO] Generated data tensor with shape torch.Size([20, 1, 64])
+[2025-03-12 10:16:02] [INFO] Generated labels tensor with shape torch.Size([20, 64])
+[2025-03-12 10:16:02] [INFO] Creating visualizations of the raw data...
+[2025-03-12 10:16:09] [INFO] Raw data animation saved to dmbd_outputs/gaussian_blob/raw_data/blob_animation.gif
+[2025-03-12 10:16:09] [INFO] Saving sample frames from raw data...
+[2025-03-12 10:16:10] [INFO] Initializing DMBD model...
+[2025-03-12 10:16:10] [INFO] DMBD parameters:
+[2025-03-12 10:16:10] [INFO]   Observation shape: (1, 64)
+[2025-03-12 10:16:10] [INFO]   Role dimensions: [8, 8, 8]
+[2025-03-12 10:16:10] [INFO]   Hidden dimensions: [8, 8, 8]
+[2025-03-12 10:16:10] [INFO]   Number of objects: 1
+[2025-03-12 10:16:10] [INFO] Starting DMBD update with different configurations...
+[2025-03-12 10:16:10] [INFO] Attempt 1/9: lr=0.001, iterations=50
+[2025-03-12 10:16:10] [INFO]   Data shape before update: torch.Size([20, 1, 64])
+[2025-03-12 10:16:12] [INFO]   Update success: True
+[2025-03-12 10:16:12] [INFO]   DMBD update succeeded!
+[2025-03-12 10:16:12] [INFO]   Assignments tensor shape: torch.Size([20, 1])
+[2025-03-12 10:16:12] [INFO]   Assignments dtype: torch.int64
+[2025-03-12 10:16:12] [INFO]   Assignments min: 0, max: 0
+[2025-03-12 10:16:12] [INFO] Analyzing DMBD results...
+[2025-03-12 10:16:12] [INFO] DMBD results summary:
+[2025-03-12 10:16:12] [INFO]   assignments: Tensor of shape torch.Size([20, 1]), dtype torch.int64
+[2025-03-12 10:16:12] [INFO]     Range: [0.0000, 0.0000]
+[2025-03-12 10:16:12] [INFO]   roles: None
+[2025-03-12 10:16:12] [INFO]   u: None
+[2025-03-12 10:16:12] [INFO] Creating raw assignment visualizations...
+[2025-03-12 10:16:18] [INFO] DMBD accuracy: 0.5938
+[2025-03-12 10:16:18] [INFO] Creating additional comparison visualizations...
+[2025-03-12 10:16:20] [INFO] Saving DMBD results...
+[2025-03-12 10:16:20] [INFO] 
+DMBD analysis completed successfully!
+[2025-03-12 10:16:20] [INFO] Output directory: dmbd_outputs/gaussian_blob
+[2025-03-12 10:17:43] [INFO] Starting Gaussian Blob DMBD run
+[2025-03-12 10:17:43] [INFO] Arguments: Namespace(output_dir='dmbd_outputs/gaussian_blob', grid_size=8, time_steps=20, seed=42, sigma=2.0, noise_level=0.02, convergence_attempts=10, save_interval=5, verbose=True)
+[2025-03-12 10:17:43] [INFO] Initializing Gaussian Blob Simulation...
+[2025-03-12 10:17:43] [INFO] Running the simulation...
+[2025-03-12 10:17:43] [INFO] Generated data tensor with shape torch.Size([20, 1, 64])
+[2025-03-12 10:17:43] [INFO] Generated labels tensor with shape torch.Size([20, 64])
+[2025-03-12 10:17:43] [INFO] Creating visualizations of the raw data...
+[2025-03-12 10:17:50] [INFO] Raw data animation saved to dmbd_outputs/gaussian_blob/raw_data/blob_animation.gif
+[2025-03-12 10:17:50] [INFO] Saving sample frames from raw data...
+[2025-03-12 10:17:51] [INFO] Initializing DMBD model...
+[2025-03-12 10:17:51] [INFO] DMBD parameters:
+[2025-03-12 10:17:51] [INFO]   Observation shape: (1, 64)
+[2025-03-12 10:17:51] [INFO]   Role dimensions: [3, 3, 3]
+[2025-03-12 10:17:51] [INFO]   Hidden dimensions: [3, 3, 3]
+[2025-03-12 10:17:51] [INFO]   Number of objects: 1
+[2025-03-12 10:17:51] [INFO] Original data shape: torch.Size([20, 1, 64])
+[2025-03-12 10:17:51] [INFO] Expected DMBD dimensions: channels=1, features=64
+[2025-03-12 10:17:51] [INFO] Data successfully adjusted to match DMBD expectations: torch.Size([20, 1, 64])
+[2025-03-12 10:17:51] [INFO] Starting DMBD update with different configurations...
+[2025-03-12 10:17:51] [INFO] Attempt 1/9: lr=0.001, iterations=50
+[2025-03-12 10:17:51] [INFO]   Data shape before update: torch.Size([20, 1, 64])
+[2025-03-12 10:17:52] [INFO]   Update success: True
+[2025-03-12 10:17:52] [INFO]   DMBD update succeeded!
+[2025-03-12 10:17:52] [INFO]   Assignments tensor shape: torch.Size([20, 1])
+[2025-03-12 10:17:52] [INFO]   Assignments dtype: torch.int64
+[2025-03-12 10:17:52] [INFO]   Assignments min: 0, max: 0
+[2025-03-12 10:17:52] [INFO] Analyzing DMBD results...
+[2025-03-12 10:17:52] [INFO] DMBD results summary:
+[2025-03-12 10:17:52] [INFO]   assignments: Tensor of shape torch.Size([20, 1]), dtype torch.int64
+[2025-03-12 10:17:52] [INFO]     Range: [0.0000, 0.0000]
+[2025-03-12 10:17:52] [INFO]   roles: None
+[2025-03-12 10:17:52] [INFO]   u: None
+[2025-03-12 10:17:52] [INFO] Creating raw assignment visualizations...
+[2025-03-12 10:17:59] [INFO] DMBD accuracy: 0.5938
+[2025-03-12 10:17:59] [INFO] Creating additional comparison visualizations...
+[2025-03-12 10:18:01] [INFO] Saving DMBD results...
+[2025-03-12 10:18:01] [INFO] 
+DMBD analysis completed successfully!
+[2025-03-12 10:18:01] [INFO] Output directory: dmbd_outputs/gaussian_blob
+[2025-03-12 10:19:01] [INFO] Starting Gaussian Blob DMBD run
+[2025-03-12 10:19:01] [INFO] Arguments: Namespace(output_dir='dmbd_outputs/gaussian_blob', grid_size=8, time_steps=20, seed=42, sigma=2.0, noise_level=0.02, convergence_attempts=10, save_interval=5, verbose=True)
+[2025-03-12 10:19:01] [INFO] Initializing Gaussian Blob Simulation...
+[2025-03-12 10:19:01] [INFO] Running the simulation...
+[2025-03-12 10:19:01] [INFO] Generated data tensor with shape torch.Size([20, 1, 64])
+[2025-03-12 10:19:01] [INFO] Generated labels tensor with shape torch.Size([20, 64])
+[2025-03-12 10:19:01] [INFO] Creating visualizations of the raw data...
+[2025-03-12 10:19:08] [INFO] Raw data animation saved to dmbd_outputs/gaussian_blob/raw_data/blob_animation.gif
+[2025-03-12 10:19:08] [INFO] Saving sample frames from raw data...
+[2025-03-12 10:19:09] [INFO] Initializing DMBD model...
+[2025-03-12 10:19:09] [ERROR] Error initializing DMBD model: 'GaussianBlobSimulation' object has no attribute 'generate_data'
+[2025-03-12 10:21:40] [INFO] Starting Gaussian Blob DMBD run
+[2025-03-12 10:21:40] [INFO] Arguments: Namespace(output_dir='dmbd_outputs/gaussian_blob', grid_size=8, time_steps=20, seed=42, sigma=2.0, noise_level=0.02, convergence_attempts=10, save_interval=5, verbose=True)
+[2025-03-12 10:21:40] [INFO] Initializing Gaussian Blob Simulation...
+[2025-03-12 10:21:40] [INFO] Running the simulation...
+[2025-03-12 10:21:40] [INFO] Generated data tensor with shape torch.Size([20, 1, 64])
+[2025-03-12 10:21:40] [INFO] Generated labels tensor with shape torch.Size([20, 64])
+[2025-03-12 10:21:40] [INFO] Creating visualizations of the raw data...
+[2025-03-12 10:21:47] [INFO] Raw data animation saved to dmbd_outputs/gaussian_blob/raw_data/blob_animation.gif
+[2025-03-12 10:21:47] [INFO] Saving sample frames from raw data...
+[2025-03-12 10:21:48] [INFO] Initializing DMBD model...
+[2025-03-12 10:21:48] [INFO] Generated data shape: torch.Size([20, 1, 64])
+[2025-03-12 10:21:48] [INFO] Reshaped data: torch.Size([20, 1, 64, 1])
+[2025-03-12 10:21:48] [INFO] Using observation shape (1, 64) based on data
+[2025-03-12 10:21:48] [INFO] Using role_dims=[3, 3, 3], hidden_dims=[3, 3, 3]
+[2025-03-12 10:21:48] [INFO] Original data shape: torch.Size([20, 1, 64, 1])
+[2025-03-12 10:21:48] [INFO] Expected feature dimension: 64
+[2025-03-12 10:21:48] [INFO] Final data shape: torch.Size([20, 1, 64, 1])
+[2025-03-12 10:21:48] [INFO] Starting DMBD update with different configurations...
+[2025-03-12 10:21:48] [INFO] Attempt 1/9: lr=0.001, iterations=50
+[2025-03-12 10:21:48] [INFO]   Data shape before update: torch.Size([20, 1, 64])
+[2025-03-12 10:21:49] [INFO]   Update success: True
+[2025-03-12 10:21:49] [INFO]   DMBD update succeeded!
+[2025-03-12 10:21:49] [INFO]   Assignments tensor shape: torch.Size([20, 1])
+[2025-03-12 10:21:49] [INFO]   Assignments dtype: torch.int64
+[2025-03-12 10:21:49] [INFO]   Assignments min: 0, max: 0
+[2025-03-12 10:21:49] [INFO] Analyzing DMBD results...
+[2025-03-12 10:21:49] [INFO] DMBD results summary:
+[2025-03-12 10:21:49] [INFO]   assignments: Tensor of shape torch.Size([20, 1]), dtype torch.int64
+[2025-03-12 10:21:49] [INFO]     Range: [0.0000, 0.0000]
+[2025-03-12 10:21:49] [INFO]   roles: None
+[2025-03-12 10:21:49] [INFO]   u: None
+[2025-03-12 10:21:49] [INFO] Creating raw assignment visualizations...
+[2025-03-12 10:21:49] [ERROR] Error creating raw assignment visualization for t=0: name 'grid_size' is not defined
+[2025-03-12 10:21:49] [ERROR] Error creating raw assignment visualization for t=5: name 'grid_size' is not defined
+[2025-03-12 10:21:49] [ERROR] Error creating raw assignment visualization for t=10: name 'grid_size' is not defined
+[2025-03-12 10:21:49] [ERROR] Error creating raw assignment visualization for t=15: name 'grid_size' is not defined
+[2025-03-12 10:21:55] [INFO] DMBD accuracy: 0.5938
+[2025-03-12 10:21:55] [INFO] Creating additional comparison visualizations...
+[2025-03-12 10:21:56] [ERROR] Error creating comparison visualization for t=0: name 'grid_size' is not defined
+[2025-03-12 10:21:56] [ERROR] Error creating comparison visualization for t=5: name 'grid_size' is not defined
+[2025-03-12 10:21:56] [ERROR] Error creating comparison visualization for t=10: name 'grid_size' is not defined
+[2025-03-12 10:21:56] [ERROR] Error creating comparison visualization for t=15: name 'grid_size' is not defined
+[2025-03-12 10:21:56] [INFO] Saving DMBD results...
+[2025-03-12 10:21:56] [INFO] 
+DMBD analysis completed successfully!
+[2025-03-12 10:21:56] [INFO] Output directory: dmbd_outputs/gaussian_blob
+[2025-03-12 10:22:27] [INFO] Starting Gaussian Blob DMBD run
+[2025-03-12 10:22:27] [INFO] Arguments: Namespace(output_dir='dmbd_outputs/gaussian_blob', grid_size=8, time_steps=20, seed=42, sigma=2.0, noise_level=0.02, convergence_attempts=10, save_interval=5, verbose=True)
+[2025-03-12 10:22:27] [INFO] Initializing Gaussian Blob Simulation...
+[2025-03-12 10:22:27] [INFO] Running the simulation...
+[2025-03-12 10:22:27] [INFO] Generated data tensor with shape torch.Size([20, 1, 64])
+[2025-03-12 10:22:27] [INFO] Generated labels tensor with shape torch.Size([20, 64])
+[2025-03-12 10:22:27] [INFO] Creating visualizations of the raw data...
+[2025-03-12 10:22:35] [INFO] Raw data animation saved to dmbd_outputs/gaussian_blob/raw_data/blob_animation.gif
+[2025-03-12 10:22:35] [INFO] Saving sample frames from raw data...
+[2025-03-12 10:22:36] [INFO] Initializing DMBD model...
+[2025-03-12 10:22:36] [INFO] Generated data shape: torch.Size([20, 1, 64])
+[2025-03-12 10:22:36] [INFO] Reshaped data: torch.Size([20, 1, 64, 1])
+[2025-03-12 10:22:36] [INFO] Using observation shape (1, 64) based on data
+[2025-03-12 10:22:36] [INFO] Using role_dims=[1, 1, 1], hidden_dims=[1, 1, 1]
+[2025-03-12 10:22:36] [INFO] Starting DMBD update with different configurations...
+[2025-03-12 10:22:36] [INFO] Attempt 1/9: lr=0.001, iterations=50
+[2025-03-12 10:22:36] [INFO]   Data shape before update: torch.Size([20, 1, 64])
+[2025-03-12 10:22:37] [INFO]   Update success: True
+[2025-03-12 10:22:37] [INFO]   DMBD update succeeded!
+[2025-03-12 10:22:37] [INFO]   Assignments tensor shape: torch.Size([20, 1])
+[2025-03-12 10:22:37] [INFO]   Assignments dtype: torch.int64
+[2025-03-12 10:22:37] [INFO]   Assignments min: 0, max: 0
+[2025-03-12 10:22:37] [INFO] Analyzing DMBD results...
+[2025-03-12 10:22:37] [INFO] DMBD results summary:
+[2025-03-12 10:22:37] [INFO]   assignments: Tensor of shape torch.Size([20, 1]), dtype torch.int64
+[2025-03-12 10:22:37] [INFO]     Range: [0.0000, 0.0000]
+[2025-03-12 10:22:37] [INFO]   roles: None
+[2025-03-12 10:22:37] [INFO]   u: None
+[2025-03-12 10:22:37] [INFO] Creating raw assignment visualizations...
+[2025-03-12 10:22:44] [INFO] DMBD accuracy: 0.5938
+[2025-03-12 10:22:44] [INFO] Creating additional comparison visualizations...
+[2025-03-12 10:22:46] [INFO] Saving DMBD results...
+[2025-03-12 10:22:46] [INFO] 
+DMBD analysis completed successfully!
+[2025-03-12 10:22:46] [INFO] Output directory: dmbd_outputs/gaussian_blob
+[2025-03-12 10:23:14] [INFO] Starting Gaussian Blob DMBD run
+[2025-03-12 10:23:14] [INFO] Arguments: Namespace(output_dir='dmbd_outputs/gaussian_blob', grid_size=8, time_steps=20, seed=42, sigma=2.0, noise_level=0.02, convergence_attempts=10, save_interval=5, verbose=True)
+[2025-03-12 10:23:14] [INFO] Initializing Gaussian Blob Simulation...
+[2025-03-12 10:23:14] [INFO] Running the simulation...
+[2025-03-12 10:23:14] [INFO] Generated data tensor with shape torch.Size([20, 1, 64])
+[2025-03-12 10:23:14] [INFO] Generated labels tensor with shape torch.Size([20, 64])
+[2025-03-12 10:23:14] [INFO] Creating visualizations of the raw data...
+[2025-03-12 10:23:21] [INFO] Raw data animation saved to dmbd_outputs/gaussian_blob/raw_data/blob_animation.gif
+[2025-03-12 10:23:21] [INFO] Saving sample frames from raw data...
+[2025-03-12 10:23:22] [INFO] Initializing DMBD model...
+[2025-03-12 10:23:22] [INFO] Generated data shape: torch.Size([20, 1, 64])
+[2025-03-12 10:23:22] [INFO] Reshaped data: torch.Size([20, 1, 64, 1])
+[2025-03-12 10:23:22] [INFO] Using observation shape (1, 64) based on data
+[2025-03-12 10:23:22] [INFO] Using role_dims=[1, 1, 1], hidden_dims=[1, 1, 1]
+[2025-03-12 10:23:22] [INFO] Before fix: data shape = torch.Size([20, 1, 64, 1]), DMBD expects features = 64
+[2025-03-12 10:23:22] [INFO] Original data shape: torch.Size([20, 1, 64, 1])
+[2025-03-12 10:23:22] [INFO] Expected feature dimension: 64
+[2025-03-12 10:23:22] [INFO] Final data shape: torch.Size([20, 1, 64, 1])
+[2025-03-12 10:23:22] [INFO] After fix: data shape = torch.Size([20, 1, 64, 1])
+[2025-03-12 10:23:22] [INFO] Starting DMBD update with different configurations...
+[2025-03-12 10:23:22] [INFO] Attempt 1/9: lr=0.001, iterations=50
+[2025-03-12 10:23:22] [INFO]   Data shape before update: torch.Size([20, 1, 64])
+[2025-03-12 10:23:23] [INFO]   Update success: True
+[2025-03-12 10:23:23] [INFO]   DMBD update succeeded!
+[2025-03-12 10:23:23] [INFO]   Assignments tensor shape: torch.Size([20, 1])
+[2025-03-12 10:23:23] [INFO]   Assignments dtype: torch.int64
+[2025-03-12 10:23:23] [INFO]   Assignments min: 0, max: 0
+[2025-03-12 10:23:23] [INFO] Analyzing DMBD results...
+[2025-03-12 10:23:23] [INFO] DMBD results summary:
+[2025-03-12 10:23:23] [INFO]   assignments: Tensor of shape torch.Size([20, 1]), dtype torch.int64
+[2025-03-12 10:23:23] [INFO]     Range: [0.0000, 0.0000]
+[2025-03-12 10:23:23] [INFO]   roles: None
+[2025-03-12 10:23:23] [INFO]   u: None
+[2025-03-12 10:23:23] [INFO] Creating raw assignment visualizations...
+[2025-03-12 10:23:30] [INFO] DMBD accuracy: 0.5938
+[2025-03-12 10:23:30] [INFO] Creating additional comparison visualizations...
+[2025-03-12 10:23:32] [INFO] Saving DMBD results...
+[2025-03-12 10:23:32] [INFO] 
+DMBD analysis completed successfully!
+[2025-03-12 10:23:32] [INFO] Output directory: dmbd_outputs/gaussian_blob
+[2025-03-12 10:24:30] [INFO] Starting Gaussian Blob DMBD run
+[2025-03-12 10:24:30] [INFO] Arguments: Namespace(output_dir='dmbd_outputs/gaussian_blob', grid_size=8, time_steps=20, seed=42, sigma=2.0, noise_level=0.02, convergence_attempts=10, save_interval=5, verbose=True)
+[2025-03-12 10:24:30] [INFO] Initializing Gaussian Blob Simulation...
+[2025-03-12 10:24:30] [INFO] Running the simulation...
+[2025-03-12 10:24:30] [INFO] Generated data tensor with shape torch.Size([20, 1, 64])
+[2025-03-12 10:24:30] [INFO] Generated labels tensor with shape torch.Size([20, 64])
+[2025-03-12 10:24:30] [INFO] Creating visualizations of the raw data...
+[2025-03-12 10:24:37] [INFO] Raw data animation saved to dmbd_outputs/gaussian_blob/raw_data/blob_animation.gif
+[2025-03-12 10:24:37] [INFO] Saving sample frames from raw data...
+[2025-03-12 10:24:38] [INFO] Initializing DMBD model...
+[2025-03-12 10:24:38] [INFO] Generated data shape: torch.Size([20, 1, 64])
+[2025-03-12 10:24:38] [INFO] Reshaped data: torch.Size([20, 1, 64, 1])
+[2025-03-12 10:24:38] [INFO] Using observation shape (1, 64) based on data
+[2025-03-12 10:24:38] [INFO] Using role_dims=[1, 1, 1], hidden_dims=[1, 1, 1]
+[2025-03-12 10:24:38] [INFO] Data shape = torch.Size([20, 1, 64, 1]), DMBD expects features = 64
+[2025-03-12 10:24:38] [INFO] Starting DMBD update with different configurations...
+[2025-03-12 10:24:38] [INFO] Attempt 1/9: lr=0.001, iterations=50
+[2025-03-12 10:24:38] [INFO]   Data shape before update: torch.Size([20, 1, 64, 1])
+[2025-03-12 10:24:38] [INFO]   Update success: False
+[2025-03-12 10:24:38] [INFO] Attempt 2/9: lr=0.001, iterations=100
+[2025-03-12 10:24:38] [INFO]   Data shape before update: torch.Size([20, 1, 64, 1])
+[2025-03-12 10:24:38] [INFO]   Update success: False
+[2025-03-12 10:24:38] [INFO] Attempt 3/9: lr=0.001, iterations=200
+[2025-03-12 10:24:38] [INFO]   Data shape before update: torch.Size([20, 1, 64, 1])
+[2025-03-12 10:24:38] [INFO]   Update success: False
+[2025-03-12 10:24:38] [INFO] Attempt 4/9: lr=0.005, iterations=50
+[2025-03-12 10:24:38] [INFO]   Data shape before update: torch.Size([20, 1, 64, 1])
+[2025-03-12 10:24:38] [INFO]   Update success: False
+[2025-03-12 10:24:38] [INFO] Attempt 5/9: lr=0.005, iterations=100
+[2025-03-12 10:24:38] [INFO]   Data shape before update: torch.Size([20, 1, 64, 1])
+[2025-03-12 10:24:38] [INFO]   Update success: False
+[2025-03-12 10:24:38] [INFO] Attempt 6/9: lr=0.005, iterations=200
+[2025-03-12 10:24:38] [INFO]   Data shape before update: torch.Size([20, 1, 64, 1])
+[2025-03-12 10:24:38] [INFO]   Update success: False
+[2025-03-12 10:24:38] [INFO] Attempt 7/9: lr=0.01, iterations=50
+[2025-03-12 10:24:38] [INFO]   Data shape before update: torch.Size([20, 1, 64, 1])
+[2025-03-12 10:24:38] [INFO]   Update success: False
+[2025-03-12 10:24:38] [INFO] Attempt 8/9: lr=0.01, iterations=100
+[2025-03-12 10:24:38] [INFO]   Data shape before update: torch.Size([20, 1, 64, 1])
+[2025-03-12 10:24:38] [INFO]   Update success: False
+[2025-03-12 10:24:38] [INFO] Attempt 9/9: lr=0.01, iterations=200
+[2025-03-12 10:24:38] [INFO]   Data shape before update: torch.Size([20, 1, 64, 1])
+[2025-03-12 10:24:38] [INFO]   Update success: False
+[2025-03-12 10:24:38] [INFO] 
+DMBD failed to converge with all attempted configurations.
+[2025-03-12 10:24:38] [INFO] Consider trying different hyperparameters or adjusting the simulation parameters.
+[2025-03-12 10:25:28] [INFO] Starting Gaussian Blob DMBD run
+[2025-03-12 10:25:28] [INFO] Arguments: Namespace(output_dir='dmbd_outputs/gaussian_blob', grid_size=8, time_steps=20, seed=42, sigma=2.0, noise_level=0.02, convergence_attempts=10, save_interval=5, verbose=True)
+[2025-03-12 10:25:28] [INFO] Initializing Gaussian Blob Simulation...
+[2025-03-12 10:25:28] [INFO] Running the simulation...
+[2025-03-12 10:25:28] [INFO] Generated data tensor with shape torch.Size([20, 1, 64])
+[2025-03-12 10:25:28] [INFO] Generated labels tensor with shape torch.Size([20, 64])
+[2025-03-12 10:25:28] [INFO] Creating visualizations of the raw data...
+[2025-03-12 10:25:35] [INFO] Raw data animation saved to dmbd_outputs/gaussian_blob/raw_data/blob_animation.gif
+[2025-03-12 10:25:35] [INFO] Saving sample frames from raw data...
+[2025-03-12 10:25:36] [INFO] Initializing DMBD model...
+[2025-03-12 10:25:36] [INFO] Generated data shape: torch.Size([20, 1, 64])
+[2025-03-12 10:25:36] [INFO] Using observation shape (1, 3) for DMBD model
+[2025-03-12 10:25:36] [INFO] Using role_dims=[1, 1, 1], hidden_dims=[1, 1, 1]
+[2025-03-12 10:25:36] [INFO] Original data shape = torch.Size([20, 1, 64]), DMBD expects features = 3
+[2025-03-12 10:25:36] [INFO] Reshaping data from 64 features to 3 features
+[2025-03-12 10:25:36] [ERROR] Error initializing DMBD model: too many indices for tensor of dimension 3
+[2025-03-12 10:26:08] [INFO] Starting Gaussian Blob DMBD run
+[2025-03-12 10:26:08] [INFO] Arguments: Namespace(output_dir='dmbd_outputs/gaussian_blob', grid_size=8, time_steps=20, seed=42, sigma=2.0, noise_level=0.02, convergence_attempts=10, save_interval=5, verbose=True)
+[2025-03-12 10:26:08] [INFO] Initializing Gaussian Blob Simulation...
+[2025-03-12 10:26:08] [INFO] Running the simulation...
+[2025-03-12 10:26:08] [INFO] Generated data tensor with shape torch.Size([20, 1, 64])
+[2025-03-12 10:26:08] [INFO] Generated labels tensor with shape torch.Size([20, 64])
+[2025-03-12 10:26:08] [INFO] Creating visualizations of the raw data...
+[2025-03-12 10:26:15] [INFO] Raw data animation saved to dmbd_outputs/gaussian_blob/raw_data/blob_animation.gif
+[2025-03-12 10:26:15] [INFO] Saving sample frames from raw data...
+[2025-03-12 10:26:16] [INFO] Initializing DMBD model...
+[2025-03-12 10:26:16] [INFO] Generated data shape: torch.Size([20, 1, 64])
+[2025-03-12 10:26:16] [INFO] Using observation shape (1, 3) for DMBD model
+[2025-03-12 10:26:16] [INFO] Using role_dims=[1, 1, 1], hidden_dims=[1, 1, 1]
+[2025-03-12 10:26:16] [INFO] Original data shape = torch.Size([20, 1, 64]), DMBD expects features = 3
+[2025-03-12 10:26:16] [INFO] Added dimension: torch.Size([20, 1, 64, 1])
+[2025-03-12 10:26:16] [INFO] Reshaping data from 64 features to 3 features
+[2025-03-12 10:26:16] [ERROR] Error initializing DMBD model: expand(torch.FloatTensor{[20, 1, 1, 1]}, size=[20, 1, 1]): the number of sizes provided (3) must be greater or equal to the number of dimensions in the tensor (4)
+[2025-03-12 10:26:47] [INFO] Starting Gaussian Blob DMBD run
+[2025-03-12 10:26:47] [INFO] Arguments: Namespace(output_dir='dmbd_outputs/gaussian_blob', grid_size=8, time_steps=20, seed=42, sigma=2.0, noise_level=0.02, convergence_attempts=10, save_interval=5, verbose=True)
+[2025-03-12 10:26:47] [INFO] Initializing Gaussian Blob Simulation...
+[2025-03-12 10:26:47] [INFO] Running the simulation...
+[2025-03-12 10:26:47] [INFO] Generated data tensor with shape torch.Size([20, 1, 64])
+[2025-03-12 10:26:47] [INFO] Generated labels tensor with shape torch.Size([20, 64])
+[2025-03-12 10:26:47] [INFO] Creating visualizations of the raw data...
+[2025-03-12 10:26:54] [INFO] Raw data animation saved to dmbd_outputs/gaussian_blob/raw_data/blob_animation.gif
+[2025-03-12 10:26:54] [INFO] Saving sample frames from raw data...
+[2025-03-12 10:26:55] [INFO] Initializing DMBD model...
+[2025-03-12 10:26:55] [INFO] Generated data shape: torch.Size([20, 1, 64])
+[2025-03-12 10:26:55] [INFO] Using observation shape (1, 3) for DMBD model
+[2025-03-12 10:26:55] [INFO] Using role_dims=[1, 1, 1], hidden_dims=[1, 1, 1]
+[2025-03-12 10:26:55] [INFO] Original data shape = torch.Size([20, 1, 64]), DMBD expects features = 3
+[2025-03-12 10:26:55] [ERROR] Error initializing DMBD model: expand(torch.FloatTensor{[20, 1]}, size=[20]): the number of sizes provided (1) must be greater or equal to the number of dimensions in the tensor (2)
+[2025-03-12 10:27:28] [INFO] Starting Gaussian Blob DMBD run
+[2025-03-12 10:27:28] [INFO] Arguments: Namespace(output_dir='dmbd_outputs/gaussian_blob', grid_size=8, time_steps=20, seed=42, sigma=2.0, noise_level=0.02, convergence_attempts=10, save_interval=5, verbose=True)
+[2025-03-12 10:27:28] [INFO] Initializing Gaussian Blob Simulation...
+[2025-03-12 10:27:28] [INFO] Running the simulation...
+[2025-03-12 10:27:28] [INFO] Generated data tensor with shape torch.Size([20, 1, 64])
+[2025-03-12 10:27:28] [INFO] Generated labels tensor with shape torch.Size([20, 64])
+[2025-03-12 10:27:28] [INFO] Creating visualizations of the raw data...
+[2025-03-12 10:27:35] [INFO] Raw data animation saved to dmbd_outputs/gaussian_blob/raw_data/blob_animation.gif
+[2025-03-12 10:27:35] [INFO] Saving sample frames from raw data...
+[2025-03-12 10:27:36] [INFO] Initializing DMBD model...
+[2025-03-12 10:27:36] [INFO] Generated data shape: torch.Size([20, 1, 64])
+[2025-03-12 10:27:36] [INFO] Using observation shape (1, 3) for DMBD model
+[2025-03-12 10:27:36] [INFO] Using role_dims=[1, 1, 1], hidden_dims=[1, 1, 1]
+[2025-03-12 10:27:36] [INFO] Original data shape = torch.Size([20, 1, 64]), DMBD expects features = 3
+[2025-03-12 10:27:36] [INFO] Reduced data to shape torch.Size([20, 1, 3, 1])
+[2025-03-12 10:27:36] [INFO] Starting DMBD update with different configurations...
+[2025-03-12 10:27:36] [INFO] Attempt 1/9: lr=0.001, iterations=50
+[2025-03-12 10:27:36] [INFO]   Data shape before update: torch.Size([20, 1, 3, 1])
+[2025-03-12 10:27:36] [INFO]   Update success: False
+[2025-03-12 10:27:36] [INFO] Attempt 2/9: lr=0.001, iterations=100
+[2025-03-12 10:27:36] [INFO]   Data shape before update: torch.Size([20, 1, 3, 1])
+[2025-03-12 10:27:36] [INFO]   Update success: False
+[2025-03-12 10:27:36] [INFO] Attempt 3/9: lr=0.001, iterations=200
+[2025-03-12 10:27:36] [INFO]   Data shape before update: torch.Size([20, 1, 3, 1])
+[2025-03-12 10:27:36] [INFO]   Update success: False
+[2025-03-12 10:27:36] [INFO] Attempt 4/9: lr=0.005, iterations=50
+[2025-03-12 10:27:36] [INFO]   Data shape before update: torch.Size([20, 1, 3, 1])
+[2025-03-12 10:27:36] [INFO]   Update success: False
+[2025-03-12 10:27:36] [INFO] Attempt 5/9: lr=0.005, iterations=100
+[2025-03-12 10:27:36] [INFO]   Data shape before update: torch.Size([20, 1, 3, 1])
+[2025-03-12 10:27:36] [INFO]   Update success: False
+[2025-03-12 10:27:36] [INFO] Attempt 6/9: lr=0.005, iterations=200
+[2025-03-12 10:27:36] [INFO]   Data shape before update: torch.Size([20, 1, 3, 1])
+[2025-03-12 10:27:36] [INFO]   Update success: False
+[2025-03-12 10:27:36] [INFO] Attempt 7/9: lr=0.01, iterations=50
+[2025-03-12 10:27:36] [INFO]   Data shape before update: torch.Size([20, 1, 3, 1])
+[2025-03-12 10:27:36] [INFO]   Update success: False
+[2025-03-12 10:27:36] [INFO] Attempt 8/9: lr=0.01, iterations=100
+[2025-03-12 10:27:36] [INFO]   Data shape before update: torch.Size([20, 1, 3, 1])
+[2025-03-12 10:27:36] [INFO]   Update success: False
+[2025-03-12 10:27:36] [INFO] Attempt 9/9: lr=0.01, iterations=200
+[2025-03-12 10:27:36] [INFO]   Data shape before update: torch.Size([20, 1, 3, 1])
+[2025-03-12 10:27:36] [INFO]   Update success: False
+[2025-03-12 10:27:36] [INFO] 
+DMBD failed to converge with all attempted configurations.
+[2025-03-12 10:27:36] [INFO] Consider trying different hyperparameters or adjusting the simulation parameters.

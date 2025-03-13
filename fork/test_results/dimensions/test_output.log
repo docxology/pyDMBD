@@ -1,0 +1,33 @@
+test_01_matrix_shapes (test_dmbd_dimensions.TestDMBDDimensions)
+Test matrix shapes during DMBD initialization. ... ok
+test_02_dimension_consistency (test_dmbd_dimensions.TestDMBDDimensions)
+Test dimension consistency during DMBD update. ... FAIL
+test_03_gradient_tracking (test_dmbd_dimensions.TestDMBDDimensions)
+Test gradient tracking during DMBD update. ... FAIL
+test_04_dimension_mismatches (test_dmbd_dimensions.TestDMBDDimensions)
+Test handling of dimension mismatches in DMBD. ... ok
+test_05_matrix_stability (test_dmbd_dimensions.TestDMBDDimensions)
+Test matrix stability and regularization to prevent singular matrices. ... ok
+
+======================================================================
+FAIL: test_02_dimension_consistency (test_dmbd_dimensions.TestDMBDDimensions)
+Test dimension consistency during DMBD update.
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/trim/Documents/GitHub/pyDMBD/fork/tests/test_dmbd_dimensions.py", line 131, in test_02_dimension_consistency
+    self.assertEqual(len(issues), 0, f"Dimension issues found with features={feature_dim}, roles={role_dim}")
+AssertionError: 2 != 0 : Dimension issues found with features=6, roles=2
+
+======================================================================
+FAIL: test_03_gradient_tracking (test_dmbd_dimensions.TestDMBDDimensions)
+Test gradient tracking during DMBD update.
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/trim/Documents/GitHub/pyDMBD/fork/tests/test_dmbd_dimensions.py", line 298, in test_03_gradient_tracking
+    self.assertGreater(len(grad_info['gradients']), 0,
+AssertionError: 0 not greater than 0 : Should have captured gradients during update
+
+----------------------------------------------------------------------
+Ran 5 tests in 1.650s
+
+FAILED (failures=2)
